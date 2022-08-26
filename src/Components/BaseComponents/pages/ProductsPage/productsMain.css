@@ -1,0 +1,507 @@
+.products_us_page{
+    width: 100%;
+    height: 100%;
+    border: 1px;
+    margin-top: 70px;
+    
+}
+
+.products_heading{
+    width: 100%;
+    height: 300px;
+
+    
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.products_heading img{
+    position: absolute;
+
+    width: 100%;
+    height: 100%;
+    filter: brightness(45%);
+    
+}
+.products_heading h2{
+    font-weight: 700;
+    font-size:4rem;
+    text-transform: uppercase;
+   
+    /* identical to box height */
+    border-bottom: 2px solid #00B274;
+    
+    color: #FFFFFF;
+    z-index: 1;
+}
+.products_heading h3 a{
+    font-weight: 700;
+    font-size: 2.3rem;
+    text-decoration: none;
+    color: #E3B71B;
+    z-index: 1;
+}
+.products_heading h3 {
+    font-weight: 700;
+    font-size: 2.3rem;
+
+    color: #fff;
+    margin-top: 10px;
+    z-index: 1;
+    
+}
+.products_link{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    margin-top: 30px;
+
+    
+}
+.products_link img{
+width:300px;
+height: 193px;
+}
+.products_link .products_name{
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.534);
+    color: #FFFFFF;
+    width: 93%;
+    height: 30px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+.products_link .products_name h3{
+    text-transform: uppercase;
+}
+.products_link::before:hover{
+    background-color: #00b2745b;
+}
+.bg_hover{
+    position: absolute;
+    width: 300px;
+    height: 193px;
+    transition: all 0.500s;
+   
+}
+.bg_hover:hover{
+    background-color: #0a2a6a7e;
+
+}
+.products_type{
+    margin-top: 50px;
+    
+   
+}
+.products_type .stainless_steel{
+    display: flex;
+    
+    justify-content: flex-start;
+    flex-direction: column;
+    padding-left: 50px;
+    flex-basis: 1;
+}
+.products_type .stainless_steel h2{
+    font-size: 2.5rem;
+    padding: 10px;
+    background-color: #0A2A6A;
+    border-top-right-radius: 30px;
+    color: #fff;
+   
+    width: fit-content;
+align-self: flex-start;
+
+}
+.products_type .stainless_steel p{
+    align-self: flex-start;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 2rem;
+text-align: justify;
+padding-right:20px ;
+/* or 45px */
+
+text-transform: capitalize;
+
+color: rgba(0, 0, 0, 0.88);
+    }
+
+
+.product_type_link{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    align-self: flex-start;
+}
+.product_type_link .products_contact_box{
+
+    width: 100%;
+    height: 150px;
+background: #E3B71B;
+display: grid;
+place-items: center;
+}
+.product_type_link .products_contact_box p{
+    font-weight: 700;
+    font-size: 2rem;
+  
+    text-transform: uppercase;
+    
+    color: #0A2A6A;
+}
+.product_type_link .other_products_link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    margin-top: 20px;
+    background: rgba(248, 248, 255, 0.81);
+border: 1px solid #0A2A6A;
+}
+.product_type_link .other_products_link .heading_link_our{
+
+
+background-color: #0A2A6A;
+color: #fff;
+width: 254px;
+height: 40px;
+display: flex;
+align-items: center;
+justify-content: center;
+text-transform: uppercase;
+}
+.product_type_link .other_products_link a{
+    text-decoration: none;
+   color: rgba(0, 0, 0, 0.78);
+   line-height: 40px;
+   font-size: 2rem;
+   width: 100%;
+   font-weight: 700;
+   transition: all 0.3s;
+}
+.product_type_link .other_products_link a:hover{
+    background: #224DA1;
+    color: #fff;
+}
+.use_cases,.grade_stainless_steel{
+   display: flex;
+   align-items: center;
+   justify-content: flex-start;
+   flex-direction: column;
+   margin-top: 20px;
+}
+.use_cases h3{
+align-self: start;
+border-bottom: 5px solid #0A2A6A;
+font-weight: 700;
+font-size: 2.6rem;
+
+/* identical to box height, or 49px */
+
+text-transform: uppercase;
+
+color: #000000;
+}
+.use_cases h4{
+    align-self: start;
+
+font-weight: 500;
+font-size: 2.5rem;
+
+
+
+color: #000000;
+display: flex;
+align-items: center;
+}
+.use_cases h4 i{
+    color: #0A2A6A;
+    font-size: 3rem;
+}
+.use_cases h5{
+    text-align: start;
+    padding: 10px;
+    font-size: 1.8rem;
+}
+.use_cases h5 i{
+    color: #E3B71B;
+}
+
+.grade_stainless_steel h3{
+    align-self: start;
+    border-bottom: 5px solid #0A2A6A;
+    font-weight: 700;
+    font-size: 2.6rem;
+    text-transform: uppercase;
+    color: #000000;
+}
+.series{
+    width: 300px;
+    height: 420px;
+    border: 1px solid #0A2A6A;
+  
+background: #D9D9D9;
+margin-top: 10px;
+    
+}
+.series_h{
+    width: 300px;
+    height: 40px;
+    background-color: #0A2A6A;
+display: grid;
+place-items: center;
+
+transform: translateX(-9px);
+}
+.series_h h4{
+color: #fff;
+}
+.content_series{
+    background: #FFFFFF;
+    margin-top: 10px;
+    padding: 10px;
+
+}
+.contact_box_info{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #E3B71B;
+    margin-top: 30px;
+    padding: 0;
+}
+.contact_box_info  h3{
+    font-size: 2.5rem;
+color: #0A2A6A;
+
+}
+.container_carbon{
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.container_carbon h5{
+    font-size: 2.3rem;
+    border-bottom: 3px solid #0A2A6A;
+    font-weight: 600;
+}
+.container_carbon span{
+    margin-top: 8px;
+    font-size: 1rem;
+    text-align: justify;
+    color:  rgba(0, 0, 0, 0.88);
+    font-weight: 600;
+}
+.container_carbon table td{
+    font-size: 1.3rem;
+}
+.container_carbon table th{
+    font-size: 1.5rem;
+
+}
+.gellary_carbon img{
+    width: 300px;
+    height: 300px;
+}
+.gellary_carbon h4{
+    font-size: 20px;
+}
+.contact_box_info  p{
+    font-size: 1.8rem;
+color: #0A2A6A;
+padding: 0 30px;
+
+}
+.series .content_series p{
+    font-size: 1rem;
+}
+.series .uses_series {
+    background: #FFFFFF;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+}
+.series.uses_series h6{
+font-size: 1.6rem;
+
+}
+.series .uses_series p{
+    font-size: 1.3rem;
+
+    text-align: justify;
+}
+
+.images_class{
+    position: relative;
+    
+}
+
+.fastenrs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.fastenrs h4{
+    margin: auto;
+
+}
+.images_class img{
+    border-radius: 20px;
+    border: 5px solid #0A2A6A;
+
+}
+.table_re{
+    overflow-x: auto;
+    width: 100%;
+}
+.images_class h5{
+    position: absolute;
+    bottom: -5px;
+    width: 297px;
+    height: 22px;
+    background-color: #14213ba1;
+    color: #D9D9D9;
+    left: 71px;
+    font-size: 1.5rem;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+/* .table{
+    display: block !important;
+    overflow-x: auto !important;
+    width: 100% !important;
+  } */
+  .contact_btn{
+    padding: 10px 20px;
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: 10px;
+    width: 200px;
+    font-size: 1.5rem;
+    outline: none;
+  }
+
+  .newsletter{
+    text-align: center;
+    padding:5rem 1rem;
+    background: #000428;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    /* background:url(../../../../Constants/Images/subscribe-bg.png) no-repeat; */
+    /* background-size: cover;
+    background-position: center; */
+    margin-top:50px;
+    width: 100%;
+}
+
+.newsletter h3{
+    color:#fff;
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+.newsletter p{
+    color:#fff;
+    font-size: 1.6rem;
+    margin:2rem auto;
+    /* width:70rem; */
+}
+
+@media (max-width:576px) {
+    .content_metal p{
+
+        padding: 0 20px !important;
+    }
+    .grade_info_products {
+        padding: 0 20px !important;
+
+    }
+    .products_type{
+        margin-top: 50px;
+        display: flex;
+        flex-wrap: wrap;
+       
+    }
+    .products_type .stainless_steel{
+        display: flex;
+        
+        justify-content: flex-start;
+        flex-direction: column;
+        padding-left:10px;
+        flex-basis: 1;
+    }
+    .images_class h5{
+        left:59px;
+    }
+    .products_link img{
+        width:100%;
+        height: 95px;
+        }
+        .bg_hover{
+            position: absolute;
+            width: 93%;
+            height: 100%;
+            transition: all 0.500s;
+           
+        }
+        .products_link .products_name{
+            position: absolute;
+            bottom: 0;
+            background-color: rgba(0, 0, 0, 0.534);
+            color: #FFFFFF;
+            width: 93%;
+            height: 20px;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+        
+        }
+        .products_heading h2{
+            font-size: 2.2rem;
+        }
+
+}
+.WeldingBrad{
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.WeldingBrad h4{
+font-size: 3rem;
+}
+.WeldingBrad img{
+    margin-top: 20px;
+}
+.Welding_clss h3{
+    align-self: center !important;
+    margin-top: 40px;
+}

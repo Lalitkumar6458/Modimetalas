@@ -1,0 +1,352 @@
+
+.footer_section{
+    width: 100%;
+  height: auto;
+    margin-top: 150px;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.footer_container{
+
+border-top-left-radius: 50px;
+border-top-right-radius:50px ;
+background: #0A2A6A;
+position: relative;
+
+}
+.footer_top_name{
+    position: absolute;
+    background: #224DA1;
+border-radius: 30px;
+width: 500px;
+height: 120px;
+top:0;
+left:50%;
+transform: translate(-50%, -58px);
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+}
+.company_name_footer{
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+}
+.company_name_footer h3{
+    font-weight: 400;
+font-size: 3rem;
+border-bottom: 2px solid #00B274;
+
+color: #E5E5E5;
+}
+.company_name_footer h4{
+    font-size: 1.5rem;
+color: #E5E5E5;
+}
+.button_let_talk{
+    background: rgba(0, 0, 0, 0.5);
+border-radius: 20px;
+padding: 10px;
+display:flex;
+justify-content: center;
+align-items: center;
+}
+.button_let_talk a{
+    font-weight: 600;
+font-size: 1.8rem;
+text-decoration: none;
+color: #00B274;
+}
+
+.footer_container .row h3{
+    font-weight: 700;
+font-size: 3rem;
+line-height: 39px;
+/* identical to box height */
+color: #E3B71B;
+}
+
+
+.nav_footer{
+  padding-top: 90px;
+}
+.about_footer{
+padding: 10px;
+}
+
+.about_footer p{
+    font-weight: 700;
+font-size: 1.5rem;
+
+
+color: rgba(203, 197, 197, 0.67);
+}
+
+.quick_link{
+    
+    padding: 10px;
+  
+
+}
+.quick_link a{
+    font-weight: 700;
+font-size: 2rem;
+text-decoration: none;
+text-align: left;
+color: rgba(203, 197, 197, 0.67);
+transition: all 0.5s ease;
+
+}
+.quick_link a:hover{
+    color: #00B274;
+    transform: translateX(15px);
+    text-decoration: underline;
+}
+.news_letter{
+    padding: 10px;
+}
+.news_letter h6{
+font-size: 1.6rem;
+font-weight: 700;
+
+color: rgba(203, 197, 197, 0.67);
+
+}
+.news_email{
+    background: rgba(0, 0, 0, 0.43);
+border-radius: 10px;
+height: 30px;
+width: 200px;
+margin-top: 23px;
+}
+.news_email input{
+    width: 80%;
+    height: 100%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background: transparent;
+    color: #00B274;
+    font-size: 1.1rem;
+}
+.news_email input::placeholder {
+    color:#00B274;
+    font-size: 1.3rem;
+  }
+.news_email a{
+    font-weight: 600;
+    font-size: 1.3rem;
+    width: 10%;
+    height: 35px;
+    background: #E21010;
+    border-radius: 5px;
+    color: #FFFFFF;
+    padding: 3px;
+    text-decoration: none;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+.stay_tuch{
+    margin-top: 36px;
+}
+.stay_tuch h4{
+    font-weight: 400;
+font-size: 2.3rem;
+/* identical to box height */
+color: #E3B71B;
+}
+.footer_social i{
+    padding: 12px;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.54);
+    color: #00B274;
+    margin: 5px;
+    font-size: 1.9rem;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.footer_social i:hover {
+transform: scale(0.8);
+color:#E3B71B ;
+
+}
+.company_status h4{
+    font-weight: 400;
+font-size: 2rem;
+
+/* identical to box height */
+
+
+color: #00B274;
+}
+.company_status{
+    width: 100%;
+    margin-top: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+   
+}
+.company_status h5{
+    font-weight: 500;
+font-size: 1.8rem;
+
+
+color: #E5E5E5;
+}
+.company_status p{
+    font-weight: 500;
+    font-size: 1.8rem;
+
+    
+    color: #E5E5E5;
+}
+.bottom_line{
+    margin: 0 7%;
+    height: 1px;
+    background-color: #E5E5E5;
+}
+.copy_right{
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+.copy_right h4{
+    font-weight: 700;
+font-size: 1.7rem;
+
+/* identical to box height */
+
+
+color: #E3B71B;
+}
+.copy_right h5{
+    font-weight: 700;
+    font-size: 1.5rem;
+ 
+    
+    color: rgba(32, 153, 124, 0.95);
+}
+.copy_right h5 a{
+    color: #E06D49;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+.copy_right h5 a:hover{
+    color: #EE5F0E;
+    transform: scale(0.7);
+}
+
+/* ======================mobile responsive========================= */
+
+@media (max-width:767px) {
+
+    .footer_top_name{
+        position: absolute;
+        background: #224DA1;
+    border-radius: 20px;
+    width: 430px;
+    height: 80px;
+    display: flex;
+       transform: translate(-50%, -40px);
+    }
+    .company_name_footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: s;
+        align-items: center;
+        }
+        .company_name_footer h3{
+            font-weight: 400;
+        font-size: 1.9rem;
+        border-bottom: 2px solid #00B274;
+        
+        color: #E5E5E5;
+        }
+        .company_name_footer h4{
+            font-size: 1.4rem;
+        color: #E5E5E5;
+        }
+        .button_let_talk{
+            background: rgba(0, 0, 0, 0.5);
+        border-radius: 20px;
+        padding: 10px;
+        display:flex;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100px;
+        height: 30px;
+        margin-bottom: 3px;
+        }
+        .button_let_talk a{
+            font-weight: 600;
+        font-size: 1.3rem;
+        text-decoration: none;
+        color: #00B274;
+
+        }
+}
+
+@media (max-width:576px) {
+    .company_status {
+        width: 100%;
+        margin-top: 20px;
+      padding-left: 10px; 
+        padding-right: 10px; 
+    }
+    .news_letter {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .about_footer {
+        padding: 0 20px;
+    }
+    .footer_top_name{
+        position: absolute;
+        background: #224DA1;
+    border-radius: 20px;
+    width: 230px;
+    height: 80px;
+    display: grid;
+       place-items: center;
+       transform: translate(-50%, -40px);
+    }
+    .company_name_footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        }
+        .company_name_footer h3{
+            font-weight: 400;
+        font-size: 2rem;
+        border-bottom: 2px solid #00B274;
+        
+        color: #E5E5E5;
+        }
+        .company_name_footer h4{
+            font-size: 1.1rem;
+        color: #E5E5E5;
+        }
+       
+        .button_let_talk{
+            background: rgba(0, 0, 0, 0.5);
+        border-radius: 20px;
+        padding: 10px;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        width: 100px;
+        height: 30px;
+        margin-bottom: 3px;
+        }
+        .button_let_talk a{
+            font-weight: 600;
+        font-size: 1.5rem;
+        text-decoration: none;
+        color: #00B274;
+
+        }
+}

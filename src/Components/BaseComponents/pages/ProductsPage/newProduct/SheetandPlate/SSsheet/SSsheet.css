@@ -1,0 +1,76 @@
+.content_metal{
+    margin-top: 30px;
+    
+}
+.content_metal p{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 2rem;
+padding: 0 50px;
+display: flex;
+align-items: center;
+
+text-align: justify;
+color: #000000;
+}
+.grade_options{
+    margin-top: 30px;
+    text-align: center;
+ 
+
+}
+.grade_options h4{
+   
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 2.5rem;
+line-height: 44px;
+border-bottom:4px solid #0A2A6A;
+width: fit-content;
+margin: 0 auto;
+/* identical to box height */
+text-transform: capitalize;
+}
+.grade_name{
+    
+    border: 0.778571px solid #0A2A6A;
+   
+border-left: 4px solid #0A2A6A;
+
+
+}
+.grade_normal h5{
+    font-size: 1.6rem;
+}
+.grade_normal i{
+    font-size: 1.6rem;
+
+}
+.grade_name:hover{
+    background: #0A2A6A;
+    color: #fff;
+}
+.grade_options a{
+    text-decoration: none;
+    color: #0A2A6A;
+}
+.grade_normal{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+    height: 50px;
+    width: 300px;
+    cursor: pointer;
+    transition: all 0.5s;
+
+}
+.Grade_active{
+    background: #0A2A6A;
+    color: #fff;
+
+
+}

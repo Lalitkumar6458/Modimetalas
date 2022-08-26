@@ -1,0 +1,387 @@
+.contact_us_home{
+    margin-top: 120px;
+}
+.contact_Address{
+    height: 400px;
+    width: 400px;
+    border: 1px solid green;
+    background: #FFFFFF;
+border: 1px solid #224DA1;
+box-shadow: 0px 8px 4px #224DA1;
+border-radius: 30px;
+position: relative;
+
+
+}
+.contact_Address i{
+    font-size: 6rem;
+color: #0A2A6A;
+position: absolute;
+top: -30px;
+left: 167px;
+
+}
+.email{
+    height: 50.85px;
+display: flex;
+align-items: center;
+
+    background: linear-gradient(180deg, #0A2A6A 0%, #224DA1 100%);
+    border-radius: 10.2405px;
+}
+.email span{
+    font-size: 3rem;
+    color: #FFFFFF;
+    transform: translate(10px, 0px);
+    
+}
+.email h4{
+    font-size: 2rem;
+    color: #FFFFFF;
+    margin-left: 10px;
+   
+}
+.email h5{
+    font-size: 1.8rem;
+    color: #FFFFFF;
+    margin-left: 10px;
+}
+.phone{
+    height: 55.85px;
+    display: flex;
+align-items: center;
+
+    background: linear-gradient(180deg, #0A2A6A 0%, #224DA1 100%);
+    border-radius: 10.2405px;
+  
+}
+.phone span{
+    font-size: 3rem;
+    color: #FFFFFF;
+    align-self: flex-start;
+    margin-left: 10px;
+    margin-top: 10px;
+    
+}
+.phone h4{
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    color: #FFFFFF;
+    align-self: flex-start;
+   
+
+}
+.phone h4 span{
+    font-size: 2rem;
+    align-self: start;
+  
+   
+}
+.phone h4 .number{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    align-items: center;
+   
+}
+.phone h4 .number h4{
+    font-size: 1.8rem;
+    margin-left: 10px;
+}
+
+
+/* =========Address sytle===================== */
+.address{
+    height: 100.85px;
+    display: flex;
+align-items: center;
+justify-content: center;
+    background: linear-gradient(180deg, #0A2A6A 0%, #224DA1 100%);
+    border-radius: 10.2405px;
+}
+
+.address span{
+    font-size: 3rem;
+    color: #FFFFFF;
+    align-self: flex-start;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.address h4{
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    color: #FFFFFF;
+    align-self: flex-start;
+   
+}
+.address h4 span{
+    font-size: 2rem;
+    align-self: start;
+}
+.address h4 p{
+align-self: start;
+font-size: 1.5rem;
+    color: #FFFFFF;
+    margin-top: 12px;
+}
+.social{
+    height: 50.85px;
+    display: flex;
+align-items: center;
+
+    background: linear-gradient(180deg, #0A2A6A 0%, #224DA1 100%);
+    border-radius: 10.2405px;
+}
+.social span{
+    font-size: 3rem;
+    color: #FFFFFF;
+    transform: translate(10px, 0px);
+    
+}
+.social h4{
+    font-size: 2rem;
+    color: #FFFFFF;
+    margin-left: 10px;
+   
+}
+.social  .share a{
+font-size:3rem ;
+color: #FFFFFF;
+margin: 10px;
+text-decoration: none;
+}
+
+
+/* =============Massage box style==========================*/
+
+
+.inputbox{
+    width: 100%;
+    height: 40px;
+    background: #FFFFFF;
+    border: 2px solid rgba(21, 79, 193, 0.97);
+    border-radius: 10px;
+    margin-top: 5px;
+    
+}
+input{
+    width: 90%;
+    height: 100%;
+    font-size: 1.5rem;
+}
+textarea{
+width: 90%;
+height: 100%;
+font-size: 1.5rem;
+}
+.textBox{
+height: 100px;
+width: 100%;
+background: #FFFFFF;
+    border: 2px solid rgba(21, 79, 193, 0.97);
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.massage button{
+  width: 100%;
+  height: 40px;
+  font-size: 2rem;
+  background:linear-gradient(180deg, #0A2A6A 0%, #224DA1 100%);
+  border-radius: 10px;
+  color: #FFFFFF;
+
+  margin-top: 10px;
+}
+::placeholder {
+  color:#224DA1;
+  font-size: 1.5rem;
+}
+
+ button:hover{
+  background: #FFFFFF;
+  border: 2px solid rgba(21, 79, 193, 0.97);
+  color: #0A2A6A;
+}
+
+
+
+
+
+
+
+.line{
+width: 150px;
+height: 5px;
+background-color: #0A2A6A;
+
+}
+.line-arrow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+.line-arrow i{
+font-size: 6rem;
+color: #0A2A6A;
+
+}
+.contact_us{
+  margin-top: 60px;
+}
+
+
+  
+  ul li {
+    margin: 0 0 24px;
+    list-style: none;
+  }
+  span .text{
+
+font-size: 3rem;
+color: #0A2A6A;
+  }
+  .the-arrow {
+    width: 64px;
+    transition: all 0.2s;
+  }
+  .the-arrow.-left {
+    position: absolute;
+    top: 60%;
+    left: 0;
+  }
+  .the-arrow.-left > .shaft {
+    width: 0;
+    background-color: #0A2A6A;
+  }
+  .the-arrow.-left > .shaft:before, .the-arrow.-left > .shaft:after {
+    width: 0;
+    background-color:#0A2A6A;
+  }
+  .the-arrow.-left > .shaft:before {
+    transform: rotate(0);
+  }
+  .the-arrow.-left > .shaft:after {
+    transform: rotate(0);
+  }
+  .the-arrow.-right {
+    top: 3px;
+  }
+  .the-arrow.-right > .shaft {
+    width: 64px;
+    transition-delay: 0.2s;
+  }
+  .the-arrow.-right > .shaft:before, .the-arrow.-right > .shaft:after {
+    width: 8px;
+    transition-delay: 0.3s;
+    transition: all 0.5s;
+  }
+  .the-arrow.-right > .shaft:before {
+    transform: rotate(40deg);
+  }
+  .the-arrow.-right > .shaft:after {
+    transform: rotate(-40deg);
+  }
+  .the-arrow > .shaft {
+    background-color: #0A2A6A;
+    display: block;
+    height: 3px;
+    position: relative;
+    transition: all 0.2s;
+    transition-delay: 0;
+    will-change: transform;
+  }
+  .the-arrow > .shaft:before, .the-arrow > .shaft:after {
+    background-color: #0A2A6A;
+    content: '';
+    display: block;
+    height: 3px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transition: all 0.2s;
+    transition-delay: 0;
+  }
+  .the-arrow > .shaft:before {
+    transform-origin: top right;
+  }
+  .the-arrow > .shaft:after {
+    transform-origin: bottom right;
+  }
+  .animated-arrow {
+    display: inline-block;
+    color: #0A2A6A;
+    font-size: 1.25em;
+    font-style: italic;
+    text-decoration: none;
+    position: relative;
+    transition: all 0.2s;
+  }
+  .animated-arrow:hover {
+    color: #3464c4;
+  }
+  .animated-arrow:hover > .the-arrow.-left > .shaft {
+    width: 64px;
+    transition-delay: 0.1s;
+    background-color: #3464c4;
+  }
+  .animated-arrow:hover > .the-arrow.-left > .shaft:before, .animated-arrow:hover > .the-arrow.-left > .shaft:after {
+    width: 8px;
+    transition-delay: 0.1s;
+    background-color: #3464c4;
+  }
+  .animated-arrow:hover > .the-arrow.-left > .shaft:before {
+    transform: rotate(40deg);
+  }
+  .animated-arrow:hover > .the-arrow.-left > .shaft:after {
+    transform: rotate(-40deg);
+  }
+  .animated-arrow:hover > .main {
+    transform: translateX(80px);
+  }
+  .animated-arrow:hover > .main > .the-arrow.-right > .shaft {
+    width: 0;
+    transform: translateX(200%);
+    transition-delay: 0;
+  }
+  .animated-arrow:hover > .main > .the-arrow.-right > .shaft:before, .animated-arrow:hover > .main > .the-arrow.-right > .shaft:after {
+    width: 0;
+    transition-delay: 0;
+    transition: all 0.1s;
+  }
+  .animated-arrow:hover > .main > .the-arrow.-right > .shaft:before {
+    transform: rotate(0);
+  }
+  .animated-arrow:hover > .main > .the-arrow.-right > .shaft:after {
+    transform: rotate(0);
+  }
+  .animated-arrow > .main {
+    display: flex;
+    align-items: center;
+    transition: all 0.2s;
+  }
+  .animated-arrow > .main > .text {
+    margin: 0 16px 0 0;
+    line-height: 1;
+  }
+  .animated-arrow > .main > .the-arrow {
+    position: relative;
+  }
+  @media (max-width:576px) {
+
+
+.contact_Address{
+  margin-top: 40px;
+}
+.contact_Address i{
+  font-size: 6rem;
+color: #0A2A6A;
+position: absolute;
+top: -30px;
+left: 152px;
+}
+
+  }

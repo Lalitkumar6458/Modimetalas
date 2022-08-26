@@ -1,0 +1,80 @@
+.Contact_us_page{
+    width: 100%;
+    height: 100%;
+    border: 1px;
+    margin-top: 70px;
+    
+}
+
+.contact_heading{
+    width: 100%;
+    height: 300px;
+
+    background-image: url('../../../../Constants/Images/BaseImage/contactus.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.contact_heading h2{
+    font-weight: 700;
+    font-size:4rem;
+   
+    /* identical to box height */
+    border-bottom: 2px solid #00B274;
+    
+    color: #FFFFFF;
+}
+.contact_heading h3 a{
+    font-weight: 700;
+    font-size: 2.3rem;
+    text-decoration: none;
+    color: #E3B71B;
+}
+.contact_heading h3 {
+    font-weight: 700;
+    font-size: 2.3rem;
+
+    color: #fff;
+    margin-top: 10px;
+    
+}
+.map_modi_metals{
+    width: 100%;
+    height: 400px;
+    margin-top: 50px;
+    display: flex;
+   justify-content: center;
+}
+.map_modi_metals iframe{
+width: 95%;
+height: 100%;
+border-radius: 30px;
+}
+.images_of_contact_us{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.images_of_contact_us img{
+width: 300px;
+height: 300px;
+
+border: 8px solid #0A2A6A;
+border-radius: 10px;
+transition: transform .2s;
+}
+
+.hover_scale:hover{
+    
+ 
+}
+.images_of_contact_us img:hover{
+    transform: scaleY(1.1);
+}

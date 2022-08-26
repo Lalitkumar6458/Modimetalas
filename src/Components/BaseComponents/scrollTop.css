@@ -1,0 +1,15 @@
+.scrollTopbtn{
+    position: fixed; 
+    width: 36px;
+    bottom: 40px;
+    right: 10%;
+    height: 36px;
+    font-size: 4rem;
+    z-index: 1;
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0.69);
+ border-radius: 50%;
+    color: #E3B71B;
+    display: grid;
+    place-items: center;
+}

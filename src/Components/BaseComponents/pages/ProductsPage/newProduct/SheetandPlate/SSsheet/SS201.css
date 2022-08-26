@@ -1,0 +1,54 @@
+.grade_info_products{
+    text-align: center;
+    padding: 0 50px;
+    margin-top: 50px;
+}
+.grade_info_products p{
+    font-size: 2rem;
+    text-align: justify;
+}
+.specifications{
+    margin-top: 50px;
+}
+.specifications h3{
+
+    font-size: 2.3rem;
+    text-align: left;
+    width: fit-content;
+    background-color:#0A2A6A ;
+    padding: 5px 10px;
+    color: #fff;
+    border-top-right-radius: 30px;
+
+}
+.specifications table{
+    border: 1px solid #0A2A6A;
+    font-size: 1.5rem;
+    font-weight: 500;
+    width: 100%;
+    margin-top: 20px;
+}
+.specifications table tbody tr td:first-child{
+    border-right: 1px solid #0A2A6A;
+    font-weight: 600;
+    font-size:1.7rem ;
+}
+.chemical_composition {
+
+    margin-top: 50px;
+}
+.chemical_composition table{
+    margin-top: 20px;
+
+}
+.specifications table tbody tr td,thead tr th{
+
+
+    border-right: 1px solid #0A2A6A;
+
+}
+.specifications table  thead tr th{
+    border-bottom: 1px solid #0A2A6A;
+
+
+}
