@@ -126,7 +126,7 @@ ul li {
   width: 5rem;
   line-height: 5rem;
   font-size: 2rem;
-  background: var(--light-bg);
+  background: #fff;
   color: var(--main_primary_color);
   cursor: pointer;
   text-align: center;
@@ -149,9 +149,7 @@ ul li {
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
   width: 70rem;
-  /* background: var(--white); */
-  /* -webkit-box-shadow: var(--box-shadow); */
-  /* box-shadow: var(--box-shadow); */
+  
   padding: 1rem;
 
   -webkit-box-align: center;
@@ -346,9 +344,18 @@ ul li {
   height: auto;
   overflow-y: auto;
 }
-.Search_continer{
-  
-  /* overflow-y: auto; */
+.Search_continer a{
+   
+  /* overflow-y: auto;
+  height: 400px;
+  background-color: transparent; */
+text-decoration: none;
+color: var(--main_primary_color);
+/* font-size: 2rem; */
+}
+.sc-gsnTZi{
+  overflow-y: auto;
+  height: 400px;
 }
 @media (max-width: 1200px) {
   .header {

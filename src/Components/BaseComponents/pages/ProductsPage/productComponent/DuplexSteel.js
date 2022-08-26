@@ -64,7 +64,7 @@ const DuplexSteel = () => {
               temperatures [2]. The table below presents selected properties of
               some common grades of duplex stainless steels.{" "}
             </p>
-            <div className="table-responsive">
+            <div className='table-responsive'>
               <table className="table table-success table-striped mt-4">
                 <tbody>
                   <tr>
@@ -356,7 +356,7 @@ const DuplexSteel = () => {
             </div>
           </div>
 
-          <div className="chemical_composition d-flex flex-column justify-content-lg-start table-responsive">
+          <div className="chemical_composition d-flex flex-column justify-content-lg-start">
             <h3 className="align-self-start">Chemical Composition</h3>
           <div className="table-responsive">
           <table className="table table-success table-striped ">
@@ -547,18 +547,7 @@ const DuplexSteel = () => {
          
           </div>
 
-          <div className="gellary_carbon row mt-5">
-            {CarbonImgData.map((item) => {
-              return (
-                <>
-                  <div className="col-12 col-md-4 images_class">
-                    <img className="" src={item.img} alt=""></img>
-                    <h5>{item.heading}</h5>
-                  </div>
-                </>
-              );
-            })}
-          </div>
+          
         </div>
 
         <Contact_btn  content={{heading:heading,text:text}}/>

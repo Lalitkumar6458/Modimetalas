@@ -750,6 +750,7 @@ export const  SSCoilsGradeData=[
   },
   
   ]
+
   export const SS201SheetData=[
 
 
@@ -757,7 +758,7 @@ export const  SSCoilsGradeData=[
       text1:'Stainless Steel 201 Sheets & Plates Manufacturers In Mumbai, Stainless Steel 201 Sheets & Plates Exporters In Mumbai , Stainless Steel 201 Sheets & Plates Suppliers In Mumbai, Stainless Steel 201 Sheets & Plates Importers In Mumbai, Stainless Steel 201 Sheets & Plates Stockists In Mumbai, UNS S20100 Stainless Steel 201 Sheets & Plates In Mumbai, ASTM A240 SS TP201 Sheets And Plates In Mumbai, WERKSTOFF NR. 1.4301 Sheets & Plates In Mumbai.',
       text2:'>Modi Metals.is a well known producer of SS 201 Sheets, Plates and Coils arranged in India. We have top tier precisely arranged warehousing workplaces that usage present day equipment for the production of Stainless Steel 201 Coils. We keep up a readied accessible to be acquired load of Stainless Steel 201 Sheets and Stainless Steel 201 Plates of fluctuating thickness that guarantees high caliber close by a solid introduction.',
       text3:'We are lofty in the business for our Stainless Steel 201 Hot and Cold Rolled Plates that are in consistence with the national and general standards. Solidified Steel 201 Checkered Plates are similarly offered in 2-3 mm, 3-4 mm, 4-5 mm and 5 mm thickness. All our Stainless Steel 201 Polished Plates are offered at an incredibly engaged expense to all of our clients and customers.',
-  
+      image:require("../../Constants/Images/SheetImg/SheetImg1.jpg"),
       Specifications:
         {
           Grade:'AISI201 (1.4372)',
@@ -801,7 +802,7 @@ export const SS202Data=[
     text1:'Stainless Steel 202 Sheets & Plates Manufacturers In Mumbai, Stainless Steel 202 Sheets & Plates Exporters In Mumbai , Stainless Steel 202 Sheets & Plates Suppliers In Mumbai, Stainless Steel 202 Sheets & Plates Importers In Mumbai, Stainless Steel 202 Sheets & Plates Stockists In Mumbai, UNS S20200 Stainless Steel 202 Sheets & Plates In Mumbai, ASTM A240 SS TP202 Sheets And Plates In Mumbai, WERKSTOFF NR. 1.4301 Sheets & Plates In Mumbai.',
     text2:'Modi Metals is one of the essential producer and provider of Stainless Steel 202 Sheets, Plates and Coils, masterminded in India. Our Stainless Steel 202 Sheets and Stainless Steel 202 Coils are reasonable for making particular mechanical things. Treated Steel 202 Plates are made by us utilizing high-grade quality set steel which is without rust and has smooth wrapping up.',
     text3:'We structure and make Stainless Steel 202 Coils in thickness running from 0.3mm-50mm, with widths of 0.3mm-50mm. Our ASTM A240 Stainless Steel 202 Hot Rolled Coils are open in various lengths going from 1000mm-5500mm. We have some capacity in offering things with changed estimations. We offer Stainless Steel 202 Cold Rolled Coils and Stainless Steel 202 Slatting Coils the two of which meets the ideal mechanical benchmarks.',
-
+  image:require("../../Constants/Images/SheetImg/SSheet202.jpg"),
     Specifications:
       {
         Grade:'SS 202',
@@ -846,7 +847,7 @@ export const SS301Data1=[
     text1:'Stainless Steel 301 Sheets & Plates Manufacturers In Mumbai, Stainless Steel 301 Sheets & Plates Exporters In Mumbai , Stainless Steel 301 Sheets & Plates Suppliers In Mumbai, Stainless Steel 301 Sheets & Plates Importers In Mumbai, Stainless Steel 301 Sheets & Plates Stockists In Mumbai, UNS S30100 Stainless Steel 301 Sheets & Plates In Mumbai, ASTM A240 SS TP301 Sheets And Plates In Mumbai, WERKSTOFF NR. 1.4301 Sheets & Plates In Mumbai.',
     text2:'We are exporter of 301 Stainless Steel Plate in India, We are no.1 seller of AISI 301 Plate. We are also Manufacturer of 301 tempered steel Plate in India, SS 301 DIN 1.4310, We are stacking 300 Ton UNS S30100 Plate of esteemed creator of solidified steel 301 infection moved Plate .',
     text3:'In case you are looking for greatest supplier of 301 Stainless Steel Plate in India, Hot Rolled 301 SS Plate dealer, We can offer you outright best cost of ASTM/ASME A240 301 Stainless Steel Plate in most restricted movement time. We are Wholesaler of SS Plate of Baosteel, Nippon Steel, ThyssenKrupp, Arcelor Mittal, Nas, KDC Korea. We are offering extraordinary expense on surplus inventory of WERKSTOFF NO. 1.4310 301 Plate in India',
-
+    image:require("../../Constants/Images/SheetImg/SheetImg2.jpg"),
     Specifications:
       {
         Grade:'SS 301',
@@ -886,10 +887,11 @@ export const SS301Data=[
 
 
   {
+   
     text1:'Stainless Steel 304 Sheets & Plates Manufacturers, Stainless Steel 304 Sheets & Plates Exporters, Stainless Steel 304 Sheets & Plates Suppliers, Stainless Steel 304 Sheets & Plates Importers, Stainless Steel 304 Sheets & Plates Stockists, UNS S30400 Stainless Steel 304 Sheets & Plates, ASTM A240 SS TP304 Sheets And Plates, WERKSTOFF NR. 1.4301 Sheets & Plates',
     text2:'All around mentioned the fervor of the mechanical things is connecting as you beyond question understand each new thing improve the working of the forefront things. Much indistinguishable to the sheets and plates which look direct the material which is used in it makes the thing strong and best to use. Treated Steel 304 Sheets and Plates, it is said to be a manager among the most all around used tempered steel that offers sponsorship to the thing for long and it even keeps up the structure of the plates and sheets for long. If you look at the thing outline, by then you will find that its thickness contrasts from 0.3 to 120mm. These steels and plates are extensively used in the enormous affiliations.',
     text3:'We are exporter of 301 Stainless Steel Plate in India, We are no.1 seller of AISI 301 Plate. We are also Manufacturer of 301 tempered steel Plate in India, SS 301 DIN 1.4310, We are stacking 300 Ton UNS S30100 Plate of esteemed creator of solidified steel 301 infection moved Plate .',
-
+    image:require("../../Constants/Images/SheetImg/SheetImg3.jpg"),
     Specifications:
       {
         Standard :'ASTM / ASME A240 / SA240',
@@ -926,10 +928,11 @@ export const SS301Data=[
 
 export const SS304LData=[
   {
+    
     text1:'Stainless Steel 304L Sheets & Plates Manufacturers, Stainless Steel 304L Sheets & Plates Exporters, Stainless Steel 304L Sheets & Plates Suppliers, Stainless Steel 304L Sheets & Plates Importers, Stainless Steel 304L Sheets & Plates Stockists, UNS S30403 Stainless Steel 304L Sheets & Plates, ASTM A240 SS SA240 Sheets And Plates, WERKSTOFF NR.1.4306 Sheets & Plates',
     text2:'Stainless Steel 304L Sheets & Plates Manufacturers In India, Stainless Steel 304L Sheets & Plates Exporters In India, Stainless Steel 304L Sheets & Plates Suppliers In India, Stainless Steel 304L Sheets & Plates Importers In India , Stainless Steel 304L Sheets & Plates Stockists In India, UNS S30403 Stainless Steel 304L Sheets & Plates In India, ASTM A240 SS SA240 Sheets And Plates In India, WERKSTOFF NR. 1.4306 Sheets & Plates In India.',
     text3:'The Stainless Steel 304L Sheets and Plates are enduring and can fit into any length with no burden and it is open in various shapes and sizes. The Padmavati Steel & Engg.Co. is a standard, exporter and provider of SS sheets and plates and this thing is utilized in different relationship for various applications. It is dealt with by national in like way as expansive standards.',
-
+    image:require("../../Constants/Images/SheetImg/SheetImg4.jpg"),
     Specifications:
       {
         Standard :'ASTM / ASME A240 / SA240',
@@ -967,6 +970,7 @@ export const SS304LData=[
 
 export const SS304HData=[
   {
+    image:require("../../Constants/Images/SheetImg/SheetImg5.jpg"),
     text1:'Stainless Steel 304H Sheets & Plates Manufacturers, Stainless Steel 304H Sheets & Plates Exporters, Stainless Steel 304H Sheets & Plates Suppliers, Stainless Steel 304H Sheets & Plates Importers, Stainless Steel 304H Sheets & Plates Stockists, UNS S30409 Stainless Steel 304H Sheets & Plates, ASTM A240 SS TP304H Sheets And Plates, WERKSTOFF NR. 1.4948 Sheets & Plate.',
     text2:'Stainless Steel 304H Sheets and Plates, it is a victor among the most extraordinary treated steel grades. In it, you will discover the utilization of the nickel at 8% and chromium 18%. By this, in this material, you will discover the usage of the carbon content that is 0.08%. You will regularly discover this examination of the steel in the cooking mechanical parties and dish. It is in addition known in the market in setting on its adaptable highlights. It other than has the best isolating square cutoff; with that, it in like way has the high straightforwardness of the creation property.',
     text3:"At present in the market there are extents of affiliations who use to make this evaluation of tempered steel at any rate the one which is known as the standard one is the Padmavati Steel & Engg.Co.. They utilize the best thought of mess material that develops the properties of the thing. Tempered Steel 304H Sheets and Plates even has the extraordinary yield and steadfast nature that make the thing solid and sorted out to hold up under any climatic condition. It doesn't get rust snappier paying little personality to whether it utilized in the wet air. The utilization of standard making process gives the thing long life.",
@@ -1007,12 +1011,15 @@ export const SS304HData=[
 ]
 
 
+// import img from "../../Constants/Images/SheetImg/SheetImg8.jpg"
+
 export const SS310SData=[
   {
+    
     text1:'Stainless Steel 310S Sheets & Plates Manufacturers, Stainless Steel 310S Sheets & Plates Exporters, Stainless Steel 310S Sheets & Plates Suppliers, Stainless Steel 310S Sheets & Plates Importers, Stainless Steel 310S Sheets & Plates Stockists, UNS S31008 Stainless Steel 310S Sheets & Plates, ASTM A240 SS TP310S Sheets And Plates, WERKSTOFF NR. 1.4845 Sheets & Plates',
     text2:'The Stainless Steel 310s Sheets and Plates keeps running with historic features and are plan as indicated by client unequivocal necessities. The Stainless Steel sheets and plates of evaluation 310S are made by using the top class grungy material. It has features like high bore, exceptional, easy to fit, disavow in high temperature and weight condition. The Stainless Steel sheets plates are made by satisfy far reaching and adjoining standards of various endeavors measures. These Stainless Steel sheets and plates materials are given ISO accreditation and are shown to various testing to ensure its quality before transport and thing to the client.',
     text3:"The Stainless Steel 310s Sheets and Plates are dealt with by client's need and necessities and has high hunt down after. You can without a lot of a stretch get this thing from our confined and online shops at a moderate expense. This Stainless Steel plate and sheets can fit adequately and is open in phenomenally made size and shapes. These things are routinely used in various endeavors for various purposes.",
-  
+    image:require("../../Constants/Images/SheetImg/SheetImg8.jpg"),
     Specifications:
       {
         Standard :'ASTM / ASME A240 / SA240',
@@ -1050,6 +1057,7 @@ export const SS310SData=[
 export const SS310HData=[
 
   {
+    image:require("../../Constants/Images/SheetImg/SheetImg7.jpg"),
     text1:'Stainless Steel 310H Sheets & Plates Manufacturers In Mumbai, Stainless Steel 310H Sheets & Plates Exporters In Mumbai, Stainless Steel 310H Sheets & Plates Suppliers In Mumbai, Stainless Steel 310H Sheets & Plates Importers In Mumbai, Stainless Steel 310H Sheets & Plates Stockists In Mumbai, UNS S31009 Stainless Steel 310H Sheets & Plates In Mumbai, ASTM A240 SS TP310H Sheets And Plates In Mumbai.',
     text2:'Stainless Steel 310H Sheets & Plates Manufacturers,Stainless Steel 310H Sheets & Plates Exporters,Stainless Steel 310H Sheets & Plates Suppliers,Stainless Steel 310H Sheets & Plates Importers,Stainless Steel 310H Sheets & Plates Stockists,UNS S31009 Stainless Steel 310H Sheets & Plates, ASTM A240 SS TP310H Sheets And Plates.',
     text3:"The best thing about these Stainless Steel 310 H Sheets and Plates is that it is coordinated by following the general and national extents of grungy material that structure the thing and makes it best to be used in any of the endeavors. If you need it in different thickness and style, by then it is dynamically quick to put in a deals for the social event connection first. They set up your thing as appeared by your referenced nuances so you can display it successfully where you need.",
@@ -1091,6 +1099,7 @@ export const SS310HData=[
 export const SS316Data=[
 
   {
+    image:require("../../Constants/Images/SheetImg/SheetImg8.jpg"),
     text1:'Stainless Steel 316 Sheets & Plates Manufacturers In Mumbai, Stainless Steel 316 Sheets & Plates Exporters In Mumbai, Stainless Steel 316 Sheets & Plates Suppliers In Mumbai, Stainless Steel 316 Sheets & Plates Importers In Mumbai, Stainless Steel 316 Sheets & Plates Stockists In Mumbai, UNS S31600 Stainless Steel 316 Sheets & Plates In Mumbai, ASTM A240 SS TP316 Sheets And Plates In Mumbai, WERKSTOFF NR.1.4436 Sheet & Plate In Mumbai.',
     text2:'The Stainless Steel 316 Sheets and Plates are made by ASTM A240/ASME A480. The width of this SS thing is exhibited to different surface medicines, for example, verified, painted, hot rolled and cold rolled and others. These SS sheets come in different estimations and accessible in remarkably made sizes and thickness. On the off chance that we talk about its Ss sheet thickness it lies in least 0.6 mm and most silly 4.00mm. This appraisal 316 of Ss sheet and plate is verified with very separating shading.',
     text3:"The Stainless Steel 316 Sheets and Plates are exhibited to different tests, for example, radiography test, ultrasonic test, and others to guarantee its quality and to clarify it is free from any twisting and perfection. Our affiliation passes on SS plates and sheets supply with a total arrangement of creation line test reports and are cut by your focal points.",
@@ -1132,6 +1141,7 @@ export const SS316Data=[
 
 export const SS316LData=[
   {
+    image:require("../../Constants/Images/SheetImg/SheetImg9.jpg"),
     text1:'Stainless Steel 316L Sheets & Plates Manufacturers In Mumbai, Stainless Steel 316L Sheets & Plates Exporters In Mumbai, Stainless Steel 316L Sheets & Plates Suppliers In Mumbai, Stainless Steel 316L Sheets & Plates Importers In Mumbai, Stainless Steel 316L Sheets & Plates Stockists In Mumbai, UNS S31603 Stainless Steel 316L Sheets & Plates In Mumbai, ASTM A240 SS TP316L Sheets And Plates In Mumbai, WERKSTOFF NR. 1.4435 Sheet & Plate In Mumbai.',
     text2:"They make the thing as per the referenced guidelines that ensure the standard of the thing. These evaluation materials can certainly be dealt with no uneasiness. This thing can without a lot of a stretch be upheld in the crazy cools since it has the best deterrent breaking point that makes it strong to be used in a mechanical applications. It can work in low and high both kind of temperature all such intricacy in the air condition don't influence the thing quality in light of how the compound which is used in it making is of respect types and makes its readied to be used it wherever in endeavors.",
     text3:"The Stainless Steel 316L Sheets and Plates come in different estimations and shapes by virtue of which customer get the one which they need for their endeavors. They are even exceptional in nature, strong and mindful treated steel. You will in like manner find its usage in the marine relationship in setting on its high bore and ruinous properties.",
@@ -1174,6 +1184,7 @@ export const SS316LData=[
 export const SS316HData=[
 
   {
+    image:require("../../Constants/Images/SheetImg/SheetImg10.jpg"),
     text1:'Stainless Steel 316H Sheets & Plates Manufacturers In Mumbai, Stainless Steel 316H Sheets & Plates Exporters In Mumbai, Stainless Steel 316H Sheets & Plates Suppliers In Mumbai, Stainless Steel 316H Sheets & Plates Importers In Mumbai, Stainless Steel 316H Sheets & Plates Stockists In Mumbai, UNS S31609 Stainless Steel 316H Sheets & Plates In Mumbai, ASTM A240 SS TP316H Sheets And Plates In Mumbai, WERKSTOFF NR. 1.4401 Sheet & Plate In Mumbai.',
     text2:"It comes in ASTM A240 and ASME SA240 and has estimations, for instance, DIN, BS, JIS, GB, EN, AISI, etc. The Stainless Steel 316H Sheets and Plates are open in various structures, for instance, plain sheet, Designer sheet, seem sheet, checkered plate, and others. It is open in tantamount examinations, for instance, 316H UNS (S31609) and DIN (1.4401). It is open in following length 2000mm, 2440mm, 3000mm, 5800mm, 6000 mm, etc.",
     text3:"Stainless Steel 316H Sheets and Plates is available in thickness go 0.3mm to 6mm and hardness is offered by ASME An and NACE MR 175. It is connected by surface coatings, for instance, confirmed, painted, hot moved plate and cold moved sheets, SATIN (met with plastic checked) and others. The extent of this plate and sheet is ¼ to 4. The Stainless Steel 316H Sheets and Plates is tried well to check the thing quality and are pulverized well in order to keep up a key segment from any kind of outside mischief.",

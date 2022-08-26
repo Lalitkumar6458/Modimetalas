@@ -244,6 +244,11 @@ import BarHeadingimg from "../../Constants/Images/BarImg/BarHeadingImg.jpg"
 import WireHImg from "../../Constants/Images/WireImg/WireHImg1.jpeg"
 
 import WeldingWire from './pages/ProductsPage/newProduct/WeldingWire';
+
+
+
+
+
 import ScrollButton from './ScrollTop';
 const BaseIndex = () => {
 
@@ -421,7 +426,7 @@ const BaseIndex = () => {
         
 
 
-        <Route path="/SS202Grade" element={<SSallCom name={{data: SS202Data,Grade:SSsheetGradeData,heading:"STAINLESS STEEL 202 SHEET AND PLATE"}} />}/>
+        <Route path="/SS202Grade" element={<SSallCom name={{data: SS202Data,Grade:SSsheetGradeData,img:SubSheetImg,heading:"STAINLESS STEEL 202 SHEET AND PLATE"}} />}/>
         <Route path="/SS201Grade" element={<SSallCom name={{data: SS201SheetData,Grade:SSsheetGradeData,img:SubSheetImg,heading:"STAINLESS STEEL 201 SHEET AND PLATE"}} />}/>
 
         

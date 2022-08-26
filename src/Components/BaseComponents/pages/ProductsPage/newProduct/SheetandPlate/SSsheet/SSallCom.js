@@ -53,7 +53,7 @@ console.log("splitLocation ",splitLocation,Grade)
 
 <p>{props.name.data[0].text1}</p>
 
-<img className='' src=''/>
+<img className='img-fluid' src={props.name.data[0].image}/>
 
 <p>{props.name.data[0].text2}
 </p>
@@ -82,8 +82,8 @@ console.log("splitLocation ",splitLocation,Grade)
 
     {chemical_composition_key.length===0?null:<div className='chemical_composition '>
         <h3>CHEMICAL COMPOSITION</h3>
-
-        <table className=''>
+<div className='table-responsive' >
+<table className='table '>
             <thead>
             <tr>
                 {chemical_composition_key.map((item)=>{
@@ -110,6 +110,9 @@ console.log("splitLocation ",splitLocation,Grade)
                 </tr>
             </tbody>
         </table>
+
+</div>
+        
     </div>
   }
 

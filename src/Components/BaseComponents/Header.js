@@ -66,59 +66,40 @@ const Header = () => {
     }
   }
 
-  const items = [
-    {
-      id: 0,
-      name: 'Cobol',
-      link:"/SSsheet"
-    },
-    {
-      id: 1,
-      name: 'JavaScript',
-       link:'/InconelSheet',
-    },
-    {
-      id: 2,
-      name: 'Basic',
-      link:'/MonelSheet',
-    },
-    {
-      id: 3,
-      name: 'PHP'
-    },
-    {
-      id: 4,
-      name: 'Java'
-    }
-  ]
 
-  const handleOnSearch = (string, results) => {
-    // onSearch will have as the first callback parameter
-    // the string searched and for the second the results.
-    console.log(string, results)
-  }
+  // const handleOnSearch = (string, results) => {
+  //   // onSearch will have as the first callback parameter
+  //   // the string searched and for the second the results.
+  //   console.log(string, results)
+  // }
 
-  const handleOnHover = (result) => {
-    // the item hovered
-    console.log(result)
-  }
+  // const handleOnHover = (result) => {
+  //   // the item hovered
+  //   console.log(result)
+  // }
 
   const handleOnSelect = (item) => {
     // the item selected
-    console.log(item)
-    alert("hello")
+    // console.log(item)
+    // alert("hello")
     navigate(item.link); 
+    setSearchShow(false)
+
+
   }
 
-  const handleOnFocus = () => {
-    console.log('Focused')
-  }
+  // const handleOnFocus = () => {
+  //   console.log('Focused')
+  // }
 
   const formatResult = (item) => {
     return (
       <>
-     <Link to={item.link}> 
+      <div className="Search_result">
+      <Link to={item.link}> 
         <span onClick={()=>alert("helli ")} style={{ display: 'block', textAlign: 'left' }}>{item.name}</span></Link> 
+      </div>
+     
       </>
     )
   }
@@ -244,10 +225,10 @@ const Header = () => {
             <div className="Search_continer">
             <ReactSearchAutocomplete
             items={SearchData}
-            onSearch={handleOnSearch}
-            onHover={handleOnHover}
+            // onSearch={handleOnSearch}
+            // onHover={handleOnHover}
             onSelect={handleOnSelect}
-            onFocus={handleOnFocus}
+            // onFocus={handleOnFocus}
             placeholder="Search Your Products Here"
             autoFocus
             formatResult={formatResult}
