@@ -15,7 +15,7 @@ import { RodImgData} from '../../../Constants/Data/GalleryData'
 import { SqurImgData } from '../../../Constants/Data/GalleryData'
 import { WireImgData } from '../../../Constants/Data/GalleryData'
 
-
+import { GallerytabData } from '../../../Constants/Data/GalleryData';
 
 
 const Gallery = () => {
@@ -37,24 +37,28 @@ const Gallery = () => {
 <div className='container'>
 
 <Tabs
-      defaultActiveKey="profile"
+      defaultActiveKey="Sheet/Plate"
       id="uncontrolled-tab-example"
       className="mb-3 "
     >
-      <Tab eventKey="home" title="Copper">
-      <GellaryComp data= {{CopperImgData:CopperImgData,title:'Copper Products'}} />
-      </Tab>
-      <Tab eventKey="profile" title="Brass">
-      <GellaryComp data= {{CopperImgData:BrassImgData,title:'Brass Products'}} />
-      </Tab>
-      <Tab eventKey="contact" title="Flange" >
+      {GallerytabData.map((item)=>{
+
+        return(
+
+          <Tab eventKey={item.title} title={item.title} >
+          <GellaryComp data= {{CopperImgData:item.Data,title:item.title+' Products'}} />
+          </Tab>
+        )
+      })}
+     
+      {/* <Tab eventKey="home" title="Flange" >
       <GellaryComp data= {{CopperImgData:FlangeImgData,title:'Flange Products'}} />
       </Tab>
       <Tab eventKey="Nut" title="Nut & Bolt" >
       <GellaryComp data= {{CopperImgData:NutBoltImgData,title:'Nut & Bolt Products'}} />
       </Tab>
-      <Tab eventKey="Pipes" title="Pipes" >
-      <GellaryComp data= {{CopperImgData: PipeImgData ,title:'Pipes Products'}} />
+      <Tab eventKey="Pipes" title="Polish Pipes" >
+      <GellaryComp data= {{CopperImgData: PipeImgData ,title:'Polish Pipes Products'}} />
       </Tab>
       <Tab eventKey="Fittings" title="Fittings" >
       <GellaryComp data= {{CopperImgData:AlboImgData,title:'Fittings  Products'}} />
@@ -62,17 +66,51 @@ const Gallery = () => {
       <Tab eventKey="Rods" title="Rods" >
       <GellaryComp data= {{CopperImgData:RodImgData,title:'Rods Products'}} />
       </Tab>
-      <Tab eventKey="Pati" title="Pati & Angle" >
+      <Tab eventKey="Pati" title="Channel & Angle" >
       <GellaryComp data= {{CopperImgData:SqurImgData,title:'Pati & Angle Products'}} />
       </Tab>
       <Tab eventKey="Wires" title="Wires" >
       <GellaryComp data= {{CopperImgData:WireImgData,title:'Wires Products'}} />
       </Tab>
+
+      <Tab eventKey="Copper" title="Copper">
+      <GellaryComp data= {{CopperImgData:CopperImgData,title:'Copper Products'}} />
+      </Tab>
+      <Tab eventKey="Brass" title="Brass">
+      <GellaryComp data= {{CopperImgData:BrassImgData,title:'Brass Products'}} />
+      </Tab>
+      <Tab eventKey="Hexbar_Squrebar" title="Hexbar & Squrebar">
+      <GellaryComp data= {{CopperImgData:BrassImgData,title:'Brass Products'}} />
+      </Tab>
+      <Tab eventKey="SeamlessPipe" title="Seamless Pipe">
+      <GellaryComp data= {{CopperImgData:BrassImgData,title:'Brass Products'}} />
+      </Tab>
+      <Tab eventKey="WeldedPipe" title="Welded Pipe">
+      <GellaryComp data= {{CopperImgData:BrassImgData,title:'Brass Products'}} />
+      </Tab>
+      <Tab eventKey="Hexbar_Squrebar" title="Tubes Pipe">
+      <GellaryComp data= {{CopperImgData:BrassImgData,title:'Brass Products'}} />
+      </Tab>
+      <Tab eventKey="PipeFitting" title="Pipe Fitting">
+      <GellaryComp data= {{CopperImgData:BrassImgData,title:'Brass Products'}} />
+      </Tab>
+      <Tab eventKey="DairyFitting" title="Valves & Dairy Fitting">
+      <GellaryComp data= {{CopperImgData:BrassImgData,title:'Brass Products'}} />
+      </Tab>
+      <Tab eventKey="Hexbar_Squrebar" title="Circle & Ring">
+      <GellaryComp data= {{CopperImgData:BrassImgData,title:'Brass Products'}} />
+      </Tab>
+      <Tab eventKey="Flat" title="Flat">
+      <GellaryComp data= {{CopperImgData:BrassImgData,title:'Brass Products'}} />
+      </Tab>
+      <Tab eventKey="Flat" title="Electrode Wire">
+      <GellaryComp data= {{CopperImgData:BrassImgData,title:'Brass Products'}} />
+      </Tab> */}
     </Tabs>
     
 </div>
    
-   
+
    
   
    

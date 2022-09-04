@@ -5,6 +5,12 @@ import { SheetData } from '../../../../../../Constants/Data/ProductData';
 
 
 const SheetMain = (props) => {
+  window.scrollTo({
+    top: 0, 
+    behavior: 'smooth'
+    /* you can also use 'auto' behaviour
+       in place of 'smooth' */
+  });
 
   console.log(props.name.data,'name',props.name.img)
   const data_option=props.name.data

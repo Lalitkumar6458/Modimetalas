@@ -10,6 +10,7 @@ import { SearchData } from "../../Constants/Data/SearchData";
 // import {colors} from './Constants/colors'
 // import {boxShadow} from './Constants/styleData'
 import logo from "../../Constants/Images/BaseImage/logo2.png";
+import { ProductData } from "../../Constants/Data/ProductData";
 import "./header.css";
 const Header = () => {
   let navigate = useNavigate();
@@ -113,17 +114,18 @@ const Header = () => {
         <ul>
           <li> <Link to="/">home</Link></li>
           <li> <Link to="/about">about</Link></li>
-          <li> <Link to="/productModi">Products <i style={{marginLeft:"10px",}} class={produtsShow ?'fa-solid fa-chevron-up':"fa-solid fa-chevron-down"}></i></Link>
+          <li> <Link to="/productModi">Products <i style={{marginLeft:"10px",}} class="fa-solid fa-chevron-down"></i></Link>
           <ul>
-            <li><Link to="/SheetMain"> Sheet/Plate</Link></li>
-            <li> <Link to="/Coils">Coils</Link></li>
-            <li> <Link to="/ROUND_BAR">Round Bar</Link></li>
-            <li> <Link to="/WIRE">Wire</Link></li>
-            <li>  <Link to="/Pipes_tubes">Tubes/Pipes </Link></li>
-            <li><Link to="/Welding_Consumables">Welding Consumables</Link></li>
+            {ProductData.map((item)=>{
+              return(
+
+                <li><Link to={item.link}> {item.heading}</Link></li>
+              )
+            })}
+          
           </ul> 
           </li>
-          <li>  <Link to="/products" onClick={()=> showProducts()}>Alloys<i style={{marginLeft:"10px",}} class={produtsShow ?'fa-solid fa-chevron-up':"fa-solid fa-chevron-down"}></i></Link>
+          <li>  <Link to="/products" onClick={()=> showProducts()}>Alloys<i style={{marginLeft:"10px",}} class="fa-solid fa-chevron-down"></i></Link>
 
           <ul>
             <li><Link to="/products/stainless_steel">Stainless Steel</Link></li>
@@ -131,10 +133,10 @@ const Header = () => {
             <li> <Link to="/products/carbon_steel">Carbon Steel</Link></li>
             <li> <Link to="/products/high_nickel_alloys">High Nickel Alloys</Link></li>
             <li>  <Link to="/products/duplex_steel">Duplex Steels </Link></li>
-            <li>  <Link to="/products/stellite">Stellite</Link></li>
-            <li><Link to="/products/welding_consumbles">Welding Consumables</Link></li>
+            <li className="d-none">  <Link to="/products/stellite">Stellite</Link></li>
+            <li className="d-none"><Link to="/products/welding_consumbles">Welding Consumables</Link></li>
             <li>  <Link to="/products/titanium_alloys">Titanium Alloys </Link></li>
-            <li>  <Link to="/products/nickel_fasteners">Nickel Alloys Fasteners</Link></li>
+            <li className="d-none">  <Link to="/products/nickel_fasteners">Nickel Alloys Fasteners</Link></li>
           </ul>
           
           </li>
@@ -168,12 +170,13 @@ const Header = () => {
           <Link to="/productModi"  onClick={()=> showProductsMobileP()}>Products <i class={mobileprodutsShowP?"fa-solid fa-minus":"fa-solid fa-plus"}></i></Link>
           {mobileprodutsShowP ?
           <div className="products_childs_mobile">
-          <Link to="/SheetMain" onClick={ ()=> setNevbarShow(false)}>Sheet/Plate</Link>
-          <Link to="/Coils" onClick={ ()=> setNevbarShow(false)}>Coils</Link>
-          <Link to="/ROUND_BAR" onClick={ ()=> setNevbarShow(false)}>Round Bar</Link>
-          <Link to="/WIRE" onClick={ ()=> setNevbarShow(false)}>Wire</Link>
-          <Link to="/Pipes_tubes" onClick={ ()=> setNevbarShow(false)}>Tubes/Pipes</Link>
-          <Link to="/Welding_Consumables" onClick={ ()=> setNevbarShow(false)}>Welding Consumables</Link>
+             {ProductData.map((item)=>{
+              return (
+                <Link to={item.link} onClick={ ()=> setNevbarShow(false)}>{item.heading}</Link>
+              )
+              
+            })}
+          
           
           </div>:null}
 
@@ -186,11 +189,11 @@ const Header = () => {
           <Link to="/products/carbon_steel" onClick={ ()=> setNevbarShow(false)}>Carbon Steel</Link>
           <Link to="/products/high_nickel_alloys" onClick={ ()=> setNevbarShow(false)}>High Nickel Alloys</Link>
           <Link to="/products/duplex_steel" onClick={ ()=> setNevbarShow(false)}>Duplex Steels </Link>
-          <Link to="/products/stellite" onClick={ ()=> setNevbarShow(false)}>Stellite</Link>
-          <Link to="/products/welding_consumbles" onClick={ ()=> setNevbarShow(false)}>Welding Consumables</Link>
+          <Link className="d-none" to="/products/stellite" onClick={ ()=> setNevbarShow(false)}>Stellite</Link>
+          <Link className="d-none" to="/products/welding_consumbles" onClick={ ()=> setNevbarShow(false)}>Welding Consumables</Link>
           <Link to="/products/titanium_alloys" onClick={ ()=> setNevbarShow(false)}>Titanium Alloys </Link>
-          <Link to="#home" onClick={ ()=> setNevbarShow(false)} className='d-none'>Copper & Copper Alloys </Link>
-          <Link to="/products/nickel_fasteners" onClick={ ()=> setNevbarShow(false)}>Nickel Alloys Fasteners</Link>
+          <Link className="d-none" to="#home" onClick={ ()=> setNevbarShow(false)} >Copper & Copper Alloys </Link>
+          <Link className="d-none" to="/products/nickel_fasteners" onClick={ ()=> setNevbarShow(false)}>Nickel Alloys Fasteners</Link>
           </div>:null}
           <Link to="/gallery" onClick={ ()=> setNevbarShow(false)}>Gallery</Link>
           <Link to="/contact" onClick={ ()=> setNevbarShow(false)}>contact</Link>

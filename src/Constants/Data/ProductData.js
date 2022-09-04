@@ -46,8 +46,31 @@ export const ProductData=[
     text:'All Inconel (Alloy 600, 601, 625, 718) & Hastelloy (Alloy c22, C276) Sheet, Plates are available in cut to size',
     
   },
+  {
+    id:7,
+    img:require('../Images/newproduct/img6.jpg'),
+    heading:"Pipe Fittings",
+    link:'/Pipe_Fittings',
+    text:'Obtain the best pricing and secure the most reliable deliveries for High Nickel Alloy',
+    
+  },
+  {
+    id:8,
+    img:require('../Images/newproduct/img7.jpg'),
+    heading:"Flanges",
+    link:'/Flanges',
+    text:'All Inconel (Alloy 600, 601, 625, 718) & Hastelloy (Alloy c22, C276) Sheet, Plates are available in cut to size',
+    
+  },
+  {
+    id:9,
+    img:require("../Images/fasteners/fastner3.png"),
+    heading:"Nickel Fasteners",
+    link:'/products/nickel_fasteners',
+    text:'All Inconel (Alloy 600, 601, 625, 718) & Hastelloy (Alloy c22, C276) Sheet, Plates are available in cut to size',
+    
+  },
 ]
-
 
 export const SheetData=[
   {

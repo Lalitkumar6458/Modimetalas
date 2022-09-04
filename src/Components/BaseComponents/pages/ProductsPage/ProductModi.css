@@ -25,3 +25,22 @@
     align-items: center;
     justify-content: center;
 }
+.duplex_table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+  }
+  .duplex_table_div{
+    overflow-x: auto;
+
+  }
+  th, td {
+    text-align: left;
+    padding: 8px;
+    width: 150px;
+    height: 30px;
+    white-space:nowrap;
+  }
+  
+  tr:nth-child(even){background-color: #f2f2f2}

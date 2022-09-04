@@ -5,14 +5,14 @@ import ProductsSlider from'./ProductsSlider'
 const Products = () => {
   return (
       <section id="products_sections">
-    <div className='heading'>
-    <div className='line_before'></div>
-<h3 className='headinng_text'>WHAT WE DO</h3>
-<div className='line_after'></div>
-</div>
-<div className='container-fluid poducts_heading'>
+    
+<div className='container-fluid poducts_heading' style={{marginTop:"50px"}}>
+<div className="heading " >
+    <div className="line_before"></div>
+    <h3 className="headinng_text">PRODUCTS RANGE</h3>
+    <div className="line_after"></div>
+  </div>
    
-    <h2>OUR PRODUCTS</h2>
     <h4>Inconel, Incoloy®, Monel, Hastelloy®, Duplex® <br/> are Registered Trade Marks of their Respecetive Owners.</h4>
     </div>
 <ProductsSlider/>

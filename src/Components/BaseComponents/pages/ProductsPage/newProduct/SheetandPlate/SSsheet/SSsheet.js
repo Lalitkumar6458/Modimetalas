@@ -3,6 +3,8 @@ import {  Link } from "react-router-dom";
 import './SSsheet.css'
 import { SSsheetGradeData } from '../../../../../../../Constants/Data/ProductData';
 import GradeOption from '../../GradeOption';
+import Contact_btn from '../../../../../contact_btn';
+
 
 const SSsheet = (props) => {
   window.scrollTo({
@@ -11,7 +13,8 @@ const SSsheet = (props) => {
     /* you can also use 'auto' behaviour
        in place of 'smooth' */
   });
-
+  var heading=`Contact Modi Metals for ${props.name.heading} Products Today`
+  var text=`Contact us for more information regarding our ${props.name.heading} options, or request a quote for further pricing details today. Modi Metals is your trusted ${props.name.heading}  supplier and manufacturer of premium ${props.name.heading} Products .`
   const specification_key=Object.keys(props.name.data[0].Specifications)
   console.log(props.name.data[0],'props',specification_key)
   console.log(props.name.Grade,'grade')
@@ -66,6 +69,7 @@ const SSsheet = (props) => {
   <GradeOption Grade={{data:Grade}} />
   
   
+<Contact_btn  content={{heading:heading,text:text}}/>
   
   </div>
   )

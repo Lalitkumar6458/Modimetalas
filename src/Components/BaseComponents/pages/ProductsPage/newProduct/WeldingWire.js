@@ -1,10 +1,12 @@
 import React from 'react'
 import {  Link, useLocation } from "react-router-dom";
 import WeldingWireImg from "../../../../../Constants/Images/BaseImage/WelingWireImg.jpeg"
-
+import Contact_btn from '../../../contact_btn';
 import { WeldingImgData } from '../../../../../Constants/Data/OfferData';
 import WeldinghImg from "../../../../../Constants/Images/welding_img/bgimg.jpg"
 const WeldingWire = () => {
+  var heading='Contact Modi Metals for Welding Consumables Materials Today'
+  var text='Contact us for more information regarding our Welding Consumables material options, or request a quote for further pricing details today. Modi Metals is your trusted Welding Consumables supplier and manufacturer of premium Welding Consumables materials.'
   return (
     <div>
           <div className="products_heading">
@@ -53,17 +55,19 @@ If we don’t offer it, our research and development team will work with you to 
               );
             })}
           </div>
+      
         </div>
+       
 
     </div>
-
+   
   
 
     
 
 
   </div>
-
+  <Contact_btn  content={{heading:heading,text:text}}/>
     </div>
   )
 }

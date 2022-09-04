@@ -2,7 +2,7 @@ import React from 'react'
 import './SS201.css'
 import GradeOption from '../../GradeOption';
 import {  Link, useLocation } from "react-router-dom";
-
+import Contact_btn from '../../../../../contact_btn';
 
 const SSallCom = (props) => {
   window.scrollTo({
@@ -11,6 +11,8 @@ const SSallCom = (props) => {
     /* you can also use 'auto' behaviour
        in place of 'smooth' */
   });
+  var heading=`Contact Modi Metals for ${props.name.heading} Products Today`
+  var text=`Contact us for more information regarding our ${props.name.heading} options, or request a quote for further pricing details today. Modi Metals is your trusted ${props.name.heading}  supplier and manufacturer of premium ${props.name.heading} Products .`
 console.log(props,'props')
 
 console.log(Object.keys(props.name.data[0].Specifications),'dta')
@@ -55,8 +57,8 @@ console.log("splitLocation ",splitLocation,Grade)
 
 <img className='img-fluid' src={props.name.data[0].image}/>
 
-<p>{props.name.data[0].text2}
-</p>
+{/* <p>{props.name.data[0].text2}
+</p> */}
 
 <p>{props.name.data[0].text3}</p>
 
@@ -124,6 +126,7 @@ console.log("splitLocation ",splitLocation,Grade)
 
 <GradeOption Grade={{data:Grade}} />
 
+<Contact_btn  content={{heading:heading,text:text}}/>
     </div>
   )
 }

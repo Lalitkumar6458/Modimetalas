@@ -10,6 +10,9 @@ import { Routes, Route, Link } from "react-router-dom";
 import ScrollButton from './Components/BaseComponents/ScrollTop';
 
 function App() {
+  window.addEventListener('load', (event) => {
+    console.log('page is fully loaded');
+  });
   return (
     <div className="App">
     

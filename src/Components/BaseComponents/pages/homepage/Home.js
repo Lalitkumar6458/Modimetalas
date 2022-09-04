@@ -5,6 +5,7 @@ import Products from './Products'
 import OfferSection from './OfferSection'
 import Testimonial from './Testimonial'
 import ContactHome from './contactHome'
+import ProductSec from './ProductSec'
 
 const Home = () => {
   window.scrollTo({
@@ -17,6 +18,7 @@ const Home = () => {
     <div style={{}}>
 <SliderHome/>
 <AboutSections/>
+<ProductSec/>
 <Products/>
 <OfferSection/>
 <Testimonial/>

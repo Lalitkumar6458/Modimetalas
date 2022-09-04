@@ -65,290 +65,202 @@ const DuplexSteel = () => {
               some common grades of duplex stainless steels.{" "}
             </p>
             <div className='table-responsive'>
-              <table className="table table-success table-striped mt-4">
+              <table className="table duplex_table  table-success table-striped">
+                <thead>
+                <tr>
+                    <th>&nbsp;</th>
+                    <th>
+                     
+                        ASTM A789 Grade S32520 Heat-Treated
+                   
+                    </th>
+                    <th>
+                            ASTM A790 Grade S31803 Heat-Treated
+                  
+                    </th>
+                    <th>
+                      
+                       ASTM A790 Grade S32304 Heat-Treated
+                     
+                    </th>
+                    <th>
+                   
+                       ASTM A815 Grade S32550 Heat-Treated
+                     
+                    </th>
+                    <th>
+                     
+                        ASTM A815 Grade S32205 Heat-Treated
+              
+                    </th>
+                  </tr>
+                </thead>
                 <tbody>
+                
                   <tr>
-                    <td>&nbsp;</td>
                     <td>
-                      <p>
-                        <span>ASTM A789 Grade S32520 Heat-Treated</span>
-                      </p>
+                      Elastic modulus
                     </td>
                     <td>
-                      <p>
-                        <span>ASTM A790 Grade S31803 Heat-Treated</span>
-                      </p>
+                     200 GPa&nbsp;
                     </td>
                     <td>
-                      <p>
-                        <span>ASTM A790 Grade S32304 Heat-Treated</span>
-                      </p>
+                      200 GPa&nbsp;
                     </td>
                     <td>
-                      <p>
-                        <span>ASTM A815 Grade S32550 Heat-Treated</span>
-                      </p>
+                     200 GPa&nbsp;
                     </td>
                     <td>
-                      <p>
-                        <span>ASTM A815 Grade S32205 Heat-Treated</span>
-                      </p>
+                     200 GPa&nbsp;
+                    </td>
+                    <td>
+                     200 GPa&nbsp;
                     </td>
                   </tr>
                   <tr>
                     <td>
-                      <p>
-                        <span>Elastic modulus</span>
-                      </p>
+                     Elongation
                     </td>
                     <td>
-                      <p>
-                        <span>200 GPa&nbsp;</span>
-                      </p>
+                      25 %&nbsp;
+                      
                     </td>
                     <td>
-                      <p>
-                        <span>200 GPa&nbsp;</span>
-                      </p>
+                      25 %&nbsp;
+                      
                     </td>
                     <td>
-                      <p>
-                        <span>200 GPa&nbsp;</span>
-                      </p>
+                      25 %&nbsp;
+                      
                     </td>
                     <td>
-                      <p>
-                        <span>200 GPa&nbsp;</span>
-                      </p>
+                      15 %&nbsp;
+                      
                     </td>
                     <td>
-                      <p>
-                        <span>200 GPa&nbsp;</span>
-                      </p>
+                      20 %&nbsp;
                     </td>
                   </tr>
                   <tr>
                     <td>
-                      <p>
-                        <span>Elongation</span>
-                      </p>
+                     Tensile strength
                     </td>
                     <td>
-                      <p>
-                        <span>25 %&nbsp;</span>
-                      </p>
+                     770 MPa&nbsp;
                     </td>
                     <td>
-                      <p>
-                        <span>25 %&nbsp;</span>
-                      </p>
+                     620 MPa&nbsp;
                     </td>
                     <td>
-                      <p>
-                        <span>25 %&nbsp;</span>
-                      </p>
+                    600 MPa&nbsp;
                     </td>
                     <td>
-                      <p>
-                        <span>15 %&nbsp;</span>
-                      </p>
+                     800 MPa&nbsp;
                     </td>
                     <td>
-                      <p>
-                        <span>20 %&nbsp;</span>
-                      </p>
+                      655 MPa&nbsp;
                     </td>
                   </tr>
                   <tr>
                     <td>
-                      <p>
-                        <span>Tensile strength</span>
-                      </p>
+                     Hardness, Brinell
                     </td>
                     <td>
-                      <p>
-                        <span>770 MPa&nbsp;</span>
-                      </p>
+                      310
                     </td>
                     <td>
-                      <p>
-                        <span>620 MPa&nbsp;</span>
-                      </p>
+                     290
                     </td>
                     <td>
-                      <p>
-                        <span>600 MPa&nbsp;</span>
-                      </p>
+                     290
                     </td>
                     <td>
-                      <p>
-                        <span>800 MPa&nbsp;</span>
-                      </p>
+                     302
                     </td>
                     <td>
-                      <p>
-                        <span>655 MPa&nbsp;</span>
-                      </p>
+                      290
                     </td>
                   </tr>
                   <tr>
                     <td>
-                      <p>
-                        <span>Hardness, Brinell</span>
-                      </p>
+                     Yield strength
                     </td>
                     <td>
-                      <p>
-                        <span>310</span>
-                      </p>
+                     550 MPa&nbsp;
                     </td>
                     <td>
-                      <p>
-                        <span>290</span>
-                      </p>
+                    450 MPa&nbsp;
                     </td>
                     <td>
-                      <p>
-                        <span>290</span>
-                      </p>
+                     400 MPa&nbsp;
                     </td>
                     <td>
-                      <p>
-                        <span>302</span>
-                      </p>
+                     550 MPa&nbsp;
                     </td>
                     <td>
-                      <p>
-                        <span>290</span>
-                      </p>
+                      450 MPa&nbsp;
                     </td>
                   </tr>
                   <tr>
                     <td>
-                      <p>
-                        <span>Yield strength</span>
-                      </p>
+                     Coefficient of thermal expansion
                     </td>
                     <td>
-                      <p>
-                        <span>550 MPa&nbsp;</span>
-                      </p>
+                     1E-5 1/K&nbsp;
                     </td>
                     <td>
-                      <p>
-                        <span>450 MPa&nbsp;</span>
-                      </p>
+                    1E-5 1/K&nbsp;
                     </td>
                     <td>
-                      <p>
-                        <span>400 MPa&nbsp;</span>
-                      </p>
+                      1E-5 1/K&nbsp;
                     </td>
                     <td>
-                      <p>
-                        <span>550 MPa&nbsp;</span>
-                      </p>
+                     1E-5 1/K&nbsp;
                     </td>
                     <td>
-                      <p>
-                        <span>450 MPa&nbsp;</span>
-                      </p>
+                     1E-5 1/K&nbsp;
                     </td>
                   </tr>
                   <tr>
                     <td>
-                      <p>
-                        <span>Coefficient of thermal expansion</span>
-                      </p>
+                     Specific heat capacity
                     </td>
                     <td>
-                      <p>
-                        <span>1E-5 1/K&nbsp;</span>
-                      </p>
+                    440 - 502 J/(kg·K)&nbsp;
                     </td>
                     <td>
-                      <p>
-                        <span>1E-5 1/K&nbsp;</span>
-                      </p>
+                     440 - 502 J/(kg·K)&nbsp;
                     </td>
                     <td>
-                      <p>
-                        <span>1E-5 1/K&nbsp;</span>
-                      </p>
+                      440 - 502 J/(kg·K)&nbsp;
+                     </td>
+                    <td>
+                     440 - 502 J/(kg·K)&nbsp;
                     </td>
                     <td>
-                      <p>
-                        <span>1E-5 1/K&nbsp;</span>
-                      </p>
-                    </td>
-                    <td>
-                      <p>
-                        <span>1E-5 1/K&nbsp;</span>
-                      </p>
+                    440 - 502 J/(kg·K)&nbsp;
                     </td>
                   </tr>
                   <tr>
                     <td>
-                      <p>
-                        <span>Specific heat capacity</span>
-                      </p>
+                     Thermal conductivity
                     </td>
                     <td>
-                      <p>
-                        <span>440 - 502 J/(kg·K)&nbsp;</span>
-                      </p>
+                     13 - 30 W/(m·K)&nbsp;
                     </td>
                     <td>
-                      <p>
-                        <span>440 - 502 J/(kg·K)&nbsp;</span>
-                      </p>
+                     13 - 30 W/(m·K)&nbsp;
                     </td>
                     <td>
-                      <p>
-                        <span>440 - 502 J/(kg·K)&nbsp;</span>
-                      </p>
+                      13 - 30 W/(m·K)&nbsp;
                     </td>
                     <td>
-                      <p>
-                        <span>440 - 502 J/(kg·K)&nbsp;</span>
-                      </p>
+                     13 - 30 W/(m·K)&nbsp;
+                     
                     </td>
                     <td>
-                      <p>
-                        <span>440 - 502 J/(kg·K)&nbsp;</span>
-                      </p>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <p>
-                        <span>Thermal conductivity</span>
-                      </p>
-                    </td>
-                    <td>
-                      <p>
-                        <span>13 - 30 W/(m·K)&nbsp;</span>
-                      </p>
-                    </td>
-                    <td>
-                      <p>
-                        <span>13 - 30 W/(m·K)&nbsp;</span>
-                      </p>
-                    </td>
-                    <td>
-                      <p>
-                        <span>13 - 30 W/(m·K)&nbsp;</span>
-                      </p>
-                    </td>
-                    <td>
-                      <p>
-                        <span>13 - 30 W/(m·K)&nbsp;</span>
-                      </p>
-                    </td>
-                    <td>
-                      <p>
-                        <span>13 - 30 W/(m·K)&nbsp;</span>
-                      </p>
+                     13 - 30 W/(m·K)&nbsp;
+                      
                     </td>
                   </tr>
                 </tbody>

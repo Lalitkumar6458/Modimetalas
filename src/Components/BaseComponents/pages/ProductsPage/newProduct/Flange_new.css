@@ -1,0 +1,93 @@
+.Flange_container{
+    margin-top: 30px;
+    padding: 0 50px;
+}
+.Flange_details p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2rem;
+    /* line-height: 44px; */
+    
+    color: #000000;
+    text-align: justify;
+}
+.Flange_specifications {
+    text-align: left;
+}
+.Flange_specifications h3{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.5rem;
+    /* line-height: 48px; */
+    text-transform: capitalize;
+    
+    color: rgba(0, 0, 0, 0.69);
+    border-bottom: 5px solid #0A2A6A;
+    width: fit-content;
+}
+.details_sepecification{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    padding-left: 40px;
+    margin-top: 20px;
+
+}
+.details_sepecification span{
+    font-size: 2rem;
+}
+.details_sepecification i{
+
+    font-size: 1.4rem;
+    color: #E3B71B;
+}
+.prodcts_flange_type{
+
+    background: #FFFFFF;
+border: 3px solid #0A2A6A;
+box-shadow: 4px 4px 6px #0A2A6A;
+gap:10px;
+width: fit-content;
+position: relative;
+padding: 20px 20px;
+}
+.Category_{
+    display: flex;
+    flex-direction: column;
+    
+}
+.prodcts_flange_type  h5{
+    position: absolute;
+
+    left: 50%;
+    top: -25px;
+    transform: translateX(-50%);
+    background: #E3B71B;
+    border-radius: 10px;
+    padding: 10px 10px;
+    text-transform: capitalize;
+    white-space: nowrap;
+
+color: #0A2A6A;
+font-size: 1.5rem;
+
+
+}
+.Category_ span{
+    font-size: 1.8rem;
+}
+
+.Category_ span i{
+    font-size: 1.4rem;
+    color: #E3B71B;
+} 
+.normal_products h5{
+    font-size: 2rem;
+}
+.normal_products i{
+    font-size: 1.5rem;
+    color: #E3B71B;
+}

@@ -1,4 +1,4 @@
-import React, { Fragment, useState } from 'react'
+import React, { Fragment, useState,useEffect } from 'react'
 import Header from './Header'
 import Home from './pages/homepage/Home'
 import AboutUs from './pages/About_Us/AboutUs';
@@ -246,21 +246,58 @@ import WireHImg from "../../Constants/Images/WireImg/WireHImg1.jpeg"
 import WeldingWire from './pages/ProductsPage/newProduct/WeldingWire';
 
 
+import Alloysimg from "../../Constants/Images/BaseImage/AlloysImg.jpg"
 
 
+import { PipeFitingsData } from '../../Constants/Data/PipeFitings';
+import { FlangeData } from '../../Constants/Data/FlangeData';
 
+import BgFitingsimg from "../../Constants/Images/Pipefitings/BgFitingImg.jpg"
+import bgFlangeimg from "../../Constants/Images/FlangeImg/BgFlangeimg.jpg"
+import PipeFitings from './pages/ProductsPage/newProduct/PipeFitings';
+import { ButtweldWeldPipeFittingsData } from '../../Constants/Data/PipeFitings';
+import { ThreadedPipeFittingsData } from '../../Constants/Data/PipeFitings';
+import { SocketWeldPipeFittingsData } from '../../Constants/Data/PipeFitings';
+import { CategoriesButtdata } from '../../Constants/Data/PipeFitings';
+import { SocketCatgoryData } from '../../Constants/Data/PipeFitings';
+import { ThreadedCatgoryData } from '../../Constants/Data/PipeFitings';
+import bgFitings from "../../Constants/Images/Pipefitings/BgFitings.jpg"
+import Bgfitongsimg from "../../Constants/Images/Pipefitings/BgFitingImg.jpg"
+import BgFitingsImg1 from "../../Constants/Images/Pipefitings/Img3.jpg"
 import ScrollButton from './ScrollTop';
-const BaseIndex = () => {
 
-  // const [data,setData]=useState([])
+import { ANSINormFlangesData } from '../../Constants/Data/FlangeData';
+import { UNINormFlangesData } from '../../Constants/Data/FlangeData';
+import { ENNormFlangesData } from '../../Constants/Data/FlangeData';
+import { BSNormFlangesData } from '../../Constants/Data/FlangeData';
+import { JISNormFlangesData } from '../../Constants/Data/FlangeData';
+import { DINNormFlangesData } from '../../Constants/Data/FlangeData';
+import Flange_new from './pages/ProductsPage/newProduct/Flange_new';
+
+
+const BaseIndex = () => {
+  const [loading, setLoading] = useState(true);
+      
+
+ // requirement.
+// const [data,setData]=useState([])
   // setData(SS301Data)
   console.log(SS301Data,'SS301Data')
   return (
     <>
     <Header/>
     <Routes>
+    <Route path="/ANSI_Norm_Flanges" element={<Flange_new name={{data:ANSINormFlangesData,Grade:TitaniumCoilsGradeData,heading:"ANSI Norm Flanges"}} />}/>
+    <Route path="/UNI_Norm_Flanges" element={<Flange_new name={{data:UNINormFlangesData,Grade:TitaniumCoilsGradeData,heading:"UNI Norm Flanges"}} />}/>
+    <Route path="/EN_Norm_Flanges" element={<Flange_new name={{data:ENNormFlangesData,Grade:TitaniumCoilsGradeData,heading:"EN Norm Flanges"}} />}/>
+    <Route path="/BS_Norm_Flanges" element={<Flange_new name={{data:BSNormFlangesData,Grade:TitaniumCoilsGradeData,heading:"BS Norm Flanges"}} />}/>
+    <Route path="/JIS_Norm_Flangess" element={<Flange_new name={{data:JISNormFlangesData,Grade:TitaniumCoilsGradeData,heading:"JIS Norm Flanges"}} />}/>
+    <Route path="/DIN_Norm_Flanges" element={<Flange_new name={{data:DINNormFlangesData,Grade:TitaniumCoilsGradeData,heading:"DIN Norm Flanges"}} />}/>
+  
+    <Route path="/Buttweld_Pipe_Fittings" element={<PipeFitings name={{data:ButtweldWeldPipeFittingsData,Grade:TitaniumCoilsGradeData,heading:"Buttweld Pipe Fittings",img:bgFitings,Category:CategoriesButtdata}} />}/>
+    <Route path="/Threaded_Pipe_Fittings" element={<PipeFitings name={{data:ThreadedPipeFittingsData,Grade:TitaniumCoilsGradeData,heading:"Threaded Pipe Fittings",img:Bgfitongsimg,Category:ThreadedCatgoryData}} />}/>
+    <Route path="/MGalvanized_Pipe_Fittings" element={<PipeFitings name={{data:SocketWeldPipeFittingsData,Grade:TitaniumCoilsGradeData,heading:"Socket Weld Pipe Fittings",img:BgFitingsImg1,Category:SocketCatgoryData}} />}/>
 
- 
 
     <Route path="/TitaniumGr1CoilsGrade" element={<SSallCom name={{data:TitaniumGrade1CoilsData,Grade:TitaniumCoilsGradeData,heading:"Titanium Gr1 Coils",img:CoilsImg1}} />}/>
     <Route path="/TitaniumGr2CoilsGrade" element={<SSallCom name={{data:TitaniumGrade2CoilsData,Grade:TitaniumCoilsGradeData,heading:"Titanium Gr2 Coils",img:CoilsImg1}} />}/>
@@ -423,6 +460,8 @@ const BaseIndex = () => {
         <Route path="/WIRE" element={<SheetMain name={{data:WireData,heading:"Wire",img:WireImg}}  />}/>
         <Route path="/Pipes_tubes" element={<SheetMain name={{data:PipesData,heading:"Pipes/Tubes",img:PipeImg}}  />}/>
         <Route path="/SSsheet" element={<SSsheet name={{data:SSSheetData,Grade:SSsheetGradeData,img:SubSheetImg,heading:"STAINLESS STEEL SHEET AND PLATE"}} />}/>
+        <Route path="/Pipe_Fittings" element={<SheetMain name={{data:PipeFitingsData,img:BgFitingsimg,heading:"Pipe Fittings"}}  />}/>
+        <Route path="/Flanges" element={<SheetMain name={{data:FlangeData,img:bgFlangeimg,heading:"Flanges"}}  />}/>
         
 
 
@@ -505,7 +544,7 @@ const BaseIndex = () => {
  <Route path="/DuplexSuperduplexCoils" element={<SSsheet name={{data:DuplexCoilsData,Grade:DuplexCoilsGradeData,heading:"DUPLEX/SUPERDUPLEX COILS",img:CoilsImg1}}  />}/>
     
  <Route path="/Welding_Consumables" element={<WeldingWire   />}/>
-        <Route path="products" element={<Products  />}>
+        <Route path="products" element={<Products  message={{text_heading:"Alloys",img:Alloysimg}} />}>
           
       
         </Route> 

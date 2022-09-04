@@ -5,7 +5,7 @@ import { OfferData } from "../../../../Constants/Data/OfferData";
 const OfferSection = () => {
   return (
     <section className="offer_section">
-      <div className="heading ">
+      <div className="heading " >
         <div className="line_before"></div>
         <h3 className="headinng_text">WHAT WE OFFER</h3>
         <div className="line_after"></div>

@@ -26,12 +26,18 @@ const CarbonSteel = () => {
       <p>
       Carbon steel is an iron-carbon alloy, which contains up to 2.1 wt.% carbon. For carbon steels, there is no minimum specified content of other alloying elements, however, they often contain manganese. The maximum manganese, silicon and copper content should be less than 1.65 wt.%, 0.6 wt.% and 0.6 wt.%, respectively.
       </p>
+      <p>
+      Carbon steel is steel with carbon content up to 2.1% by weight. The definition of carbon steel from the American Iron and Steel Institute (AISI) states: Steel is considered to be carbon steel when: no minimum content is specified or required for chromium, cobalt, molybdenum, nickel, niobium, titanium, tungsten, vanadium or zirconium, or any other element to be added to obtain a desired alloying effect the specified minimum for copper does not exceed 0.40 percent or the maximum content specified for any of the following elements does not exceed the percentages noted: manganese 1.65, silicon 0.60, copper 0.60. The term "carbon steel may also be used in reference to steel which is not stainless steel; in this use carbon steel may include alloy steels
+As the carbon percentage content rises, steel has the ability to become harder and stronger through heat treating; however, it becomes less ductile. Regardless of the heat treatment, a higher carbon content reduces weldability. In carbon steels, the higher carbon content lowers the melting point
+      </p>
       <div className='container_carbon'>
 
         <h5>
         Types of carbon steel and their properties
         </h5>
         <span>Carbon steel can be classified into three categories according to its carbon content: low-carbon steel (or mild-carbon steel), medium-carbon steel and high-carbon steel [1]. Their carbon content, microstructure and properties compare as follows:</span>
+       
+        <div className='table-responsive'>
       <table className="table table-success table-striped mt-4">
   <thead>
     <tr>
@@ -67,6 +73,7 @@ const CarbonSteel = () => {
     </tr>
   </tbody>
 </table> 
+</div>
       </div>
 
       <div className='gellary_carbon row mt-5'>
