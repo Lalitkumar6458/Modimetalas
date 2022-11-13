@@ -1,9 +1,9 @@
 export const SSSheetData = [
   {
     text1:
-      "Stainless Steel Sheets & Plates Manufacturers In India, Stainless Steel Sheets & Plates Exporters In India , Stainless Steel Sheets & Plates Suppliers In India, Stainless Steel Sheets & Plates Importers In India , Stainless Steel Sheets & Plates Stockists In India.",
+      "Stainless Steel  Sheets & Plates Exporters,Suppliers,Importers,Stockists In Mumbai and India",
     text2:
-      "Stainless Steel Sheets & Plates Manufacturers In India, Stainless Steel Sheets & Plates Exporters In India , Stainless Steel Sheets & Plates Suppliers In India, Stainless Steel Sheets & Plates Importers In India , Stainless Steel Sheets & Plates Stockists In India.",
+      "Modi Metals is Manufacturing and Exporting of extraordinary treated steel sheets, tempered steel plates, in thickness of 0.3mm to 120mm. That have discovered extensive applications in different Industries. We in like way plan in Nickel and copper compound, Stainless and Duplex Steel, Carbon and Alloy Steel, are the materials which are utilized for masterminding of sheets and plates.",
     text3:
       "We have been advancing to our clients a boundless extent of Sheets and Coils that are offered in various points of interest to our clients. Obliging the essentials of various organizations, our range is known for its disintegration opposition, toughness and high unbending nature. Our clients can profit by us Plates that are made using high audit hardened steel. These consider the essentials of various organizations and are known for their characteristics, for instance, high versatility, disintegration obstruction and long life use. Advance, we moreover have the inclination to Customize our range as per the necessities of the customers.",
     Specifications: {
@@ -34,9 +34,9 @@ export const MonelGradeData = [
 export const MonelSheetData = [
   {
     text1:
-      "Monel Sheets & Plates Manufacturers In Mumbai, Monel Sheets & Plates Exporters In Mumbai, Monel Sheets & Plates Suppliers In Mumbai, Monel Sheets & Plates Importers In Mumbai, Monel Sheets & Plates Stockists In Mumbai",
+      "Monel Steel  Sheets & Plates Exporters,Suppliers,Importers,Stockists In Mumbai and India",
     text2:
-      "Monel Sheets & Plates Manufacturers In Mumbai, Monel Sheets & Plates Exporters In Mumbai, Monel Sheets & Plates Suppliers In Mumbai, Monel Sheets & Plates Importers In Mumbai, Monel Sheets & Plates Stockists In Mumbai",
+      "",
     text3:
       "These Alloy Sheets and Plates have certain executives like high use constrainment, high mechanical quality, identity blowing adaptability, unpretentiously superfluous effort, declaration from ruinous neutralizers, and all around extra. Monel blend has a spot with the nickel amalgams gathering. These blends consolidate nickel, copper, iron, manganese, carbon, and silicon. They are utilized in made plants, streamlined trade, heat exchanger industry, and so on.",
     Specifications: {
@@ -55,9 +55,9 @@ export const MonelSheetData = [
 export const MONEL400SheetData = [
   {
     text1:
-      "Monel 400 Sheets & Plates Manufacturers In Mumbai, Monel 400 Sheets & Plates Exporters In Mumbai ,Monel 400 Sheets & Plates Suppliers In Mumbai, Monel 400 Sheets & Plates Importers In Mumbai , Monel 400 Sheets & Plates Stockists In Mumbai",
+      "Monel 400 Steel  Sheets & Plates Exporters,Suppliers,Importers,Stockists In Mumbai and India",
     text2:
-      "Monel 400 Sheets & Plates Manufacturers In Mumbai, Monel 400 Sheets & Plates Exporters In Mumbai ,Monel 400 Sheets & Plates Suppliers In Mumbai, Monel 400 Sheets & Plates Importers In Mumbai , Monel 400 Sheets & Plates Stockists In Mumbai",
+      "",
     text3:
       "Monel 400 Coils shows first – rate use check and taking off quality in a blend of fundamental and acidic circumstances and it's especially fitting for diminishing conditions. The machinability of these Monel 400 Slatting Coils (UNS N04400) is hard as it works-toughens all through machining. At that point, Monel 400 Perforated Coils are other than being offered in various sizes and shapes to our clients. While these Alloy 400 Sheets has varying phenomenal conditions, it is a long way from the ideal metal.",
     Specifications: {
@@ -88,9 +88,9 @@ export const MONEL400SheetData = [
 export const MONELK500SheetData = [
   {
     text1:
-      "Monel K500 Sheets & Plates Manufacturers In Mumbai, Monel K500 Sheets & Plates Exporters In Mumbai ,Monel K500 Sheets & Plates Suppliers In Mumbai, Monel K500 Sheets & Plates Importers In Mumbai, Monel K500 Sheets & Plates Stockists In Mumbai",
+      "Monel K500 Steel  Sheets & Plates Exporters,Suppliers,Importers,Stockists In Mumbai and India",
     text2:
-      "Monel K500 Sheets & Plates Manufacturers In Mumbai, Monel K500 Sheets & Plates Exporters In Mumbai ,Monel K500 Sheets & Plates Suppliers In Mumbai, Monel K500 Sheets & Plates Importers In Mumbai, Monel K500 Sheets & Plates Stockists In Mumbai",
+      "",
     text3:
       "Monel K500 Perforated Coils is a high – chromium nickel amalgam having bewildering security from various hurting liquid media and high temperature conditions. These Alloy K500 Plates has the most essential chromium content (29 % Cr) among nickel blends sensible for making of weight gear, which gives remarkable attestation from oxidizing media. Compound K500 Coils are known as first class amalgams, and can be enveloped in different shapes, which additionally have remarkable downer and oxidation hindrance. Despite its utilization deterrent, these Alloy K500 Slatting Coils has splendid, unfathomable metallurgical soundness and positive creation qualities.",
     Specifications: {
@@ -147,9 +147,9 @@ export const NickelGradeData = [
 export const NickelSheetsData = [
   {
     text1:
-      "Nickel Sheets & Plates Manufacturers In Mumbai, Nickel Sheets & Plates Exporters In Mumbai, Nickel Sheets & Plates Suppliers In Mumbai, Nickel Sheets & Plates Importers In Mumbai, Nickel Sheets & Plates Stockists In Mumbai",
+      "Nickel Sheets & Plates Exporters,Suppliers,Importers,Stockists In Mumbai and India",
     text2:
-      "Nickel Sheets & Plates Manufacturers In Mumbai, Nickel Sheets & Plates Exporters In Mumbai, Nickel Sheets & Plates Suppliers In Mumbai, Nickel Sheets & Plates Importers In Mumbai, Nickel Sheets & Plates Stockists In Mumbai",
+      "",
     text3:
       "In like way, both expanding temperature and air course in our Nickel Alloy Plates will reestablish weakening. The utilization of these Nickel Slatting Coils in air – submerged hydrochloric harming above room temperature is routinely obliged to social affairs of under 3 % – 4 %, regardless inside and out air sprinkled strategies are not regularly used in industry. Dirtying impacts, for instance, iron use in our Nickel Perforated Coils can surge in by systems for the improvement of such a film. Both breeze present and creating temperatures increase use rates so the key utilization of these Nickel Alloy Slatting Coils in sulphuric hazardous is in non – coursed air through outlines close room temperature.",
     Specifications: {
@@ -167,9 +167,9 @@ export const NickelSheetsData = [
 export const Nickel200SheetsData = [
   {
     text1:
-      "Nickel 200 Sheets & Plates Manufacturers In Mumbai, Nickel 200 Sheets & Plates Exporters In Mumbai, Nickel 200 Sheets & Plates Suppliers In Mumbai, Nickel 200 Sheets & Plates Importers In Mumbai, Nickel 200 Sheets & Plates Stockists In Mumbai. Nickel 200 Sheets & Plates Manufacturers In India, Nickel 200 Sheets & Plates Exporters In India, Nickel 200 Sheets & Plates Suppliers In India, Nickel 200 Sheets & Plates Importers In India, Nickel 200 Sheets & Plates Stockists In India.",
+      "Nickel 200 Steel Sheets & Plates Exporters,Suppliers,Importers,Stockists In Mumbai and India",
     text2:
-      "Nickel 200 Sheets & Plates Manufacturers In Mumbai, Nickel 200 Sheets & Plates Exporters In Mumbai, Nickel 200 Sheets & Plates Suppliers In Mumbai, Nickel 200 Sheets & Plates Importers In Mumbai, Nickel 200 Sheets & Plates Stockists In Mumbai. Nickel 200 Sheets & Plates Manufacturers In India, Nickel 200 Sheets & Plates Exporters In India, Nickel 200 Sheets & Plates Suppliers In India, Nickel 200 Sheets & Plates Importers In India, Nickel 200 Sheets & Plates Stockists In India.",
+      "Nickel 200 Plates, JIS NW 2200 Plate,Alloy 200 Sheets, Nickel UNS N02200 Plates, Nickel 200 Circle, ASME SB 162 Nickel 200 Plate, 200 Nickel Hot Rolled Plates Supplier In Mumbai, India. 200 Nickel Plate Exporter, ASTM B 162 Nickel 200 Shim Sheets, Nickel 200 Cold Rolled Plates, Nickel Werkstoff No 2.4066 Sheets, Nickel 200 Sheets Dealer In India. Distributors Of ASME SB162 Nickel 200 Coils, 200 Nickel Plate Stockholder, 200 Nickel Polished Cold Drawn Plates.",
     text3:
       "By structures for Nickel 200 Perforated Coils, the constrainments of the two blends are joined into a lone twofold science that results in a particular amalgam by frameworks for the best highlights of both. By at that point, these Alloy 200 Sheets are other than being offered in various sizes and shapes to our clients. Compound 200 Plates is joined with higher snap properties at temperature and impeccable to plot shockingly prominent and bendable. The unadulterated of Alloy 200 Coils has insightful security from oxidization and will be utilized in suffering relationship up to 1140 Degree C gave decreasing sulfur gases don't have the majority of the stores of being favoring. The high metal and nickel substance of Alloy 200 Slatting Coils offer all around that genuinely matters dubious isolating impediment, ideal limitation over oxidization.",
     Specifications: {
@@ -197,9 +197,9 @@ export const Nickel200SheetsData = [
 export const Nickel201SheetsData = [
   {
     text1:
-      "Nickel 201 Sheets & Plates Manufacturers In India, Nickel 201 Sheets & Plates Exporters In India, Nickel 201 Sheets & Plates Suppliers In India, Nickel 201 Sheets & Plates Importers In India, Nickel 201 Sheets & Plates Stockists In India.",
+      "Nickel Alloy 201 Steel Sheets & Plates Exporters,Suppliers,Importers,Stockists In Mumbai and India.",
     text2:
-      "Nickel 201 Sheets & Plates Manufacturers In India, Nickel 201 Sheets & Plates Exporters In India, Nickel 201 Sheets & Plates Suppliers In India, Nickel 201 Sheets & Plates Importers In India, Nickel 201 Sheets & Plates Stockists In India.",
+      "Nickel Alloy 201 Sheets Plates Coils, which limits trap from phosphoric harming and have been reasonably used with nitric ruinous. These Nickel 201 Plates is unaffected by any of the tricky bases, for instance, ammonium hydroxide, even in high obsessions and at high temperatures.",
     text3:
       "Our Alloy 201 Plates is impenetrable to sulphuric ruinous at room temperature, even in high focus interests. These Alloy 201 Coils are both important for confirming and coordinating acidic harming, especially in strategies where it is united with formic ruinous and when air spread is missing (oxygen guarantees steel under such conditions), at any rate it gives the best segment of security from use.",
     Specifications: {
@@ -226,9 +226,9 @@ export const Nickel201SheetsData = [
 export const Nickel270Data = [
   {
     text1:
-      "Nickel 270 Sheets & Plates Manufacturers In Mumbai, Nickel 270 Sheets & Plates Exporters In Mumbai, Nickel 270 Sheets & Plates Suppliers In Mumbai, Nickel 270 Sheets & Plates Importers In Mumbai, Nickel 270 Sheets & Plates Stockists In Mumbai.",
+      "Nickel 270 Steel Sheets & Plates Exporters,Suppliers,Importers,Stockists In Mumbai and India",
     text2:
-      "Nickel 270 Sheets & Plates Manufacturers In Mumbai, Nickel 270 Sheets & Plates Exporters In Mumbai, Nickel 270 Sheets & Plates Suppliers In Mumbai, Nickel 270 Sheets & Plates Importers In Mumbai, Nickel 270 Sheets & Plates Stockists In Mumbai.",
+      "",
     text3:
       "Compound 270 is a high morals assessment of nickel constantly made by powder metallurgy. It has a low base hardness and high adaptability. It is basically free from non-metallic breakers. These Alloy Used in Electronics industry, anode plates, hydrogen thyratron regions, uninvolved cathodes, cathode shanks, plater bars, and transistor specialties.",
     Specifications: {
@@ -256,9 +256,9 @@ export const Nickel270Data = [
 export const Nickel212Data = [
   {
     text1:
-      "Nickel 212 Sheets & Plates Manufacturers In India, Nickel 212 Sheets & Plates Exporters In India, Nickel 212 Sheets & Plates Suppliers In India, Nickel 212 Sheets & Plates Importers In India, Nickel 212 Sheets & Plates Stockists In India",
+      "Nickel 212 Steel Sheets & Plates Exporters,Suppliers,Importers,Stockists In Mumbai and India",
     text2:
-      "Nickel 212 Sheets & Plates Manufacturers In India, Nickel 212 Sheets & Plates Exporters In India, Nickel 212 Sheets & Plates Suppliers In India, Nickel 212 Sheets & Plates Importers In India, Nickel 212 Sheets & Plates Stockists In India",
+      "As a much-respected relationship in the market, we Modi Metals are occupied with proposing a blend of Nickel Alloy Plates, Sheets and Coils as an exporter, maker, provider, and stockiest to our general customers at sensibly regarded expenses",
     text3:
       "These properties and its compound affiliation make Nickel 212 fabricatable and especially safe to risky conditions. Nickel 212 is beneficial in any condition underneath 600º F. It is in a general sense safe to isolating by reasonable and stomach settling overseer salt systems. Nickel blend 212 other than has low breaking down rates in reasonable and refined water. This nickel amalgam can be hot consolidated to any shape and constrained cold by all techniques.",
     Specifications: {
@@ -286,9 +286,9 @@ export const Nickel212Data = [
 export const Nickel222Data = [
   {
     text1:
-      "Nickel 222 Sheets & Plates Manufacturers In Mumbai, Nickel 222 Sheets & Plates Exporters In Mumbai ,Nickel 222 Sheets & Plates Suppliers In Mumbai, Nickel 222 Sheets & Plates Importers In Mumbai , Nickel 222 Sheets & Plates Stockists In Mumbai.",
+      "Nickel 222 facturers,Exporters,Suppliers,Importers,Stockists In Mumbai and India",
     text2:
-      "Nickel 222 Sheets & Plates Manufacturers In Mumbai, Nickel 222 Sheets & Plates Exporters In Mumbai ,Nickel 222 Sheets & Plates Suppliers In Mumbai, Nickel 222 Sheets & Plates Importers In Mumbai , Nickel 222 Sheets & Plates Stockists In Mumbai.",
+      "",
     text3:
       "These properties and its compound agreement make Nickel 222 fabricatable and particularly safe to dangerous conditions. Nickel 222 is profitable in any condition underneath 600º F. It is in a general sense safe to pulling back by sensible and stomach settling controller salt structures. Nickel mix 222 other than has low secluding rates in sensible and refined water. This nickel amalgam can be hot joined to any shape and obliged cold by all philosophies.",
     Specifications: {
@@ -343,9 +343,9 @@ export const TitaniumGradeData = [
 export const TitaniumSheetsData = [
   {
     text1:
-      "itanium Sheets & Plates Manufacturers In India, Titanium Sheets & Plates Exporters In India , Titanium Sheets & Plates Suppliers In India, Titanium Sheets & Plates Importers In India , Titanium Sheets & Plates Stockists In India.",
+      "Titanium Sheets & Plates Exporters,Suppliers,Importers,Stockists In India and Mumbai",
     text2:
-      "itanium Sheets & Plates Manufacturers In India, Titanium Sheets & Plates Exporters In India , Titanium Sheets & Plates Suppliers In India, Titanium Sheets & Plates Importers In India , Titanium Sheets & Plates Stockists In India.",
+      "Titanium Werkstoff Nr. 3.7035 Plates, Sheets & Coils Manufacturer, Exporter & Suppliers In India, ASTM B 265 GR I, GR -2, GR-3, GR-4, GR-5, GR-7 UNS R50400 Titanium Shim Sheet, Chequered Plate Suppliers.",
     text3:
       "Titanium Alloy Sheets has been suggested for its eminent highlights, for example, hard-wearing, lightweight, etc. Moreover, Titanium Plates correspondingly as some different astonishing highlights to offer, for example, hard-wearing, lightweight, taking off adaptable power, etc. We have store of Titanium Coils in contamination rolled and hot moved structures. These whole degrees of evaluations like Titanium Gr 2/Gr 5 Plate, Sheet and Coil as indicated by the client's fundamentals.",
     Specifications: {
@@ -372,9 +372,9 @@ export const TitaniumSheetsData = [
 export const TitaniumGrade1SheetsData = [
   {
     text1:
-      "Titanium Grade 1 Sheets & Plates Manufacturers In India, Titanium Grade 1 Sheets & Plates Exporters In India , Titanium Grade 1 Sheets & Plates Suppliers In India, Titanium Grade 1 Sheets & Plates Importers In India , Titanium Grade 1 Sheets & Plates Stockists In India.",
+      "Titanium Grade 1 Sheets & Plates Exporters,Suppliers,Importers,Stockists In Mumbai and India",
     text2:
-      "Titanium Grade 1 Sheets & Plates Manufacturers In India, Titanium Grade 1 Sheets & Plates Exporters In India , Titanium Grade 1 Sheets & Plates Suppliers In India, Titanium Grade 1 Sheets & Plates Importers In India , Titanium Grade 1 Sheets & Plates Stockists In India.",
+      "",
     text3:
       "Titanium Plates are in like manner being offered in different sizes and shapes to our customers. Titanium Coils is equivalently used in Automotive, Chemical Processing and Chlorate Manufacturing, Desalination, Architecture, Hydro Carbon Processing, Marine, Medical, and Power Generation. Titanium Slatting Coils is totally used in light of the course by which that it bonds quickening formability and moderate quality with unavoidable use limitation. Titanium Perforated Coils offers high use control in oxidizing, impartial and carefully diminishing media, including chlorides.",
     Specifications: {
@@ -404,9 +404,9 @@ export const TitaniumGrade1SheetsData = [
 export const TitaniumGrade2SheetsData = [
   {
     text1:
-      "Titanium Grade 2 Sheets & Plates Manufacturers In India, Titanium Grade 2 Sheets & Plates Exporters In India , Titanium Grade 2 Sheets & Plates Suppliers In India, Titanium Grade 2 Sheets & Plates Importers In India , Titanium Grade 2 Sheets & Plates Stockists In India.",
+      "Titanium Grade 2 Sheets & Plates Exporters,Suppliers,Importers,Stockists In Mumbai and India",
     text2:
-      "Titanium Grade 2 Sheets & Plates Manufacturers In India, Titanium Grade 2 Sheets & Plates Exporters In India , Titanium Grade 2 Sheets & Plates Suppliers In India, Titanium Grade 2 Sheets & Plates Importers In India , Titanium Grade 2 Sheets & Plates Stockists In India.",
+      "",
     text3:
       "Titanium Gr 2 AMS 4902 Plates are used in planes, rockets and rockets where quality, low weight and affirmation from high temperatures are beast. Buy Titanium Alloy Grade 2 Plates at reasonable expense from us. Titanium Grade 2 Plates offers dazzling crippling check, basic formability and quality between examinations 1 and 3.",
     Specifications: {
@@ -435,9 +435,9 @@ export const TitaniumGrade2SheetsData = [
 export const TitaniumGrade3Sheets = [
   {
     text1:
-      "Titanium Grade 3 Sheets & Plates Manufacturers In India, Titanium Grade 3 Sheets & Plates Exporters In India , Titanium Grade 3 Sheets & Plates Suppliers In India, Titanium Grade 3 Sheets & Plates Importers In India , Titanium Grade 3 Sheets & Plates Stockists In India.",
+      "Titanium Grade 3 Sheets & Plates Exporters,Suppliers,Importers,Stockists In Mumbai and India",
     text2:
-      "Titanium Grade 3 Sheets & Plates Manufacturers In India, Titanium Grade 3 Sheets & Plates Exporters In India , Titanium Grade 3 Sheets & Plates Suppliers In India, Titanium Grade 3 Sheets & Plates Importers In India , Titanium Grade 3 Sheets & Plates Stockists In India.",
+      "",
     text3:
       "Ti Gr 3 Plates has Moderate Strength Titanium, Moderate Formability, Excellent Weldability, Excellent Corrosion Resistance and that is just the begin. ASTM F67 GR 2 Plates is an unalloyed titanium grade with medium oxygen content and laid out by high bore. By at that point, this AMS 4900 GR 2 Plates is least utilized of the monetarily unadulterated titanium grades, in any case that does not make it any less pivotal.",
     Specifications: {
@@ -466,9 +466,9 @@ export const TitaniumGrade3Sheets = [
 export const TitaniumGrade4Data = [
   {
     text1:
-      "Titanium Grade 4 Sheets & Plates Manufacturers In Mumbai, Titanium Grade 4 Sheets & Plates Exporters In Mumbai , Titanium Grade 4 Sheets & Plates Suppliers In Mumbai, Titanium Grade 4 Sheets & Plates Importers In Mumbai , Titanium Grade 4 Sheets & Plates Stockists In Mumbai.",
+      "Titanium Grade 4 Sheets & Plates Exporters,Suppliers,Importers,Stockists In Mumbai and India",
     text2:
-      "Titanium Grade 4 Sheets & Plates Manufacturers In Mumbai, Titanium Grade 4 Sheets & Plates Exporters In Mumbai , Titanium Grade 4 Sheets & Plates Suppliers In Mumbai, Titanium Grade 4 Sheets & Plates Importers In Mumbai , Titanium Grade 4 Sheets & Plates Stockists In Mumbai.",
+      "",
     text3:
       "Titanium Grade 4 Sheets, Plates and Coils are unadulterated unalloyed titanium thing that is ordinarily more grounded and better than different evaluations. The circles are fundamentally sorted out with unadulterated titanium blend that has remarkable quality. As requirements be these join exceptional affirmation from breaking down with remarkable formability and strength. The sheets, plates and circles offer mind boggling flexibility and inadequacy attributes at moderate temperatures.",
     Specifications: {
@@ -497,9 +497,9 @@ export const TitaniumGrade4Data = [
 export const TitaniumGrade5Data = [
   {
     text1:
-      "Titanium Grade 5 Sheets & Plates Manufacturers In India, Titanium Grade 5 Sheets & Plates Exporters In India , Titanium Grade 5 Sheets & Plates Suppliers In India, Titanium Grade 5 Sheets & Plates Importers In India , Titanium Grade 5 Sheets & Plates Stockists In India.",
+      "Titanium Grade 5 Sheets & Plates Exporters,Suppliers,Importers,Stockists In Mumbai and India",
     text2:
-      "Titanium Grade 5 Sheets & Plates Manufacturers In India, Titanium Grade 5 Sheets & Plates Exporters In India , Titanium Grade 5 Sheets & Plates Suppliers In India, Titanium Grade 5 Sheets & Plates Importers In India , Titanium Grade 5 Sheets & Plates Stockists In India.",
+      "",
     text3:
       "This uncommon Titanium UNS R56401 Plates can be used at cryogenic temperatures to around 800 Degree F (427 Degree C). As in other titanium amalgams, isolating obstruction of this Ti Grade 5 Plates relies on the closeness of a solid and unending oxide layer which is drifted out of nowhere upon preface to oxygen. Assessment 5 Titanium Plates has High Strength Titanium, Heat Treatable, Good Ductility, Good Fabricability, Good Weldability and that is only the start. In an enormous piece of these and other managing applications, these Grade 5 Ti Plates has unstuck heavier, less utilitarian or less reasonable materials.",
     Specifications: {
@@ -530,9 +530,9 @@ export const TitaniumGrade5Data = [
 export const A286SheetsData = [
   {
     text1:
-      "A286 Sheets & Plates Manufacturers In India, A286 Sheets & Plates Exporters In India, A286 Sheets & Plates Suppliers In India, A286 Sheets & Plates Importers In India, A286 Sheets & Plates Stockists In India.",
+      "A286 Sheets & Plates Exporters,Suppliers,Importers,Stockists In Mumbai and India",
     text2:
-      "A286 Sheets & Plates Manufacturers In India, A286 Sheets & Plates Exporters In India, A286 Sheets & Plates Suppliers In India, A286 Sheets & Plates Importers In India, A286 Sheets & Plates Stockists In India.",
+      "",
     text3:
       "A-286 (every once in a while proposed as A286 treated steel) is a nickel and iron-based, austenitic superalloy that is chief for applications requiring high bore and isolating down obstacle to 1300˚F (704˚C), and for lower weight applications at higher temperatures. The mechanical properties of this composite are made by sensible structure building up and precipitation setting drugs. This amalgam has clear high temperature oxidation resistance and is depended upon to help creep and stress break properties, with some lessening in quality. A-286 material can accomplish mind blowing estimations when made in the wake of sullying work, and has wide applications in high temperature gets and springs.",
     Specifications: {
@@ -571,9 +571,9 @@ export const A286SheetsData = [
 export const SMO254SheetsData = [
   {
     text1:
-      "SMO 254 Sheets & Plates Manufacturers In India, SMO 254 Sheets & Plates Exporters In India, SMO 254 Sheets & Plates Suppliers In India, SMO 254 Sheets & Plates Importers In India, SMO 254 Sheets & Plates Stockists In India.",
+      "SMO 254 Sheets & Plates Exporters,Suppliers,Importers,Stockists In Mumbai and India",
     text2:
-      "SMO 254 Sheets & Plates Manufacturers In India, SMO 254 Sheets & Plates Exporters In India, SMO 254 Sheets & Plates Suppliers In India, SMO 254 Sheets & Plates Importers In India, SMO 254 Sheets & Plates Stockists In India.",
+      "",
     text3:
       "SMO 254 Sheets has been endorsed for its splendid features, for instance, hard-wearing, lightweight, and so forth. Consequently, SMO 254 Plates correspondingly as some other exceptional features to offer, for instance, hard-wearing, lightweight, taking off adaptable power, and so on. We have load of SMO 254 Coils in pollution rolled and hot moved structures. These entire degrees of examinations like SMO 254 UNS S31254 Plate, Sheet and Coil as demonstrated by the customer's stray pieces.",
     Specifications: {
@@ -620,9 +620,9 @@ export const HastelloyGradeData = [
 export const HastelloySheetsData = [
   {
     text1:
-      "Hastelloy Sheets & Plates Manufacturers In India, Hastelloy Sheets & Plates Exporters In India, Hastelloy Sheets & Plates Suppliers In India, Hastelloy Sheets & Plates Importers In India, Hastelloy Sheets & Plates Stockists In India.",
+      "Hastelloy Sheets & Plates Exporters,Suppliers,Importers,Stockists In Mumbai and India",
     text2:
-      "Hastelloy Sheets & Plates Manufacturers In India, Hastelloy Sheets & Plates Exporters In India, Hastelloy Sheets & Plates Suppliers In India, Hastelloy Sheets & Plates Importers In India, Hastelloy Sheets & Plates Stockists In India.",
+      "",
     text3:
       "Toughening of Hastelloy Alloy in the wake of working is influenced and ought to be performed at a temperature between 2050 Degree F and 2150 Degree F look for after down after by a vivacious spread in a vigilant region or in a started diminishing spread shower. One of the central properties of Hastelloy Alloy is their supporting from chloride-began weight use breaking. The picked trademark name, Hastelloy Alloy Perforated is associated as the prefix name to in excess of twenty unequivocal on an especially key estimation use safe metal amalgams made by us.",
     Specifications: {
@@ -654,11 +654,11 @@ export const HastelloySheetsData = [
 export const HastelloyC22Data = [
   {
     text1:
-      "Hastelloy Sheets & Plates Manufacturers In India, Hastelloy Sheets & Plates Exporters In India, Hastelloy Sheets & Plates Suppliers In India, Hastelloy Sheets & Plates Importers In India, Hastelloy Sheets & Plates Stockists In India.",
+      "Hastelloy C22 Sheets & Plates Exporters,Suppliers,Importers,Stockists In Mumbai and India",
     text2:
-      "Hastelloy Sheets & Plates Manufacturers In India, Hastelloy Sheets & Plates Exporters In India, Hastelloy Sheets & Plates Suppliers In India, Hastelloy Sheets & Plates Importers In India, Hastelloy Sheets & Plates Stockists In India.",
+      "",
     text3:
-      "Toughening of Hastelloy Alloy in the wake of working is influenced and ought to be performed at a temperature between 2050 Degree F and 2150 Degree F look for after down after by a vivacious spread in a vigilant region or in a started diminishing spread shower. One of the central properties of Hastelloy Alloy is their supporting from chloride-began weight use breaking. The picked trademark name, Hastelloy Alloy Perforated is associated as the prefix name to in excess of twenty unequivocal on an especially key estimation use safe metal amalgams made by us",
+      "Toughening of Hastelloy C22 Alloy in the wake of working is influenced and ought to be performed at a temperature between 2050 Degree F and 2150 Degree F look for after down after by a vivacious spread in a vigilant region or in a started diminishing spread shower. One of the central properties of Hastelloy C22 Alloy is their supporting from chloride-began weight use breaking. The picked trademark name, Hastelloy Alloy Perforated is associated as the prefix name to in excess of twenty unequivocal on an especially key estimation use safe metal amalgams made by us",
     Specifications: {
       Specifications: "ASTM / ASME SB575",
       Size: "1000 mm x 2000 mm, 1220 mm x 2440 mm, 1500 mm x 3000 mm, 2000 mm x 2000 mm, 2000 mm x 4000 mm",
@@ -686,9 +686,9 @@ export const HastelloyC22Data = [
 export const HastelloyC276Data = [
   {
     text1:
-      "Hastelloy C276 Sheets & Plates Manufacturers In India, Hastelloy C276 Sheets & Plates Exporters In India , Hastelloy C276 Sheets & Plates Suppliers In India, Hastelloy C276 Sheets & Plates Importers In India, Hastelloy C276 Sheets & Plates Stockists In India.",
+      "Hastelloy C276 Sheets & Plates Exporters,Suppliers,Importers,Stockists In Mumbai and India",
     text2:
-      "Hastelloy C276 Sheets & Plates Manufacturers In India, Hastelloy C276 Sheets & Plates Exporters In India , Hastelloy C276 Sheets & Plates Suppliers In India, Hastelloy C276 Sheets & Plates Importers In India, Hastelloy C276 Sheets & Plates Stockists In India.",
+      "",
     text3:
       "Hastelloy C276 Sheets have wonderful security from setting, stress use and split rot breaking. Hastelloy C276 Sheets has uncommon machinability, at any rate the composite work toughens as is right of the nickel base amalgams when in doubt. The high molybdenum and nickel substance in Hastelloy C276 Designer Sheets (UNS N10276) make this nickel steel mix especially safe to opening use and setting in decreasing conditions while chromium content passes on security from oxidizing media.",
     Specifications: {
@@ -721,9 +721,9 @@ export const HastelloyC276Data = [
 export const Alloy20SheetsData = [
   {
     text1:
-      "Alloy 20 Sheets & Plates Manufacturers In Mumbai, Alloy 20 Sheets & Plates Exporters In Mumbai, Alloy 20 Sheets & Plates Suppliers In Mumbai, Alloy 20 Sheets & Plates Importers In Mumbai, Alloy 20 Sheets & Plates Stockists In Mumbai.",
+      "Alloy 20 Sheets & Plates Exporters,Suppliers,Importers,Stockists In Mumbai and India",
     text2:
-      "Alloy 20 Sheets & Plates Manufacturers In Mumbai, Alloy 20 Sheets & Plates Exporters In Mumbai, Alloy 20 Sheets & Plates Suppliers In Mumbai, Alloy 20 Sheets & Plates Importers In Mumbai, Alloy 20 Sheets & Plates Stockists In Mumbai.",
+      "",
     text3:
       "Alloy 20 Plates, which is a nickel– chromium– molybdenum set up steel composite passed on for applications including sulfuric harming. Composite UNS N08020 Plates has puzzling requesting from general use, setting, and opening confining in built mixes containing chlorides and sulfuric, phosphoric, and nitric acids. Compound DIN 2.4660 Plates is an iron-base, austenitic composite with outstanding decay security from different media and shows to be central in different applications, for instance, vent gas desulfurization, blend controlling, sustenance planning and cutoff about as pharmaceutical applications.",
     Specifications: {
@@ -757,9 +757,9 @@ export const Alloy20SheetsData = [
 export const DuplexSuperduplexSheetsData = [
   {
     text1:
-      "Duplex & Superduplex Sheets & Plates Manufacturers In Mumbai, Duplex & Superduplex Sheets & Plates Exporters In Mumbai, Duplex & Superduplex Sheets & Plates Suppliers In Mumbai, Duplex & Superduplex Sheets & Plates Importers In Mumbai, Duplex & Superduplex Sheets & Plates Stockists In Mumbai.",
+      "Duplex & Superduplex Sheets & Plates Exporters,Suppliers,Importers,Stockists In Mumbai and India",
     text2:
-      "Duplex & Superduplex Sheets & Plates Manufacturers In Mumbai, Duplex & Superduplex Sheets & Plates Exporters In Mumbai, Duplex & Superduplex Sheets & Plates Suppliers In Mumbai, Duplex & Superduplex Sheets & Plates Importers In Mumbai, Duplex & Superduplex Sheets & Plates Stockists In Mumbai.",
+      "",
     text3:
       "We correspondingly offer these things in different appraisals, for instance, Duplex Sheets Plates and Coils, Duplex Sheets Plates and Coils, Super Duplex Sheets Plates and Coils, and Super Duplex Sheets Plates and Coils. At that point, these Duplex Steel Plates are other than being offered in different sizes and shapes to our customers, where we in like way offer the inadequately described, unrivaled best condition costs. In all honesty these Super Duplex Steel Plates can be used adequately as a choice instead of 300 framework austenitic tempered steels in on an amazingly basic measurement all applications where higher mechanical quality/lower weight is required.",
     Specifications: {

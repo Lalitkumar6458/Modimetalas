@@ -29,7 +29,7 @@ const ScrollButton = () =>{
   window.addEventListener('scroll', toggleVisible);
   
   return (
-    <div className='scrollTopbtn' style={{display: visible ? 'inline' : 'none'}}><i class="fa-solid fa-sort-up"  onClick={scrollToTop} 
+    <div className='scrollTopbtn' style={{display: visible ? 'inline' : 'none'}}><i class="fa-solid fa-sort-up scroll_icon"   onClick={scrollToTop} 
     ></i>
     </div>
   );

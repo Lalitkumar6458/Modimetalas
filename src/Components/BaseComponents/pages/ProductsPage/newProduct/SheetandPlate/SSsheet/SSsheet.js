@@ -16,8 +16,7 @@ const SSsheet = (props) => {
   var heading=`Contact Modi Metals for ${props.name.heading} Products Today`
   var text=`Contact us for more information regarding our ${props.name.heading} options, or request a quote for further pricing details today. Modi Metals is your trusted ${props.name.heading}  supplier and manufacturer of premium ${props.name.heading} Products .`
   const specification_key=Object.keys(props.name.data[0].Specifications)
-  console.log(props.name.data[0],'props',specification_key)
-  console.log(props.name.Grade,'grade')
+ 
   const Grade=props.name.Grade
   return (
     <div><div className="products_heading">
@@ -38,7 +37,7 @@ const SSsheet = (props) => {
 
   <div className='content_metal'>
 
-    <p>{props.name.data[0].text1}</p>
+    <p className='d-none'>{props.name.data[0].text1}</p>
     <p>{props.name.data[0].text2}</p>
     <p>{props.name.data[0].text3}</p>
 

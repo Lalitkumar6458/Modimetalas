@@ -91,12 +91,12 @@ export const CopperImgData=[
     heading:"Air Pollution",
     text:'We stock huge inventories of all our products in all standard sizes to ensure timely delivery.',
   },
-  {
-    id:2,
-    img:require( '../Images/GalleryImg/FlangeImg/img2.jpg'),
-    heading:"Chemical Processing",
-    text:'We stock huge inventories of all our products in all standard sizes to ensure timely delivery.',
-  },
+  // {
+  //   id:2,
+  //   img:require( '../Images/GalleryImg/FlangeImg/img2.jpg'),
+  //   heading:"Chemical Processing",
+  //   text:'We stock huge inventories of all our products in all standard sizes to ensure timely delivery.',
+  // },
   {
     id:3,
     img:require( '../Images/GalleryImg/FlangeImg/img8.jpg'),
@@ -128,12 +128,12 @@ export const CopperImgData=[
     heading:"Water Systems",
     text:'We stock huge inventories of all our products in all standard sizes to ensure timely delivery.',
   },
-  {
-    id:8,
-    img:require( '../Images/GalleryImg/FlangeImg/img12.jpg'),
-    heading:"Water Systems",
-    text:'We stock huge inventories of all our products in all standard sizes to ensure timely delivery.',
-  },
+  // {
+  //   id:8,
+  //   img:require( '../Images/GalleryImg/FlangeImg/img12.jpg'),
+  //   heading:"Water Systems",
+  //   text:'We stock huge inventories of all our products in all standard sizes to ensure timely delivery.',
+  // },
   {
     id:9,
     img:require( '../Images/GalleryImg/FlangeImg/img13.jpg'),
@@ -162,12 +162,12 @@ export const CopperImgData=[
     heading:"Air Pollution",
     text:'We stock huge inventories of all our products in all standard sizes to ensure timely delivery.',
   },
-  {
-    id:2,
-    img:require( '../Images/GalleryImg/NutBolt/img9.jpg'),
-    heading:"Chemical Processing",
-    text:'We stock huge inventories of all our products in all standard sizes to ensure timely delivery.',
-  },
+  // {
+  //   id:2,
+  //   img:require( '../Images/GalleryImg/NutBolt/img9.jpg'),
+  //   heading:"Chemical Processing",
+  //   text:'We stock huge inventories of all our products in all standard sizes to ensure timely delivery.',
+  // },
   {
     id:3,
     img:require( '../Images/GalleryImg/NutBolt/img3.jpg'),
@@ -175,32 +175,88 @@ export const CopperImgData=[
     text:'All our products go through various quality checks from procurement to final delivery.',
     
   },
-  {
-    id:4,
-    img:require( '../Images/GalleryImg/NutBolt/img4.jpg'),
-    heading:"Power Generation",
-    text:'We stock huge inventories of all our products in all standard sizes to ensure timely delivery.',
-  },
+  // {
+  //   id:4,
+  //   img:require( '../Images/GalleryImg/NutBolt/img4.jpg'),
+  //   heading:"Power Generation",
+  //   text:'We stock huge inventories of all our products in all standard sizes to ensure timely delivery.',
+  // },
   {
     id:5,
     img:require( '../Images/GalleryImg/NutBolt/img5.png'),
     heading:"Pulp & Paper Mills",
     text:'All our products go through various quality checks from procurement to final delivery.',
     
-  }, {
+  }, 
+  {
     id:6,
     img:require( '../Images/GalleryImg/NutBolt/img6.jpeg'),
     heading:"Water Systems",
     text:'We stock huge inventories of all our products in all standard sizes to ensure timely delivery.',
   },
   
-  
+  {
+    id:6,
+    img:require( '../Images/GalleryImg/NutBolt/img10.png'),
+    heading:"Water Systems",
+    text:'We stock huge inventories of all our products in all standard sizes to ensure timely delivery.',
+  }, {
+    id:6,
+    img:require( '../Images/GalleryImg/NutBolt/img11.webp'),
+    heading:"Water Systems",
+    text:'We stock huge inventories of all our products in all standard sizes to ensure timely delivery.',
+  }, {
+    id:6,
+    img:require( '../Images/GalleryImg/NutBolt/img12.webp'),
+    heading:"Water Systems",
+    text:'We stock huge inventories of all our products in all standard sizes to ensure timely delivery.',
+  }, {
+    id:6,
+    img:require( '../Images/GalleryImg/NutBolt/img13.jpg'),
+    heading:"Water Systems",
+    text:'We stock huge inventories of all our products in all standard sizes to ensure timely delivery.',
+  }, {
+    id:6,
+    img:require( '../Images/GalleryImg/NutBolt/img14.png'),
+    heading:"Water Systems",
+    text:'We stock huge inventories of all our products in all standard sizes to ensure timely delivery.',
+  }, {
+    id:6,
+    img:require( '../Images/GalleryImg/NutBolt/img15.webp'),
+    heading:"Water Systems",
+    text:'We stock huge inventories of all our products in all standard sizes to ensure timely delivery.',
+  }, {
+    id:6,
+    img:require( '../Images/GalleryImg/NutBolt/img16.png'),
+    heading:"Water Systems",
+    text:'We stock huge inventories of all our products in all standard sizes to ensure timely delivery.',
+  }, {
+    id:6,
+    img:require( '../Images/GalleryImg/NutBolt/img17.png'),
+    heading:"Water Systems",
+    text:'We stock huge inventories of all our products in all standard sizes to ensure timely delivery.',
+  }, {
+    id:6,
+    img:require( '../Images/GalleryImg/NutBolt/img18.webp'),
+    heading:"Water Systems",
+    text:'We stock huge inventories of all our products in all standard sizes to ensure timely delivery.',
+  }, {
+    id:6,
+    img:require( '../Images/GalleryImg/NutBolt/img19.jpg'),
+    heading:"Water Systems",
+    text:'We stock huge inventories of all our products in all standard sizes to ensure timely delivery.',
+  }, {
+    id:6,
+    img:require( '../Images/GalleryImg/NutBolt/img20.png'),
+    heading:"Water Systems",
+    text:'We stock huge inventories of all our products in all standard sizes to ensure timely delivery.',
+  },
   ]
 
   export const PipeImgData=[
     {
     id:1,
-    img:require( '../Images/GalleryImg/PipesImg/img8.jpg'),
+    img:require( '../Images/GalleryImg/PipesImg/Img11.jpg'),
     heading:"Air Pollution",
     text:'We stock huge inventories of all our products in all standard sizes to ensure timely delivery.',
   },
@@ -361,19 +417,19 @@ export const CopperImgData=[
     heading:"Air Pollution",
     text:'We stock huge inventories of all our products in all standard sizes to ensure timely delivery.',
   },
-  {
-    id:2,
-    img:require( '../Images/GalleryImg/Squrpati/img2.jpg'),
-    heading:"Chemical Processing",
-    text:'We stock huge inventories of all our products in all standard sizes to ensure timely delivery.',
-  },
-  {
-    id:3,
-    img:require( '../Images/GalleryImg/Squrpati/img3.jpg'),
-    heading:"Electronics & Semi-Conductors",
-    text:'All our products go through various quality checks from procurement to final delivery.',
+  // {
+  //   id:2,
+  //   img:require( '../Images/GalleryImg/Squrpati/img2.jpg'),
+  //   heading:"Chemical Processing",
+  //   text:'We stock huge inventories of all our products in all standard sizes to ensure timely delivery.',
+  // },
+  // {
+  //   id:3,
+  //   img:require( '../Images/GalleryImg/Squrpati/img3.jpg'),
+  //   heading:"Electronics & Semi-Conductors",
+  //   text:'All our products go through various quality checks from procurement to final delivery.',
     
-  },
+  // },
   {
     id:4,
     img:require( '../Images/GalleryImg/Squrpati/img4.jpg'),
@@ -386,18 +442,19 @@ export const CopperImgData=[
     heading:"Pulp & Paper Mills",
     text:'All our products go through various quality checks from procurement to final delivery.',
     
-  }, {
+  },
+   {
     id:6,
     img:require( '../Images/GalleryImg/Squrpati/img6.jpg'),
     heading:"Water Systems",
     text:'We stock huge inventories of all our products in all standard sizes to ensure timely delivery.',
   },
-  {
-    id:6,
-    img:require( '../Images/GalleryImg/Squrpati/img8.jpg'),
-    heading:"Water Systems",
-    text:'We stock huge inventories of all our products in all standard sizes to ensure timely delivery.',
-  },
+  // {
+  //   id:6,
+  //   img:require( '../Images/GalleryImg/Squrpati/img8.jpg'),
+  //   heading:"Water Systems",
+  //   text:'We stock huge inventories of all our products in all standard sizes to ensure timely delivery.',
+  // },
   {
     id:6,
     img:require( '../Images/GalleryImg/Squrpati/img9.jpg'),
@@ -413,38 +470,9 @@ export const CopperImgData=[
   
   ]
   export const WireImgData=[
-    {
-    id:1,
-    img:require( '../Images/GalleryImg/WireImg/img1.jpg'),
-    heading:"Air Pollution",
-    text:'We stock huge inventories of all our products in all standard sizes to ensure timely delivery.',
-  },
-  {
-    id:2,
-    img:require( '../Images/GalleryImg/WireImg/img2.jpg'),
-    heading:"Chemical Processing",
-    text:'We stock huge inventories of all our products in all standard sizes to ensure timely delivery.',
-  },
-  {
-    id:3,
-    img:require( '../Images/GalleryImg/WireImg/img3.jpg'),
-    heading:"Electronics & Semi-Conductors",
-    text:'All our products go through various quality checks from procurement to final delivery.',
-    
-  },
-  {
-    id:4,
-    img:require( '../Images/GalleryImg/WireImg/img4.jpg'),
-    heading:"Power Generation",
-    text:'We stock huge inventories of all our products in all standard sizes to ensure timely delivery.',
-  },
-  {
-    id:5,
-    img:require( '../Images/GalleryImg/WireImg/img7.jpg'),
-    heading:"Pulp & Paper Mills",
-    text:'All our products go through various quality checks from procurement to final delivery.',
-    
-  }, {
+  
+
+   {
     id:6,
     img:require( '../Images/GalleryImg/WireImg/img6.jpg'),
     heading:"Water Systems",
@@ -456,30 +484,25 @@ export const CopperImgData=[
     heading:"Water Systems",
     text:'We stock huge inventories of all our products in all standard sizes to ensure timely delivery.',
   },
-  {
-    id:6,
-    img:require( '../Images/GalleryImg/WireImg/Wire1.jpg'),
-    heading:"Water Systems",
-    text:'We stock huge inventories of all our products in all standard sizes to ensure timely delivery.',
-  },
-  {
-    id:6,
-    img:require( '../Images/GalleryImg/WireImg/Wire2.jpg'),
-    heading:"Water Systems",
-    text:'We stock huge inventories of all our products in all standard sizes to ensure timely delivery.',
-  },
-  {
-    id:6,
-    img:require( '../Images/GalleryImg/WireImg/Wire3.jpg'),
-    heading:"Water Systems",
-    text:'We stock huge inventories of all our products in all standard sizes to ensure timely delivery.',
-  },
-  {
-    id:6,
-    img:require( '../Images/GalleryImg/WireImg/Wire4.jpg'),
-    heading:"Water Systems",
-    text:'We stock huge inventories of all our products in all standard sizes to ensure timely delivery.',
-  },
+ 
+  // {
+  //   id:6,
+  //   img:require( '../Images/GalleryImg/WireImg/Wire2.jpg'),
+  //   heading:"Water Systems",
+  //   text:'We stock huge inventories of all our products in all standard sizes to ensure timely delivery.',
+  // },
+  // {
+  //   id:6,
+  //   img:require( '../Images/GalleryImg/WireImg/Wire3.jpg'),
+  //   heading:"Water Systems",
+  //   text:'We stock huge inventories of all our products in all standard sizes to ensure timely delivery.',
+  // },
+  // {
+  //   id:6,
+  //   img:require( '../Images/GalleryImg/WireImg/Wire4.jpg'),
+  //   heading:"Water Systems",
+  //   text:'We stock huge inventories of all our products in all standard sizes to ensure timely delivery.',
+  // },
   {
     id:6,
     img:require( '../Images/GalleryImg/WireImg/Wire5.jpg'),
@@ -499,7 +522,7 @@ export const CopperImgData=[
   },
   {
     id:2,
-    img:require( '../Images/GalleryImg/RodImg/img3.jpg'),
+    img:require( '../Images/GalleryImg/RodImg/img10.png'),
     heading:"Chemical Processing",
     text:'We stock huge inventories of all our products in all standard sizes to ensure timely delivery.',
   },
@@ -639,54 +662,74 @@ export const CopperImgData=[
     heading:"Power Generation",
     text:'We stock huge inventories of all our products in all standard sizes to ensure timely delivery.',
   },
-  {
-    id:5,
-    img:require( '../Images/GalleryImg/SeamlessPipe/Wimg5.jpg'),
-    heading:"Pulp & Paper Mills",
-    text:'All our products go through various quality checks from procurement to final delivery.',
+  // {
+  //   id:5,
+  //   img:require( '../Images/GalleryImg/SeamlessPipe/Wimg5.jpg'),
+  //   heading:"Pulp & Paper Mills",
+  //   text:'All our products go through various quality checks from procurement to final delivery.',
     
-  }, {
+  // }, 
+  {
     id:6,
     img:require( '../Images/GalleryImg/SeamlessPipe/Wimg6.jpg'),
     heading:"Water Systems",
     text:'We stock huge inventories of all our products in all standard sizes to ensure timely delivery.',
   },
 ]
+
 export const TubesPipeImgData=[
   {
   id:1,
-  img:require( '../Images/GalleryImg/SeamlessPipe/Timg1.jpg'),
+  img:require( '../Images/GalleryImg/tubesimg/img1.jpg'),
   heading:"Air Pollution",
   text:'We stock huge inventories of all our products in all standard sizes to ensure timely delivery.',
 },
 {
   id:2,
-  img:require( '../Images/GalleryImg/SeamlessPipe/Timg2.jpg'),
+  img:require( '../Images/GalleryImg/tubesimg/img2.jpeg'),
   heading:"Chemical Processing",
   text:'We stock huge inventories of all our products in all standard sizes to ensure timely delivery.',
 },
 {
   id:3,
-  img:require( '../Images/GalleryImg/SeamlessPipe/Timg3.png'),
+  img:require( '../Images/GalleryImg/tubesimg/img3.jpeg'),
   heading:"Electronics & Semi-Conductors",
   text:'All our products go through various quality checks from procurement to final delivery.',
   
 },
 {
   id:4,
-  img:require( '../Images/GalleryImg/SeamlessPipe/Timg4.jpg'),
+  img:require( '../Images/GalleryImg/tubesimg/img4.jpeg'),
   heading:"Power Generation",
   text:'We stock huge inventories of all our products in all standard sizes to ensure timely delivery.',
 },
 {
   id:5,
-  img:require( '../Images/GalleryImg/SeamlessPipe/Timg5.jpg'),
+  img:require( '../Images/GalleryImg/tubesimg/img5.jpeg'),
   heading:"Pulp & Paper Mills",
   text:'All our products go through various quality checks from procurement to final delivery.',
   
 }, {
   id:6,
-  img:require( '../Images/GalleryImg/SeamlessPipe/Timg6.jpg'),
+  img:require( '../Images/GalleryImg/tubesimg/img6.jpeg'),
+  heading:"Water Systems",
+  text:'We stock huge inventories of all our products in all standard sizes to ensure timely delivery.',
+},
+{
+  id:4,
+  img:require( '../Images/GalleryImg/tubesimg/img7.jpeg'),
+  heading:"Power Generation",
+  text:'We stock huge inventories of all our products in all standard sizes to ensure timely delivery.',
+},
+{
+  id:5,
+  img:require( '../Images/GalleryImg/tubesimg/img8.jpeg'),
+  heading:"Pulp & Paper Mills",
+  text:'All our products go through various quality checks from procurement to final delivery.',
+  
+}, {
+  id:6,
+  img:require( '../Images/GalleryImg/tubesimg/img9.jpeg'),
   heading:"Water Systems",
   text:'We stock huge inventories of all our products in all standard sizes to ensure timely delivery.',
 },
@@ -768,91 +811,91 @@ export const PipeFitingImgData=[
   heading:"Chemical Processing",
   text:'We stock huge inventories of all our products in all standard sizes to ensure timely delivery.',
 },
-{
-  id:3,
-  img:require( '../Images/GalleryImg/PipeFitings/img3.webp'),
-  heading:"Electronics & Semi-Conductors",
-  text:'All our products go through various quality checks from procurement to final delivery.',
+// {
+//   id:3,
+//   img:require( '../Images/GalleryImg/PipeFitings/img3.webp'),
+//   heading:"Electronics & Semi-Conductors",
+//   text:'All our products go through various quality checks from procurement to final delivery.',
   
-},
-{
-  id:4,
-  img:require( '../Images/GalleryImg/PipeFitings/img4.png'),
-  heading:"Power Generation",
-  text:'We stock huge inventories of all our products in all standard sizes to ensure timely delivery.',
-},
-{
-  id:5,
-  img:require( '../Images/GalleryImg/PipeFitings/img5.jpg'),
-  heading:"Pulp & Paper Mills",
-  text:'All our products go through various quality checks from procurement to final delivery.',
+// },
+// {
+//   id:4,
+//   img:require( '../Images/GalleryImg/PipeFitings/img4.png'),
+//   heading:"Power Generation",
+//   text:'We stock huge inventories of all our products in all standard sizes to ensure timely delivery.',
+// },
+// {
+//   id:5,
+//   img:require( '../Images/GalleryImg/PipeFitings/img5.jpg'),
+//   heading:"Pulp & Paper Mills",
+//   text:'All our products go through various quality checks from procurement to final delivery.',
   
-}, {
-  id:6,
-  img:require( '../Images/GalleryImg/PipeFitings/img6.jpg'),
-  heading:"Water Systems",
-  text:'We stock huge inventories of all our products in all standard sizes to ensure timely delivery.',
-},
-{
-  id:6,
-  img:require( '../Images/GalleryImg/PipeFitings/img7.jpg'),
-  heading:"Water Systems",
-  text:'We stock huge inventories of all our products in all standard sizes to ensure timely delivery.',
-},
-{
-  id:6,
-  img:require( '../Images/GalleryImg/PipeFitings/img8.jpg'),
-  heading:"Water Systems",
-  text:'We stock huge inventories of all our products in all standard sizes to ensure timely delivery.',
-},
-{
-  id:6,
-  img:require( '../Images/GalleryImg/PipeFitings/img9.jpg'),
-  heading:"Water Systems",
-  text:'We stock huge inventories of all our products in all standard sizes to ensure timely delivery.',
-},
-{
-  id:6,
-  img:require( '../Images/GalleryImg/PipeFitings/img10.jpg'),
-  heading:"Water Systems",
-  text:'We stock huge inventories of all our products in all standard sizes to ensure timely delivery.',
-},
-{
-  id:6,
-  img:require( '../Images/GalleryImg/PipeFitings/img11.jpg'),
-  heading:"Water Systems",
-  text:'We stock huge inventories of all our products in all standard sizes to ensure timely delivery.',
-},
-{
-  id:6,
-  img:require( '../Images/GalleryImg/PipeFitings/img12.jpg'),
-  heading:"Water Systems",
-  text:'We stock huge inventories of all our products in all standard sizes to ensure timely delivery.',
-},
-{
-  id:6,
-  img:require( '../Images/GalleryImg/PipeFitings/img13.jpg'),
-  heading:"Water Systems",
-  text:'We stock huge inventories of all our products in all standard sizes to ensure timely delivery.',
-},
-{
-  id:6,
-  img:require( '../Images/GalleryImg/PipeFitings/img14.jpg'),
-  heading:"Water Systems",
-  text:'We stock huge inventories of all our products in all standard sizes to ensure timely delivery.',
-},
-{
-  id:6,
-  img:require( '../Images/GalleryImg/PipeFitings/img15.jpg'),
-  heading:"Water Systems",
-  text:'We stock huge inventories of all our products in all standard sizes to ensure timely delivery.',
-},
-{
-  id:6,
-  img:require( '../Images/GalleryImg/PipeFitings/img16.jpg'),
-  heading:"Water Systems",
-  text:'We stock huge inventories of all our products in all standard sizes to ensure timely delivery.',
-},
+// }, {
+//   id:6,
+//   img:require( '../Images/GalleryImg/PipeFitings/img6.jpg'),
+//   heading:"Water Systems",
+//   text:'We stock huge inventories of all our products in all standard sizes to ensure timely delivery.',
+// },
+// {
+//   id:6,
+//   img:require( '../Images/GalleryImg/PipeFitings/img7.jpg'),
+//   heading:"Water Systems",
+//   text:'We stock huge inventories of all our products in all standard sizes to ensure timely delivery.',
+// },
+// {
+//   id:6,
+//   img:require( '../Images/GalleryImg/PipeFitings/img8.jpg'),
+//   heading:"Water Systems",
+//   text:'We stock huge inventories of all our products in all standard sizes to ensure timely delivery.',
+// },
+// {
+//   id:6,
+//   img:require( '../Images/GalleryImg/PipeFitings/img9.jpg'),
+//   heading:"Water Systems",
+//   text:'We stock huge inventories of all our products in all standard sizes to ensure timely delivery.',
+// },
+// {
+//   id:6,
+//   img:require( '../Images/GalleryImg/PipeFitings/img10.jpg'),
+//   heading:"Water Systems",
+//   text:'We stock huge inventories of all our products in all standard sizes to ensure timely delivery.',
+// },
+// {
+//   id:6,
+//   img:require( '../Images/GalleryImg/PipeFitings/img11.jpg'),
+//   heading:"Water Systems",
+//   text:'We stock huge inventories of all our products in all standard sizes to ensure timely delivery.',
+// },
+// {
+//   id:6,
+//   img:require( '../Images/GalleryImg/PipeFitings/img12.jpg'),
+//   heading:"Water Systems",
+//   text:'We stock huge inventories of all our products in all standard sizes to ensure timely delivery.',
+// },
+// {
+//   id:6,
+//   img:require( '../Images/GalleryImg/PipeFitings/img13.jpg'),
+//   heading:"Water Systems",
+//   text:'We stock huge inventories of all our products in all standard sizes to ensure timely delivery.',
+// },
+// {
+//   id:6,
+//   img:require( '../Images/GalleryImg/PipeFitings/img14.jpg'),
+//   heading:"Water Systems",
+//   text:'We stock huge inventories of all our products in all standard sizes to ensure timely delivery.',
+// },
+// {
+//   id:6,
+//   img:require( '../Images/GalleryImg/PipeFitings/img15.jpg'),
+//   heading:"Water Systems",
+//   text:'We stock huge inventories of all our products in all standard sizes to ensure timely delivery.',
+// },
+// {
+//   id:6,
+//   img:require( '../Images/GalleryImg/PipeFitings/img16.jpg'),
+//   heading:"Water Systems",
+//   text:'We stock huge inventories of all our products in all standard sizes to ensure timely delivery.',
+// },
 
 ]
 
@@ -931,14 +974,137 @@ export const ElectrodWireImgData=[
   text:'We stock huge inventories of all our products in all standard sizes to ensure timely delivery.',
 },
 ]
+export const SheetgalleryData=[
+  {
+  id:1,
+  img:require('../Images/SheetImg/Sheet1.jpg'),
+ 
+},
+{
+  id:2,
+  img:require('../Images/SheetImg/Sheet2.jpg'),
+
+},
+{
+  id:3,
+  img:require('../Images/SheetImg/Sheet11.jpeg'),
+ 
+  
+},
+// {
+//   id:4,
+//   img:require('../Images/SheetImg/Sheet4.jpg'),
+
+// },
+{
+  id:6,
+  img:require('../Images/SheetImg/Sheet5.jpg'),
+ 
+},
+
+// {
+//   id:8,
+//   img:require('../Images/SheetImg/Sheet6.jpg'),
+
+
+// },
+// {
+//   id:9,
+//   img:require('../Images/SheetImg/Sheet7.jpg'),
+  
+// },
+{
+  id:10,
+  img:require('../Images/SheetImg/Sheet8.jpg'),
+  
+  
+},
+// {
+//   id:5,
+//   img:require('../Images/SheetImg/Sheet9.jpg'),
+
+  
+// }
+{
+  id:12,
+  img:require('../Images/SheetImg/Sheet10.jpg'),
+
+},
+]
+
+export const CoilsgalleryData=[
+  {
+  id:1,
+  img:require("../Images/CoilsImg/Coils1.jpg"),
+  },
+// {
+//   id:2,
+//   img:require("../Images/CoilsImg/Coils2.jpg"),
+
+// },
+{
+  id:3,
+  img:require("../Images/CoilsImg/img1.jpg"),
+
+  
+},
+// {
+//   id:4,
+//   img:require("../Images/CoilsImg/Coils4.jpg"),
+
+  
+// },
+// {
+//   id:6,
+//   img:require("../Images/CoilsImg/Coils5.jpg"),
+
+  
+// },
+
+{
+  id:8,
+  img:require("../Images/CoilsImg/Coils6.jpg"),
+
+},
+{
+  id:9,
+  img:require("../Images/CoilsImg/img2.jpg"),
+
+  
+},
+// {
+//   id:10,
+//   img:require("../Images/CoilsImg/Coils8.jpg"),
+
+  
+// },
+{
+  id:11,
+  img:require("../Images/CoilsImg/Coils9.jpg"),
+
+  
+},
+{
+  id:12,
+  img:require("../Images/CoilsImg/img5.jpeg"),
+
+  
+},
+]
+
+
+
+
+
+
 
   export const GallerytabData=[{
-   title:"Sheet/Plate",
-   Data:SheetData
+   title:"Sheet & Plate",
+   Data:SheetgalleryData
   },
   {
-    title:"Coils",
-    Data:CoilsData,
+    title:"Coils & Stirps",
+    Data:CoilsgalleryData,
 
  
    },{

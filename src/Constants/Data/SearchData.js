@@ -62,19 +62,19 @@ export const SearchData=[
       {
         id:11,
         
-        name:"SS Coils",
+        name:"SS Coils & Stirps",
         link:'/SSCoils',                           
       
       },
       {
         id:12,
-        name:"Inconel Coils",
+        name:"Inconel Coils & Stirps",
         link:'/InconelCoils',
       
       },
       {
         id:13,
-        name:"Monel  Coils",
+        name:"Monel  Coils & Stirps",
         link:'/MonelCoils',
       
       
@@ -82,13 +82,13 @@ export const SearchData=[
       },
       {
         id:14,
-        name:"NICKEL Coils",
+        name:"NICKEL Coils & Stirps",
         link:'/NickelCoils',
       
       },
       {
         id:15,
-        name:"TITANIUM Coils",
+        name:"TITANIUM Coils & Stirps",
         link:'/titaniumCoils',
       
        
@@ -97,30 +97,30 @@ export const SearchData=[
       
       {
         id:16,
-        name:"A-286 Coilse",
+        name:"A-286 Coils & Stirpse",
         link:'/A286Coils',
       
       },
       {
         id:17,
-        name:"SMO 254 Coils",
+        name:"SMO 254 Coils & Stirps",
         link:'/SMO254Coils',
       },
       {
         id:18,
-        name:"Hastelloy Coils",
+        name:"Hastelloy Coils & Stirps",
         link:'/HastelloyCoils',
       },
       {
         id:19,
-        name:"Alloy 20 Coils",
+        name:"Alloy 20 Coils & Stirps",
         link:'/Alloy20Coils',
       
       },
       {
         id:20,
        
-        name:"Duplex Superduplex Coils",
+        name:"Duplex Superduplex Coils & Stirps",
         link:'/DuplexSuperduplexCoils',
       },
 
@@ -207,59 +207,59 @@ export const SearchData=[
 
 {
     id:1,
-    name:'SS 201 Coils',
+    name:'SS 201 Coils & Stirps',
     link:'/SS201CoilsGrade'
   },
   {
     id:2,
-    name:'SS 202 Coils',
+    name:'SS 202 Coils & Stirps',
     link:'/SS202CoilsGrade'
   },
 
   {
     id:7,
-    name:'SS 304 Coils'
+    name:'SS 304 Coils & Stirps'
     ,
     link:'/SS304CoilsGrade'
   },
   {
     id:8,
-    name:' SS 304L Coils',
+    name:' SS 304L Coils & Stirps',
     link:'/SS304LCoilsGrade'
   },
   {
     id:9,
-    name:'SS 304H Coils',
+    name:'SS 304H Coils & Stirps',
     link:'/SS304HCoilsGrade'
   },
   {
     id:10,
-    name:'SS 310S Coils',
+    name:'SS 310S Coils & Stirps',
     link:'/SS310SCoilsGrade'
   },
   {
     id:11,
-    name:'SS 310H Coils',
+    name:'SS 310H Coils & Stirps',
     link:'/SS310HCoilsGrade'
   },
   {
     id:12,
-    name:'SS 316  Coils',
+    name:'SS 316  Coils & Stirps',
     link:'/SS316HCoilsGrade'
   },
   {
     id:13,
-    name:'SS 316Ti Coils',
+    name:'SS 316Ti Coils & Stirps',
     link:'/SS316TiCoilsGrade'
   },{
     id:14,
-    name:'SS 316L  Coils',
+    name:'SS 316L  Coils & Stirps',
     link:'/SS316LCoilsGrade'
   },
   
   {
     id:16,
-    name:'SS 904L Coils',
+    name:'SS 904L Coils & Stirps',
     link:'/SS904LCoilsGrade'
   },
   
@@ -267,12 +267,12 @@ export const SearchData=[
  
   {
     id:22,
-    name:'SS 410S Coils',
+    name:'SS 410S Coils & Stirps',
     link:'/SS410SCoilsGrade'
   },
   {
     id:23,
-    name:'SS 420 Coils',
+    name:'SS 420 Coils & Stirps',
     link:'/SS420CoilsGrade'
   },
   {
@@ -706,4 +706,104 @@ export const SearchData=[
       name:'Inconel RA330 Sheets & Plates',
       link:'/InconelRA330Grade'
     },
+    {
+      id: 1,
+      
+      name: "ANSI Norm Flanges",
+      link: "/ANSI_Norm_Flanges",
+     
+    },
+    {
+      id: 2,
+     
+      name: "UNI Norm Flanges",
+      link: "/UNI_Norm_Flanges",
+      
+    },
+    {
+      id: 3,
+  
+      name: "EN Norm Flanges",
+      link: "/EN_Norm_Flanges",
+    },
+    {
+      id: 4,
+  
+      name: "BS Norm Flanges",
+      link: "/BS_Norm_Flanges",
+    },
+    {
+      id: 5,
+      
+      name: "JIS Norm Flanges",
+      link: "/JIS_Norm_Flangess",
+     
+    },
+    {
+      id: 6,
+      
+      name: "DIN Norm Flanges",
+      link: "/DIN_Norm_Flanges",
+      
+    },
+    {
+      id:1,
+      
+      name:"Buttweld Pipe Fittings",
+      link:'/Buttweld_Pipe_Fittings',                           
+      
+    },
+    {
+      id:2,
+     
+      name:"Threaded Pipe Fittings",
+      link:'/Threaded_Pipe_Fittings',
+    },
+    {
+      id:3,
+      name:"Socket Weld  Pipe Fittings",
+      link:"/MGalvanized_Pipe_Fittings",
+      
+    },{
+      id:4,
+      name:"Olets Pipe Fittings",
+      link:"/Olets_Pipe_Fittings",
+      
+    },
+    {
+      id:5,
+      name:"Stainless Steel",
+      link:"/products/stainless_steel",
+      
+    },
+    {
+      id:6,
+      name:"Mild Steel",
+      link:"/products/mildSteel",
+      
+    },
+    {
+      id:7,
+      name:"Carbon Steel",
+      link:"/products/carbon_steel",
+      
+    },
+    {
+      id:8,
+      name:"High Nickel Alloys",
+      link:"/products/high_nickel_alloys",
+      
+    },
+    {
+      id:9,
+      name:"Duplex Steels",
+      link:"/products/duplex_steel",
+      
+    },
+    {
+      id:10,
+      name:"Titanium Alloys",
+      link:"/products/titanium_alloys",
+      
+    }
 ]

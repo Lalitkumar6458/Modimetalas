@@ -1,19 +1,10 @@
 import React from 'react'
-import {  Link } from "react-router-dom";
 
 import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
 import GellaryComp from './gellaryComp';
-import { CopperImgData } from '../../../Constants/Data/GalleryData'
-import { BrassImgData } from '../../../Constants/Data/GalleryData'
-import { FlangeImgData } from '../../../Constants/Data/GalleryData'
-import { NutBoltImgData} from '../../../Constants/Data/GalleryData'
-import { PipeImgData } from '../../../Constants/Data/GalleryData'
 
-import {  AlboImgData } from '../../../Constants/Data/GalleryData'
-import { RodImgData} from '../../../Constants/Data/GalleryData'
-import { SqurImgData } from '../../../Constants/Data/GalleryData'
-import { WireImgData } from '../../../Constants/Data/GalleryData'
+
 
 import { GallerytabData } from '../../../Constants/Data/GalleryData';
 
@@ -37,7 +28,7 @@ const Gallery = () => {
 <div className='container'>
 
 <Tabs
-      defaultActiveKey="Sheet/Plate"
+      defaultActiveKey="Sheet & Plate"
       id="uncontrolled-tab-example"
       className="mb-3 "
     >

@@ -74,3 +74,6 @@ border-left: 4px solid #0A2A6A;
 
 
 }
+.text2{
+text-transform: capitalize !important;
+}

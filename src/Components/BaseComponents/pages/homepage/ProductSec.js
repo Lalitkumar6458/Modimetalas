@@ -12,14 +12,14 @@ const ProductSec = () => {
     <h3 className="headinng_text">WHAT WE DO</h3>
     <div className="line_after"></div>
   </div>
-  <div className="container-fluid">
+  <div className="container">
   <h2>OUR PRODUCTS</h2>
     <div className="row mx-5 mt-5 justify-content-center align-content-center">
       {ProductData.map((item, index) => {
 
 
         return (
-         <div className='col-md-4 product_type'>
+         <div className=' col-12 col-sm-6 col-md-4 product_type' style={{width:"fit-content"}}>
             <Link to={item.link}>
             <div className='main_products' style={{height:"270px"}}>
 

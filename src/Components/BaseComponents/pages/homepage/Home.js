@@ -6,6 +6,7 @@ import OfferSection from './OfferSection'
 import Testimonial from './Testimonial'
 import ContactHome from './contactHome'
 import ProductSec from './ProductSec'
+import IndustriesServe from '../ProductsPage/productComponent/IndustriesServe'
 
 const Home = () => {
   window.scrollTo({
@@ -21,6 +22,7 @@ const Home = () => {
 <ProductSec/>
 <Products/>
 <OfferSection/>
+<IndustriesServe/>
 <Testimonial/>
 <ContactHome/>
     </div>

@@ -3,19 +3,25 @@
 export const HomeSlider=[
     {
     id:1,
-    img:require('../Images/homePageImg/slide8.jpg'),
-    heading:"we provide best Products  As per Your Requirments",
-    text:'We are exporter & suppliers of Pipe Fitting, Forged Fittings, Buttweld Fittings, Olets, Flanges & Fastner.',
+    img:require('../Images/homePageImg/img17.jpg'),
+
+    // heading:"we provide best Products  As per Your Requirments",
+    heading:"We are exporter & suppliers of Welding Electrodes, Filler Wires & Flux Cored Wires",
+
+    text:'we provide best Products  As per Your Requirments',
+    // text:'We are exporter & suppliers of Welding Electrodes, Filler Wires & Flux Cored Wires',
+
   },
   {
     id:2,
-    img:require('../Images/homePageImg/stainless__bg.png'),
+    img:require('../Images/homePageImg/slide10.jpg'),
     heading:"Stainless Steel Solutions",
     text:'StainLess Steel Delivered with quality ,by quality People',
   },
   {
     id:3,
-    img:require('../Images/homePageImg/img15.png'),
+    img:require('../Images/homePageImg/slide9.png'),
+
     heading:"We are largest supplier of",
     text:'Nuts & Bolt,SS Sheet,pipes & Alloy pipes,rod,wire,flange',
     

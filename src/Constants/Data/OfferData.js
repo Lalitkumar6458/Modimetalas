@@ -257,3 +257,44 @@ export const FastenersImgData=[
 
 ]
 
+export const IndustryImgData=[
+  {
+  id:1,
+  img:require( '../Images/fasteners/Aimg.jpg'),
+  heading:"Aerospace",
+  text:'We stock huge inventories of all our products in all standard sizes to ensure timely delivery.',
+},
+{
+  id:2,
+  img:require( '../Images/fasteners/Cimg.jpg'),
+  heading:"Constructions",
+  text:'We stock huge inventories of all our products in all standard sizes to ensure timely delivery.',
+},
+{
+  id:3,
+  img:require( '../Images/fasteners/OilImg.jpg'),
+  heading:"Oil & Gas",
+  text:'All our products go through various quality checks from procurement to final delivery.',
+  
+},
+{
+  id:4,
+  img:require( '../Images/fasteners/Pimg1.jpg'),
+  heading:"Power Plants",
+  text:'We stock huge inventories of all our products in all standard sizes to ensure timely delivery.',
+},
+{
+  id:5,
+  img:require( '../Images/fasteners/Rimg.jpg'),
+  heading:"Refineries",
+  text:'All our products go through various quality checks from procurement to final delivery.',
+  
+}, {
+  id:6,
+  img:require( '../Images/fasteners/Simg.jpg'),
+  heading:"Sugar",
+  text:'We stock huge inventories of all our products in all standard sizes to ensure timely delivery.',
+},
+
+
+]

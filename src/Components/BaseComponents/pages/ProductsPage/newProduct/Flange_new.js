@@ -7,17 +7,20 @@ import GradeOption from './GradeOption';
 import { FlangeOptionsData } from '../../../../../Constants/Data/FlangeData';
 import { Flange_Grade_alloys } from '../../../../../Constants/Data/FlangeData';
 const Flange_new = (props) => {
+  window.scrollTo({
+    top: 0, 
+    behavior: 'smooth'
+    /* you can also use 'auto' behaviour
+       in place of 'smooth' */
+  });
 
-    console.log(props,"Flange_new props")
+
     const specification_key=Object.keys(props.name.data[0].Specifications)
-    console.log(props.name.Category,"category")
+
 const chemical_composition_key =Object.keys(props.name.data[0].chemical)
 const products_Flanges_key =Object.keys(props.name.data[0].products_Flanges)
-console.log("products_Flanges_key",products_Flanges_key,props.name.data[0].products_Flanges.length)
 
 
-
-console.log(props.name.data[0].products_Flange ,"fun")
 
 var heading=`Contact Modi Metals for ${props.name.heading} Products Today`
 var text=`Contact us for more information regarding our ${props.name.heading} options, or request a quote for further pricing details today. Modi Metals is your trusted ${props.name.heading}  supplier and manufacturer of premium ${props.name.heading} Products .`
@@ -43,7 +46,7 @@ var text=`Contact us for more information regarding our ${props.name.heading} op
 
        <div className='Flange_details'>
 <p>{props.name.data[0].text1}</p>
-<img src={props.name.data[0].img}/>
+<img className='img-fluid' src={props.name.data[0].img}/>
 <p>{props.name.data[0].text2}</p>
        </div>
        <div className='Flange_specifications mt-5'>
@@ -108,7 +111,7 @@ var text=`Contact us for more information regarding our ${props.name.heading} op
 
     {props.name.data[0].products_Flanges.length===undefined?products_Flanges_key.map((item)=>{
     return(
-<div className='col-12 col-md-4 prodcts_flange_type'>
+<div className='col-12 col-md-4 prodcts_flange_type' style={{marginTop:"20px"}}>
  <h5>{item}</h5>
  <div className="Category_">
 {props.name.data[0].products_Flanges[item].map((item)=>{

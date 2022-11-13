@@ -13,17 +13,17 @@ const SSallCom = (props) => {
   });
   var heading=`Contact Modi Metals for ${props.name.heading} Products Today`
   var text=`Contact us for more information regarding our ${props.name.heading} options, or request a quote for further pricing details today. Modi Metals is your trusted ${props.name.heading}  supplier and manufacturer of premium ${props.name.heading} Products .`
-console.log(props,'props')
 
-console.log(Object.keys(props.name.data[0].Specifications),'dta')
-// console.log(props.name.data[0].Specification,'one')
+
+
+
 
 const specification_key=Object.keys(props.name.data[0].Specifications)
 const chemical_composition_key =Object.keys(props.name.data[0].chemical)
-console.log(specification_key,'specification_key')
+
 const Grade=props.name.Grade
 
-console.log(chemical_composition_key.length,'chemical_composition_key')
+
 
 const location = useLocation();
 
@@ -32,7 +32,7 @@ const { pathname } = location;
 
 //Javascript split method to get the name of the path in array
 const splitLocation = pathname.split("/");
-console.log("splitLocation ",splitLocation,Grade)
+
   return (
     <div>
 
@@ -53,12 +53,12 @@ console.log("splitLocation ",splitLocation,Grade)
   </div>
   <div className='grade_info_products'>
 
-<p>{props.name.data[0].text1}</p>
+<p className='d-none'>{props.name.data[0].text1}</p>
 
 <img className='img-fluid' src={props.name.data[0].image}/>
 
-{/* <p>{props.name.data[0].text2}
-</p> */}
+<p>{props.name.data[0].text2}
+</p>
 
 <p>{props.name.data[0].text3}</p>
 
@@ -128,6 +128,7 @@ console.log("splitLocation ",splitLocation,Grade)
 
 <Contact_btn  content={{heading:heading,text:text}}/>
     </div>
+    
   )
 }
 

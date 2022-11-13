@@ -230,13 +230,14 @@ color: #E3B71B;
     color: rgba(32, 153, 124, 0.95);
 }
 .copy_right h5 a{
-    color: #E06D49;
-    text-decoration: none;
-    transition: all 0.5s;
+    color: #E06D49 !important;
+    text-decoration: none !important;
+    transition: all 0.8s ease-in-out;
 }
 .copy_right h5 a:hover{
-    color: #EE5F0E;
-    transform: scale(0.7);
+    color: #EE5F0E !important;
+    transform: scale(0.7) !important;
+    font-size: 24px;
 }
 
 /* ======================mobile responsive========================= */

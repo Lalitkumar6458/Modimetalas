@@ -60,9 +60,9 @@ export const PipesGradeData=[
 export const SSPipesData = [
   {
     text1:
-      "Stainless Steel Capilary Tube Manufacturers In Mumbai, Stainless Steel Capilary Tube Exporters In Mumbai , Stainless Steel Capilary Tube Suppliers In Mumbai, Stainless Steel Capilary Tube Importers In Mumbai , Stainless Steel Capilary Tube Stockists In Mumbai Stainless Steel Capilary Tube Manufacturers In India, Stainless Steel Capilary Tube Exporters In India, Stainless Steel Capilary Tube Suppliers In India, Stainless Steel Capilary Tube Importers In India , Stainless Steel Capilary Tube Stockists In India",
+      "Stainless Steel Capilary Tube Exporters,Suppliers,Importers,Stockists In Mumbai and India.",
     text2:
-      "Stainless Steel Capilary Tube Manufacturers In Mumbai, Stainless Steel Capilary Tube Exporters In Mumbai , Stainless Steel Capilary Tube Suppliers In Mumbai, Stainless Steel Capilary Tube Importers In Mumbai , Stainless Steel Capilary Tube Stockists In Mumbai Stainless Steel Capilary Tube Manufacturers In India, Stainless Steel Capilary Tube Exporters In India, Stainless Steel Capilary Tube Suppliers In India, Stainless Steel Capilary Tube Importers In India , Stainless Steel Capilary Tube Stockists In India",
+      "Stainless Steel Capillary Tubes Manufacturer In India, High Quality Precision Tubes Supplier, Exporter, Electropolished Capillary Tubes, Ss304 Capillary Tubes, Ss304l Capillary Tubes, Ss316l Capillary Tubes, Precision Tubes, Capillary Tubing Supplier In India, Bright Polished, Cleaned, Passivated Capillary Tubing",
     text3:
       "These Stainless steel channels are Certified by Third Party Inspection Accepted by EN 10204 3.2, PED 97/23/EC by Lloyd's, NABL test kept up, 3.1 Mill TC, ASME Boiler and Pressure Vessel Code Certificated Certificate Issued by TUV or as appeared by client fundamentals.",
     Specifications: {
@@ -84,9 +84,9 @@ export const SSPipesData = [
 export const InconelPipesData = [
   {
     text1:
-      "Inconel Capilary Tube Manufacturers In Mumbai, Inconel Capilary Tube Exporters In Mumbai , Inconel Capilary Tube Suppliers In Mumbai, Inconel Capilary Tube Importers In Mumbai , Inconel Capilary Tube Stockists In Mumbai Inconel Capilary Tube Manufacturers In India, Inconel Capilary Tube Exporters In India, Inconel Capilary Tube Suppliers In India, Inconel Capilary Tube Importers In India , Inconel Capilary Tube Stockists In India",
+      "Inconel Capilary Tube Exporters,Suppliers,Importers,Stockists In Mumbai and India.",
     text2:
-      "Inconel Capilary Tube Manufacturers In Mumbai, Inconel Capilary Tube Exporters In Mumbai , Inconel Capilary Tube Suppliers In Mumbai, Inconel Capilary Tube Importers In Mumbai , Inconel Capilary Tube Stockists In Mumbai Inconel Capilary Tube Manufacturers In India, Inconel Capilary Tube Exporters In India, Inconel Capilary Tube Suppliers In India, Inconel Capilary Tube Importers In India , Inconel Capilary Tube Stockists In India",
+      "The Modi Metals Stocks, Manufacturers and Exports Inconel composite 600,601, 625 and X750 tight pipes and chambers near to Inconel compound 600,601, 625 and X750 unsurprising and welded channels, Inconel mix 600,601, 625 and X750 heat exchanger tubes, Inconel amalgam 600,601, 625 and X750 finned pipes and chambers, Inconel blend 600,601, 625 and X750 U tubes in extents of ASTM B161 - ASME SB161, ASTM B165 - ASME SB165, ASTM B167 - ASME SB167, ASTM B407 - ASME SB407, ASTM B423 - ASME SB423, ASTM B622 - ASME SB622, ASTM B725 - ASME SB725, ASTM A165 - ASME SB165, ASTM B619 - ASME SB619 as demonstrated by ASME B36.10 & ASME B36.19",
     text3:
       "Fine Tubes are portrayed by tight insurances, and inside surface of the chambers is free from oil, oil and different particles. Victor Steel Corporation are one of the prominent producer, exporter and provider of Capillary Tubes that are made by standard nature of grungy materials. It can provide guidance to the fluid in slim spaces kept from verifying the help of, and in addition against outside powers like gravity. Everything considered, this happens in light of intermolecular powers amidst the fluid that incorporate strong surfaces.",
     Specifications: {
@@ -106,9 +106,9 @@ export const InconelPipesData = [
 export const MonelPipesData = [
   {
     text1:
-      "Monel Capilary Tube Manufacturers In Mumbai, Monel Capilary Tube Exporters In Mumbai, Monel Capilary Tube Suppliers In Mumbai, Monel Capilary Tube Importers In Mumbai, Monel Capilary Tube Stockists In Mumbai Monel Capilary Tube Manufacturers In India, Monel Capilary Tube Exporters In India, Monel Capilary Tube Suppliers In India, Monel Capilary Tube Importers In India, Monel Capilary Tube Stockists In India",
+      "Monel Capilary Tube Exporters,Suppliers,Importers,Stockists In Mumbai and India.",
     text2:
-      "Monel Capilary Tube Manufacturers In Mumbai, Monel Capilary Tube Exporters In Mumbai, Monel Capilary Tube Suppliers In Mumbai, Monel Capilary Tube Importers In Mumbai, Monel Capilary Tube Stockists In Mumbai Monel Capilary Tube Manufacturers In India, Monel Capilary Tube Exporters In India, Monel Capilary Tube Suppliers In India, Monel Capilary Tube Importers In India, Monel Capilary Tube Stockists In India",
+      "The Modi Metals Stocks, Manufacturers and Exports Monel amalgam 400, K500 thin pipes and chambers close by Monel compound 400, K500 steady and welded channels, Monel composite 400, K500 heat exchanger tubes, Monel blend 400, K500 finned pipes and chambers, Monel mix 400, K500 U tubes in checks of ASTM B161 - ASME SB161, ASTM B165 - ASME SB165, ASTM B167 - ASME SB167, ASTM B407 - ASME SB407, ASTM B423 - ASME SB423, ASTM B622 - ASME SB622, ASTM B725 - ASME SB725, ASTM A165 - ASME SB165, ASTM B619 - ASME SB619 as appeared by ASME B36.10 & ASME B36.19.",
     text3:
       "We offer sublime monel tubes with intrinsic affirmation from separating and high bore. These chambers are perfect for use in marine applications and pitiless current conditions. Our level of monel chambers are available in different outside estimation as indicated by the essentials of the clients.",
     Specifications: {
@@ -129,9 +129,9 @@ export const MonelPipesData = [
 export const NickelPipesData = [
   {
     text1:
-      "Nickel Capilary Tube Manufacturers In Mumbai, Nickel Capilary Tube Exporters In Mumbai, Nickel Capilary Tube Suppliers In Mumbai, Nickel Capilary Tube Importers In Mumbai, Nickel Capilary Tube Stockists In Mumbai Nickel Capilary Tube Manufacturers In India, Nickel Capilary Tube Exporters In India, Nickel Capilary Tube Suppliers In India, Nickel Capilary Tube Importers In India, Nickel Capilary Tube Stockists In India",
+      "Nickel Capilary Tube Exporters,Suppliers,Importers,Stockists In Mumbai and India.",
     text2:
-      "Nickel Capilary Tube Manufacturers In Mumbai, Nickel Capilary Tube Exporters In Mumbai, Nickel Capilary Tube Suppliers In Mumbai, Nickel Capilary Tube Importers In Mumbai, Nickel Capilary Tube Stockists In Mumbai Nickel Capilary Tube Manufacturers In India, Nickel Capilary Tube Exporters In India, Nickel Capilary Tube Suppliers In India, Nickel Capilary Tube Importers In India, Nickel Capilary Tube Stockists In India",
+      "The Modi Metals. Stocks, Manufacturers and Exports Nickel mix 200, 201 and 205 tight pipes and chambers near to Nickel compound 200,201 and 205 unsurprising and welded channels, Nickel amalgam 200,201 and 205 warmth exchanger tubes, Nickel composite 200,201 and 205 finned pipes and chambers, Nickel composite 200,201 and 205 U tubes in principles of ASTM B161 - ASME SB161, ASTM B165 - ASME SB165, ASTM B167 - ASME SB167, ASTM B407 - ASME SB407, ASTM B423 - ASME SB423, ASTM B622 - ASME SB622, ASTM B725 - ASME SB725, ASTM A165 - ASME SB165, ASTM B619 - ASME SB619 as demonstrated by ASME B36.10 & ASME B36.19",
     text3:
       'The appraisal of these Nickel blend chambers Nickel, The size in consistent is from ½" to 10" and welded is from ½" to 48". Its sorts look like CDW, ERW, relentless, welded and manufactured. Its structures are flapjack hover, round, rectangular, square, U-shape, and water filled load. Long, it is accessible as single and twofold capricious and cut length. Its fruitions are plain, wandered and slanted. Basically give your affirmation needs and get it from solid exporter at simple to bear the cost of costs.',
     Specifications: {
@@ -153,9 +153,9 @@ export const NickelPipesData = [
 export const TitaniumPipesData = [
   {
     text1:
-      "Titanium Capilary Tube Manufacturers In India, Titanium Capilary Tube Exporters In India, Titanium Capilary Tube Suppliers In India, Titanium Capilary Tube Importers In India, Titanium Capilary Tube Stockists In India",
+      "Titanium Capilary Tube Exporters,Suppliers,Importers,Stockists In Mumbai and India.",
     text2:
-      "Titanium Capilary Tube Manufacturers In India, Titanium Capilary Tube Exporters In India, Titanium Capilary Tube Suppliers In India, Titanium Capilary Tube Importers In India, Titanium Capilary Tube Stockists In India",
+      "The Modi Metals. Stocks, Manufacturers and Exports Titanium Gr2, Gr5, Gr7, Gr9 hairlike pipes and cylinders alongside Titanium Gr2, Gr5, Gr7, Gr9 consistent and welded channels, Titanium Gr2, Gr5, Gr7, Gr9 heat exchanger tubes, Titanium Gr2, Gr5, Gr7, Gr9 finned pipes and cylinders, Titanium Gr2, Gr5, Gr7, Gr9 U tubes in models of ASTM B265, ASTM B337, ASTM B338, ASTM B348, ASTM B381, ASTM F67, ASTM B265, ASTM B337, ASTM B338, ASTM B348, ASTM B265, ASTM F467, ASTM F468, AMS 4900, AMS 4901, AMS 4902, AMS 4940, AMS 4941, AMS 4942, AMS Mil T-9046, AMS 4943, AMS 4944, AMS 4945, AMS 9047, AMS 4906, AMS 4911, AMS 4920, AMS 4928, AMS 4935.",
     text3:
       'The appraisal of these Titanium blend chambers Titanium, The size in consistent is from ½" to 10" and welded is from ½" to 48". Its sorts look like CDW, ERW, relentless, welded and manufactured. Its structures are flapjack hover, round, rectangular, square, U-shape, and water filled load. Long, it is accessible as single and twofold capricious and cut length. Its fruitions are plain, wandered and slanted. Basically give your affirmation needs and get it from solid exporter at simple to bear the cost of costs.',
     Specifications: {
@@ -178,9 +178,9 @@ export const TitaniumPipesData = [
 export const HastelloyPipesData = [
   {
     text1:
-      " Hastelloy Capilary Tube Manufacturers In India, Hastelloy Capilary Tube Exporters In India, Hastelloy Capilary Tube Suppliers In India, Hastelloy Capilary Tube Importers In India, Hastelloy Capilary Tube Stockists In India",
+      " Hastelloy Capilary Tube Exporters,Suppliers,Importers,Stockists In Mumbai and India.",
     text2:
-      " Hastelloy Capilary Tube Manufacturers In India, Hastelloy Capilary Tube Exporters In India, Hastelloy Capilary Tube Suppliers In India, Hastelloy Capilary Tube Importers In India, Hastelloy Capilary Tube Stockists In India",
+      " The Modi Metals. Stocks, Manufacturers and Exports Hastelloy composite B2,C22,C263 and C276 confined pipes and chambers close-by Hastelloy compound B2,C22,C263 and C276 unwavering and welded channels, Hastelloy amalgam B2,C22,C263 and C276 heat exchanger tubes, Hastelloy blend B2,C22,C263 and C276 finned pipes and chambers, Hastelloy mix B2,C22,C263 and C276 U tubes in models of ASTM B161 - ASME SB161, ASTM B165 - ASME SB165, ASTM B167 - ASME SB167, ASTM B407 - ASME SB407, ASTM B423 - ASME SB423, ASTM B622 - ASME SB622, ASTM B725 - ASME SB725, ASTM A165 - ASME SB165, ASTM B619 - ASME SB619 as shown by ASME B36.10 & ASME B36.19.",
     text3:
       "We secure hastelloy materials from Special Metals, Eagle Alloys and diverse other maker of Hastelloy Tubing. We in like manner see worth included relationship for hastelloy Forging, Hastelloy throwing and hastelloy welding. We are likewise shipper of scrap in all evaluations of hastelloy amalgam.",
     Specifications: {
@@ -202,9 +202,9 @@ export const HastelloyPipesData = [
 export const DuplexPipesData = [
   {
     text1:
-      "Duplex & Superduplex Capilary Tube Manufacturers In India, Duplex & Superduplex Capilary Tube Exporters In India, Duplex & Superduplex Capilary Tube Suppliers In India, Duplex & Superduplex Capilary Tube Importers In India, Duplex & Superduplex Capilary Tube Stockists In India",
+      "Duplex & Superduplex Capilary Tube Exporters,Suppliers,Importers,Stockists In Mumbai and India.",
     text2:
-      "Duplex & Superduplex Capilary Tube Manufacturers In India, Duplex & Superduplex Capilary Tube Exporters In India, Duplex & Superduplex Capilary Tube Suppliers In India, Duplex & Superduplex Capilary Tube Importers In India, Duplex & Superduplex Capilary Tube Stockists In India",
+      'We segment Duplex Steel Capillary chambers and pipes in Grades, for example, Duplex Steel 2101 LDX (1.4162/S32101), Duplex Steel DX2202 (1.4062/S32202), Duplex Steel 2304 (1.4362/S32304), Duplex Steel 2205 (1.4462/S31803/S32205). These Duplex Steel channels & Tubes have high chromium (19–28%) and molybdenum (up to 5%) with lower nickel substance than austenitic tempered steels. We even Stock and Export Seamless and welded Duplex Steel channels and chambers, Finned Duplex Steel channels, Heat exchanger Duplex Steel pipes and chambers and Duplex Steel instrumentation chambers and pipes. These Duplex Steel Capillary channels are unguarded with Outside Diameter from 0.25mm (0.010") up to 16.00mm (0.625"), divider thickness going 0.05mm (0.002") up to 1.00mm (0.040"), Straight Lengths of 1.00mm (0.040") up to 5000.00mm (197") and Coils Lengths of 5 Meters to 15 Meters. Our Capillary Duplex Steel channels and chambers are outfitted with Standard Tolerance of OD &ID +/ - 0.03mm (0.0012") Wall +/ - 10% and Tight Tolerance - OD&ID +/ - 0.015mm (0.0006") Wall +/ - 3%.',
     text3:
       "Duplex Steel channels and chambers are unguarded with us as showed up by ASTM A789 Standard Specification for Seamless and Welded Ferritic/Austenitic Stainless Steel Tubing for General Service, ASTM A790 (ASME SA790) Standard Specification for Seamless and Welded Ferritic/Austenitic Stainless Steel Pipe and ASTM A928 (ASME SA928) Standard Specification for Ferritic/Austenitic (Duplex) Stainless Steel Pipe Electric Fusion Welded with Addition of Filler Metal. These duplex Steel 2205 channels are Certified by Third Party Inspection Accepted by EN 10204 3.2, PED 97/23/EC by Lloyd's, ASME Boiler and Pressure Vessel Code Certificated Certificate Issued by TUV or according to client necessities",
     Specifications: {

@@ -3,14 +3,14 @@ export const ProductData=[
     {
     id:1,
     img:require('../Images/SheetImg/SheetMainimg.jpg'),
-    heading:"Sheet/Plate",
+    heading:"Sheet & Plate",
     link:'/SheetMain',
     text:'We stock huge inventories of all our products in all standard sizes to ensure timely delivery.',
   },
   {
     id:2,
     img:require('../Images/newproduct/img1.jpg'),
-    heading:"COILS",
+    heading:"COILS & STIRPS",
     link:'/Coils',
     text:'We stock huge inventories of all our products in all standard sizes to ensure timely delivery.',
   },
@@ -33,7 +33,7 @@ export const ProductData=[
   {
     id:5,
     img:require('../Images/newproduct/img5.webp'),
-    heading:"Pipes/tubes",
+    heading:"Pipes & Tubes",
     link:'/Pipes_tubes',
     text:'Obtain the best pricing and secure the most reliable deliveries for High Nickel Alloy',
     
@@ -52,6 +52,46 @@ export const ProductData=[
     heading:"Pipe Fittings",
     link:'/Pipe_Fittings',
     text:'Obtain the best pricing and secure the most reliable deliveries for High Nickel Alloy',
+
+    child_data:[
+      {
+        id:1,
+        img:require('../Images/Pipefitings/Img1.webp'),
+        heading:"Buttweld Pipe Fittings",
+        link:'/Buttweld_Pipe_Fittings',                           
+        text:'We stock huge inventories of all our products in all standard sizes to ensure timely delivery.',
+      },
+      {
+        id:2,
+        img:require('../Images/Pipefitings/Bgimg2.jpg'),
+        heading:"Threaded Pipe Fittings",
+        link:'/Threaded_Pipe_Fittings',
+        text:'We stock huge inventories of all our products in all standard sizes to ensure timely delivery.',
+      },
+      {
+        id:3,
+        img:require('../Images/Pipefitings/Bgimg1.jpg'),
+        heading:"Socket Weld  Pipe Fittings",
+        link:"/MGalvanized_Pipe_Fittings",
+        text:'All our products go through various quality checks from procurement to final delivery.',
+        
+      },
+      {
+        id:3,
+        img:require('../Images/Pipefitings/Bgimg3.jpg'),
+        heading:"Olets Pipe Fittings",
+        link:"/Olets_Pipe_Fittings",
+        text:'All our products go through various quality checks from procurement to final delivery.',
+        
+      },{
+        id:3,
+        img:require('../Images/ferul_img/img2.jpg'),
+        heading:"Ferrule Pipe Fittings",
+        link:"/Ferrule_Pipe_Fittings",
+        text:'All our products go through various quality checks from procurement to final delivery.',
+        
+      }
+    ]
     
   },
   {
@@ -60,6 +100,52 @@ export const ProductData=[
     heading:"Flanges",
     link:'/Flanges',
     text:'All Inconel (Alloy 600, 601, 625, 718) & Hastelloy (Alloy c22, C276) Sheet, Plates are available in cut to size',
+   
+
+    child_data:[
+      {
+        id: 1,
+        img: require("../Images/FlangeImg/img1.jpg"),
+        heading: "ANSI Norm Flanges",
+        link: "/ANSI_Norm_Flanges",
+        text: "We stock huge inventories of all our products in all standard sizes to ensure timely delivery.",
+      },
+      {
+        id: 2,
+        img: require("../Images/FlangeImg/img2.jpg"),
+        heading: "UNI Norm Flanges",
+        link: "/UNI_Norm_Flanges",
+        text: "We stock huge inventories of all our products in all standard sizes to ensure timely delivery.",
+      },
+      {
+        id: 3,
+        img: require("../Images/FlangeImg/img3.jpg"),
+        heading: "EN Norm Flanges",
+        link: "/EN_Norm_Flanges",
+        text: "All our products go through various quality checks from procurement to final delivery.",
+      },
+      {
+        id: 4,
+        img: require("../Images/FlangeImg/img4.jpg"),
+        heading: "BS Norm Flanges",
+        link: "/BS_Norm_Flanges",
+        text: "We stock huge inventories of all our products in all standard sizes to ensure timely delivery.",
+      },
+      {
+        id: 5,
+        img: require("../Images/FlangeImg/img5.jpg"),
+        heading: "JIS Norm Flanges",
+        link: "/JIS_Norm_Flangess",
+        text: "We stock huge inventories of all our products in all standard sizes to ensure timely delivery.",
+      },
+      {
+        id: 6,
+        img: require("../Images/FlangeImg/img6.jpg"),
+        heading: "DIN Norm Flanges",
+        link: "/DIN_Norm_Flanges",
+        text: "All our products go through various quality checks from procurement to final delivery.",
+      },
+    ]
     
   },
   {
@@ -146,10 +232,10 @@ export const SheetData=[
 {
   id:12,
   img:require('../Images/SheetImg/Sheet10.jpg'),
-  heading:"Duplex Superduplex Sheet/Plate",
+  heading:"Duplex & Superduplex Sheet/Plate",
   link:'/DuplexSuperduplexSheet',
   text:'All Inconel (Alloy 600, 601, 625, 718) & Hastelloy (Alloy c22, C276) Sheet, Plates are available in cut to size',
-  
+ 
 },
 ]
 
@@ -157,14 +243,14 @@ export const SheetData=[
 export const RoundBarData=[
     {
     id:1,
-    img:require('../Images/BarImg/Bar1.jpg'),
+    img:require('../Images/BarImg/Bar9.jpg'),
     heading:"SS Round Bar",
     link:'/SSRoundBar',                           
     text:'We stock huge inventories of all our products in all standard sizes to ensure timely delivery.',
   },
   {
     id:2,
-    img:require('../Images/BarImg/Bar2.jpg'),
+    img:require('../Images/BarImg/Bar8.jpg'),
     heading:"Inconel Round Bar",
     link:'/InconelRoundBar',
     text:'We stock huge inventories of all our products in all standard sizes to ensure timely delivery.',
@@ -203,7 +289,7 @@ export const RoundBarData=[
   },
   {
     id:9,
-    img:require('../Images/BarImg/Bar7.webp'),
+    img:require('../Images/BarImg/BarMainImg.jpg'),
     heading:"SMO 254 Round Bar",
     link:'/SMO254RoundBar',
     text:'All our products go through various quality checks from procurement to final delivery.',
@@ -310,32 +396,33 @@ export const WireData=[
 ]
 
 export const CoilsData=[
+  
   {
   id:1,
   img:require("../Images/CoilsImg/Coils1.jpg"),
-  heading:"SS Coils",
+  heading:"SS Coils & Stirps",
   link:'/SSCoils',                           
   text:'We stock huge inventories of all our products in all standard sizes to ensure timely delivery.',
 },
 {
   id:2,
-  img:require("../Images/CoilsImg/Coils2.jpg"),
-  heading:"Inconel Coils",
+  img:require("../Images/CoilsImg/img1.jpg"),
+  heading:"Inconel Coils & Stirps",
   link:'/InconelCoils',
   text:'We stock huge inventories of all our products in all standard sizes to ensure timely delivery.',
 },
 {
   id:3,
   img:require("../Images/CoilsImg/Coils3.jpg"),
-  heading:"Monel  Coils",
+  heading:"Monel  Coils & Stirps",
   link:'/MonelCoils',
   text:'All our products go through various quality checks from procurement to final delivery.',
   
 },
 {
   id:4,
-  img:require("../Images/CoilsImg/Coils4.jpg"),
-  heading:"NICKEL Coils",
+  img:require("../Images/CoilsImg/img2.jpg"),
+  heading:"NICKEL Coils & Stirps",
   link:'/NickelCoils',
   text:'We aim to ensure timely delivery of all the orders within given time and is often an area of focus for process improvement initiatives.',
   
@@ -343,7 +430,7 @@ export const CoilsData=[
 {
   id:6,
   img:require("../Images/CoilsImg/Coils5.jpg"),
-  heading:"TITANIUM Coils",
+  heading:"TITANIUM Coils & Stirps",
   link:'/titaniumCoils',
   text:'All Inconel (Alloy 600, 601, 625, 718) & Hastelloy (Alloy c22, C276) Sheet, Plates are available in cut to size',
   
@@ -351,23 +438,23 @@ export const CoilsData=[
 
 {
   id:8,
-  img:require("../Images/CoilsImg/Coils6.jpg"),
-  heading:"A-286 Coils",
+  img:require("../Images/CoilsImg/img3.jpg"),
+  heading:"A-286 Coils & Stirps",
   link:'/A286Coils',
   text:'We stock huge inventories of all our products in all standard sizes to ensure timely delivery.',
 },
 {
   id:9,
   img:require("../Images/CoilsImg/Coils7.jpg"),
-  heading:"SMO 254 Coils",
+  heading:"SMO 254 Coils & Stirps",
   link:'/SMO254Coils',
   text:'All our products go through various quality checks from procurement to final delivery.',
   
 },
 {
   id:10,
-  img:require("../Images/CoilsImg/Coils8.jpg"),
-  heading:"Hastelloy Coils",
+  img:require("../Images/CoilsImg/img4.jpg"),
+  heading:"Hastelloy Coils & Stirps",
   link:'/HastelloyCoils',
   text:'We aim to ensure timely delivery of all the orders within given time and is often an area of focus for process improvement initiatives.',
   
@@ -375,15 +462,15 @@ export const CoilsData=[
 {
   id:11,
   img:require("../Images/CoilsImg/Coils9.jpg"),
-  heading:"Alloy 20 Coils",
+  heading:"Alloy 20 Coils & Stirps",
   link:'/Alloy20Coils',
   text:'Obtain the best pricing and secure the most reliable deliveries for High Nickel Alloy',
   
 },
 {
   id:12,
-  img:require("../Images/CoilsImg/Coils10.jpg"),
-  heading:"Duplex Superduplex Coils",
+  img:require("../Images/CoilsImg/img5.jpeg"),
+  heading:"Duplex Superduplex Coils & Stirps",
   link:'/DuplexSuperduplexCoils',
   text:'All Inconel (Alloy 600, 601, 625, 718) & Hastelloy (Alloy c22, C276) Sheet, Plates are available in cut to size',
   
@@ -394,21 +481,21 @@ export const CoilsData=[
 export const PipesData=[
   {
   id:1,
-  img:require("../Images/PipesImg/Pipe1.webp"),
+  img:require("../Images/GalleryImg/SeamlessPipe/Timg1.jpg"),
   heading:"SS Pipes/tubes",
   link:'/SSPipes',                           
   text:'We stock huge inventories of all our products in all standard sizes to ensure timely delivery.',
 },
 {
   id:2,
-  img:require("../Images/PipesImg/Pipe2.jpg"),
+  img:require("../Images/GalleryImg/SeamlessPipe/Timg2.jpg"),
   heading:"Inconel Pipes/tubes",
   link:'/InconelPipes',
   text:'We stock huge inventories of all our products in all standard sizes to ensure timely delivery.',
 },
 {
   id:3,
-  img:require("../Images/PipesImg/Pipe3.jpg"),
+  img:require("../Images/GalleryImg/SeamlessPipe/Timg8.jpg"),
   heading:"Monel  Pipes/tubes",
   link:'/MonelPipes',
   text:'All our products go through various quality checks from procurement to final delivery.',
@@ -416,7 +503,7 @@ export const PipesData=[
 },
 {
   id:4,
-  img:require("../Images/PipesImg/Pipe4.jpg"),
+  img:require("../Images/GalleryImg/SeamlessPipe/Timg4.jpg"),
   heading:"NICKEL Pipes/tubes",
   link:'/NickelPipes',
   text:'We aim to ensure timely delivery of all the orders within given time and is often an area of focus for process improvement initiatives.',
@@ -424,7 +511,7 @@ export const PipesData=[
 },
 {
   id:6,
-  img:require("../Images/PipesImg/Pipe5.jpg"),
+  img:require("../Images/GalleryImg/SeamlessPipe/Timg5.jpg"),
   heading:"TITANIUM Pipes/tubes",
   link:'/titaniumPipes',
   text:'All Inconel (Alloy 600, 601, 625, 718) & Hastelloy (Alloy c22, C276) Sheet, Plates are available in cut to size',
@@ -434,7 +521,7 @@ export const PipesData=[
 
 {
   id:10,
-  img:require("../Images/PipesImg/Pipe6.jpg"),
+  img:require("../Images/GalleryImg/SeamlessPipe/Timg6.jpg"),
   heading:"Hastelloy Pipes/tubes",
   link:'/HastelloyPipes',
   text:'We aim to ensure timely delivery of all the orders within given time and is often an area of focus for process improvement initiatives.',
@@ -443,7 +530,7 @@ export const PipesData=[
 
 {
   id:12,
-  img:require("../Images/PipesImg/Pipe7.jpg"),
+  img:require("../Images/GalleryImg/SeamlessPipe/Timg9.jpg"),
   heading:"Duplex Superduplex Pipes/tubes",
   link:'/DuplexSuperduplexPipes',
   text:'All Inconel (Alloy 600, 601, 625, 718) & Hastelloy (Alloy c22, C276) Sheet, Plates are available in cut to size',
@@ -521,19 +608,19 @@ export const CoilsoptionData=[
   {
   id:1,
   
-  grade:"SS Coils",
+  grade:"SS Coils & Stirps",
   link:'/SSCoils',                           
 
 },
 {
   id:2,
-  grade:"Inconel Coils",
+  grade:"Inconel Coils & Stirps",
   link:'/InconelCoils',
 
 },
 {
   id:3,
-  grade:"Monel  Coils",
+  grade:"Monel  Coils & Stirps",
   link:'/MonelCoils',
 
 
@@ -541,13 +628,13 @@ export const CoilsoptionData=[
 },
 {
   id:4,
-  grade:"NICKEL Coils",
+  grade:"NICKEL Coils & Stirps",
   link:'/NickelCoils',
 
 },
 {
   id:6,
-  grade:"TITANIUM Coils",
+  grade:"TITANIUM Coils & Stirps",
   link:'/titaniumCoils',
 
  
@@ -556,30 +643,30 @@ export const CoilsoptionData=[
 
 {
   id:8,
-  grade:"A-286 Coilse",
+  grade:"A-286 Coils & Stirps",
   link:'/A286Coils',
 
 },
 {
   id:9,
-  grade:"SMO 254 Coils",
+  grade:"SMO 254 Coils & Stirps",
   link:'/SMO254Coils',
 },
 {
   id:10,
-  grade:"Hastelloy Coils",
+  grade:"Hastelloy Coils & Stirps",
   link:'/HastelloyCoils',
 },
 {
   id:5,
-  grade:"Alloy 20 Coils",
+  grade:"Alloy 20 Coils & Stirps",
   link:'/Alloy20Coils',
 
 },
 {
   id:12,
  
-  grade:"Duplex Superduplex Coils",
+  grade:"Duplex Superduplex Coils & Stirps",
   link:'/DuplexSuperduplexCoils',
 },
 ]
@@ -689,66 +776,66 @@ export const  SSCoilsGradeData=[
 
   {
     id:1,
-    grade:'SS 201 Coils',
+    grade:'SS 201 Coils & Stirps',
     link:'/SS201CoilsGrade'
   },
   {
     id:2,
-    grade:'SS 202 Coils',
+    grade:'SS 202 Coils & Stirps',
     link:'/SS202CoilsGrade'
   },
 
   {
     id:7,
-    grade:'SS 304 Coils'
+    grade:'SS 304 Coils & Stirps'
     ,
     link:'/SS304CoilsGrade'
   },
   {
     id:8,
-    grade:' SS 304L Coils',
+    grade:' SS 304L Coils & Stirps',
     link:'/SS304LCoilsGrade'
   },
   {
     id:9,
-    grade:'SS 304H Coils',
+    grade:'SS 304H Coils & Stirps',
     link:'/SS304HCoilsGrade'
   },
   {
     id:10,
-    grade:'SS 310S Coils',
+    grade:'SS 310S Coils & Stirps',
     link:'/SS310SCoilsGrade'
   },
   {
     id:11,
-    grade:'SS 310H Coils',
+    grade:'SS 310H Coils & Stirps',
     link:'/SS310HCoilsGrade'
   },
   {
     id:12,
-    grade:'SS 316  Coils',
+    grade:'SS 316  Coils & Stirps',
     link:'/SS316HCoilsGrade'
   },
   {
     id:13,
-    grade:'SS 316Ti Coils',
+    grade:'SS 316Ti Coils & Stirps',
     link:'/SS316TiCoilsGrade'
   },{
     id:14,
-    grade:'SS 316L  Coils',
+    grade:'SS 316L  Coils & Stirps',
     link:'/SS316LCoilsGrade'
   },
   
   {
     id:16,
-    grade:'SS 904L Coils',
+    grade:'SS 904L Coils & Stirps',
     link:'/SS904LCoilsGrade'
   },
   
  
   // {
   //   id:19,
-  //   grade:'SS 409L Coils',
+  //   grade:'SS 409L Coils & Stirps',
   //   link:'/SS409LGrade'
   // },
   // {
@@ -763,12 +850,12 @@ export const  SSCoilsGradeData=[
   // },
   {
     id:22,
-    grade:'SS 410S Coils',
+    grade:'SS 410S Coils & Stirps',
     link:'/SS410SCoilsGrade'
   },
   {
     id:23,
-    grade:'SS 420 Coils',
+    grade:'SS 420 Coils & Stirps',
     link:'/SS420CoilsGrade'
   },
   
@@ -778,7 +865,7 @@ export const  SSCoilsGradeData=[
 
 
     {
-      text1:'Stainless Steel 201 Sheets & Plates Manufacturers In Mumbai, Stainless Steel 201 Sheets & Plates Exporters In Mumbai , Stainless Steel 201 Sheets & Plates Suppliers In Mumbai, Stainless Steel 201 Sheets & Plates Importers In Mumbai, Stainless Steel 201 Sheets & Plates Stockists In Mumbai, UNS S20100 Stainless Steel 201 Sheets & Plates In Mumbai, ASTM A240 SS TP201 Sheets And Plates In Mumbai, WERKSTOFF NR. 1.4301 Sheets & Plates In Mumbai.',
+      text1:'Stainless Steel 201 Sheets & Plates  Exporters,Suppliers,Importers,Stockists In Mumbai and India.',
       text2:'>Modi Metals.is a well known producer of SS 201 Sheets, Plates and Coils arranged in India. We have top tier precisely arranged warehousing workplaces that usage present day equipment for the production of Stainless Steel 201 Coils. We keep up a readied accessible to be acquired load of Stainless Steel 201 Sheets and Stainless Steel 201 Plates of fluctuating thickness that guarantees high caliber close by a solid introduction.',
       text3:'We are lofty in the business for our Stainless Steel 201 Hot and Cold Rolled Plates that are in consistence with the national and general standards. Solidified Steel 201 Checkered Plates are similarly offered in 2-3 mm, 3-4 mm, 4-5 mm and 5 mm thickness. All our Stainless Steel 201 Polished Plates are offered at an incredibly engaged expense to all of our clients and customers.',
       image:require("../../Constants/Images/SheetImg/SheetImg1.jpg"),
@@ -822,7 +909,7 @@ export const SS202Data=[
 
 
   {
-    text1:'Stainless Steel 202 Sheets & Plates Manufacturers In Mumbai, Stainless Steel 202 Sheets & Plates Exporters In Mumbai , Stainless Steel 202 Sheets & Plates Suppliers In Mumbai, Stainless Steel 202 Sheets & Plates Importers In Mumbai, Stainless Steel 202 Sheets & Plates Stockists In Mumbai, UNS S20200 Stainless Steel 202 Sheets & Plates In Mumbai, ASTM A240 SS TP202 Sheets And Plates In Mumbai, WERKSTOFF NR. 1.4301 Sheets & Plates In Mumbai.',
+    text1:'Stainless Steel 202 Sheets & Plates  Exporters,Suppliers,Importers,Stockists In Mumbai and India.',
     text2:'Modi Metals is one of the essential producer and provider of Stainless Steel 202 Sheets, Plates and Coils, masterminded in India. Our Stainless Steel 202 Sheets and Stainless Steel 202 Coils are reasonable for making particular mechanical things. Treated Steel 202 Plates are made by us utilizing high-grade quality set steel which is without rust and has smooth wrapping up.',
     text3:'We structure and make Stainless Steel 202 Coils in thickness running from 0.3mm-50mm, with widths of 0.3mm-50mm. Our ASTM A240 Stainless Steel 202 Hot Rolled Coils are open in various lengths going from 1000mm-5500mm. We have some capacity in offering things with changed estimations. We offer Stainless Steel 202 Cold Rolled Coils and Stainless Steel 202 Slatting Coils the two of which meets the ideal mechanical benchmarks.',
   image:require("../../Constants/Images/SheetImg/SSheet202.jpg"),
@@ -867,8 +954,8 @@ export const SS301Data1=[
 
 
   {
-    text1:'Stainless Steel 301 Sheets & Plates Manufacturers In Mumbai, Stainless Steel 301 Sheets & Plates Exporters In Mumbai , Stainless Steel 301 Sheets & Plates Suppliers In Mumbai, Stainless Steel 301 Sheets & Plates Importers In Mumbai, Stainless Steel 301 Sheets & Plates Stockists In Mumbai, UNS S30100 Stainless Steel 301 Sheets & Plates In Mumbai, ASTM A240 SS TP301 Sheets And Plates In Mumbai, WERKSTOFF NR. 1.4301 Sheets & Plates In Mumbai.',
-    text2:'We are exporter of 301 Stainless Steel Plate in India, We are no.1 seller of AISI 301 Plate. We are also Manufacturer of 301 tempered steel Plate in India, SS 301 DIN 1.4310, We are stacking 300 Ton UNS S30100 Plate of esteemed creator of solidified steel 301 infection moved Plate .',
+    text1:'Stainless Steel 301 Sheets & Plates  Exporters,Suppliers,Importers,Stockists In Mumbai and India.',
+    text2:'We are exporter of 301 Stainless Steel Plate in India, We are no.1 seller of AISI 301 Plate. We are also Suppliers of 301 tempered steel Plate in India, SS 301 DIN 1.4310, We are stacking 300 Ton UNS S30100 Plate of esteemed creator of solidified steel 301 infection moved Plate .',
     text3:'In case you are looking for greatest supplier of 301 Stainless Steel Plate in India, Hot Rolled 301 SS Plate dealer, We can offer you outright best cost of ASTM/ASME A240 301 Stainless Steel Plate in most restricted movement time. We are Wholesaler of SS Plate of Baosteel, Nippon Steel, ThyssenKrupp, Arcelor Mittal, Nas, KDC Korea. We are offering extraordinary expense on surplus inventory of WERKSTOFF NO. 1.4310 301 Plate in India',
     image:require("../../Constants/Images/SheetImg/SheetImg2.jpg"),
     Specifications:
@@ -911,9 +998,9 @@ export const SS301Data=[
 
   {
    
-    text1:'Stainless Steel 304 Sheets & Plates Manufacturers, Stainless Steel 304 Sheets & Plates Exporters, Stainless Steel 304 Sheets & Plates Suppliers, Stainless Steel 304 Sheets & Plates Importers, Stainless Steel 304 Sheets & Plates Stockists, UNS S30400 Stainless Steel 304 Sheets & Plates, ASTM A240 SS TP304 Sheets And Plates, WERKSTOFF NR. 1.4301 Sheets & Plates',
+    text1:'Stainless Steel 304 Sheets & Plates  Exporters,Suppliers,Importers,Stockists In Mumbai and India.',
     text2:'All around mentioned the fervor of the mechanical things is connecting as you beyond question understand each new thing improve the working of the forefront things. Much indistinguishable to the sheets and plates which look direct the material which is used in it makes the thing strong and best to use. Treated Steel 304 Sheets and Plates, it is said to be a manager among the most all around used tempered steel that offers sponsorship to the thing for long and it even keeps up the structure of the plates and sheets for long. If you look at the thing outline, by then you will find that its thickness contrasts from 0.3 to 120mm. These steels and plates are extensively used in the enormous affiliations.',
-    text3:'We are exporter of 301 Stainless Steel Plate in India, We are no.1 seller of AISI 301 Plate. We are also Manufacturer of 301 tempered steel Plate in India, SS 301 DIN 1.4310, We are stacking 300 Ton UNS S30100 Plate of esteemed creator of solidified steel 301 infection moved Plate .',
+    text3:'We are exporter of 301 Stainless Steel Plate in India, We are no.1 seller of AISI 301 Plate. We are also Suppliers of 301 tempered steel Plate in India, SS 301 DIN 1.4310, We are stacking 300 Ton UNS S30100 Plate of esteemed creator of solidified steel 301 infection moved Plate .',
     image:require("../../Constants/Images/SheetImg/SheetImg3.jpg"),
     Specifications:
       {
@@ -952,9 +1039,9 @@ export const SS301Data=[
 export const SS304LData=[
   {
     
-    text1:'Stainless Steel 304L Sheets & Plates Manufacturers, Stainless Steel 304L Sheets & Plates Exporters, Stainless Steel 304L Sheets & Plates Suppliers, Stainless Steel 304L Sheets & Plates Importers, Stainless Steel 304L Sheets & Plates Stockists, UNS S30403 Stainless Steel 304L Sheets & Plates, ASTM A240 SS SA240 Sheets And Plates, WERKSTOFF NR.1.4306 Sheets & Plates',
-    text2:'Stainless Steel 304L Sheets & Plates Manufacturers In India, Stainless Steel 304L Sheets & Plates Exporters In India, Stainless Steel 304L Sheets & Plates Suppliers In India, Stainless Steel 304L Sheets & Plates Importers In India , Stainless Steel 304L Sheets & Plates Stockists In India, UNS S30403 Stainless Steel 304L Sheets & Plates In India, ASTM A240 SS SA240 Sheets And Plates In India, WERKSTOFF NR. 1.4306 Sheets & Plates In India.',
-    text3:'The Stainless Steel 304L Sheets and Plates are enduring and can fit into any length with no burden and it is open in various shapes and sizes. The Padmavati Steel & Engg.Co. is a standard, exporter and provider of SS sheets and plates and this thing is utilized in different relationship for various applications. It is dealt with by national in like way as expansive standards.',
+    text1:'Stainless Steel 304L Sheets & Plates  Exporters,Suppliers,Importers,Stockists In Mumbai and India.',
+    text2:'',
+    text3:'The Stainless Steel 304L Sheets and Plates are enduring and can fit into any length with no burden and it is open in various shapes and sizes. The Modi Metals is a standard, exporter and provider of SS sheets and plates and this thing is utilized in different relationship for various applications. It is dealt with by national in like way as expansive standards.',
     image:require("../../Constants/Images/SheetImg/SheetImg4.jpg"),
     Specifications:
       {
@@ -994,9 +1081,9 @@ export const SS304LData=[
 export const SS304HData=[
   {
     image:require("../../Constants/Images/SheetImg/SheetImg5.jpg"),
-    text1:'Stainless Steel 304H Sheets & Plates Manufacturers, Stainless Steel 304H Sheets & Plates Exporters, Stainless Steel 304H Sheets & Plates Suppliers, Stainless Steel 304H Sheets & Plates Importers, Stainless Steel 304H Sheets & Plates Stockists, UNS S30409 Stainless Steel 304H Sheets & Plates, ASTM A240 SS TP304H Sheets And Plates, WERKSTOFF NR. 1.4948 Sheets & Plate.',
+    text1:'Stainless Steel 304H Sheets & Plates  Exporters,Suppliers,Importers,Stockists In Mumbai and India.',
     text2:'Stainless Steel 304H Sheets and Plates, it is a victor among the most extraordinary treated steel grades. In it, you will discover the utilization of the nickel at 8% and chromium 18%. By this, in this material, you will discover the usage of the carbon content that is 0.08%. You will regularly discover this examination of the steel in the cooking mechanical parties and dish. It is in addition known in the market in setting on its adaptable highlights. It other than has the best isolating square cutoff; with that, it in like way has the high straightforwardness of the creation property.',
-    text3:"At present in the market there are extents of affiliations who use to make this evaluation of tempered steel at any rate the one which is known as the standard one is the Padmavati Steel & Engg.Co.. They utilize the best thought of mess material that develops the properties of the thing. Tempered Steel 304H Sheets and Plates even has the extraordinary yield and steadfast nature that make the thing solid and sorted out to hold up under any climatic condition. It doesn't get rust snappier paying little personality to whether it utilized in the wet air. The utilization of standard making process gives the thing long life.",
+    text3:"At present in the market there are extents of affiliations who use to make this evaluation of tempered steel at any rate the one which is known as the standard one is the Modi Metals. They utilize the best thought of mess material that develops the properties of the thing. Tempered Steel 304H Sheets and Plates even has the extraordinary yield and steadfast nature that make the thing solid and sorted out to hold up under any climatic condition. It doesn't get rust snappier paying little personality to whether it utilized in the wet air. The utilization of standard making process gives the thing long life.",
   
     Specifications:
       {
@@ -1039,7 +1126,7 @@ export const SS304HData=[
 export const SS310SData=[
   {
     
-    text1:'Stainless Steel 310S Sheets & Plates Manufacturers, Stainless Steel 310S Sheets & Plates Exporters, Stainless Steel 310S Sheets & Plates Suppliers, Stainless Steel 310S Sheets & Plates Importers, Stainless Steel 310S Sheets & Plates Stockists, UNS S31008 Stainless Steel 310S Sheets & Plates, ASTM A240 SS TP310S Sheets And Plates, WERKSTOFF NR. 1.4845 Sheets & Plates',
+    text1:'Stainless Steel 310S Sheets & Plates  Exporters,Suppliers,Importers,Stockists In Mumbai and India.',
     text2:'The Stainless Steel 310s Sheets and Plates keeps running with historic features and are plan as indicated by client unequivocal necessities. The Stainless Steel sheets and plates of evaluation 310S are made by using the top class grungy material. It has features like high bore, exceptional, easy to fit, disavow in high temperature and weight condition. The Stainless Steel sheets plates are made by satisfy far reaching and adjoining standards of various endeavors measures. These Stainless Steel sheets and plates materials are given ISO accreditation and are shown to various testing to ensure its quality before transport and thing to the client.',
     text3:"The Stainless Steel 310s Sheets and Plates are dealt with by client's need and necessities and has high hunt down after. You can without a lot of a stretch get this thing from our confined and online shops at a moderate expense. This Stainless Steel plate and sheets can fit adequately and is open in phenomenally made size and shapes. These things are routinely used in various endeavors for various purposes.",
     image:require("../../Constants/Images/SheetImg/SheetImg8.jpg"),
@@ -1081,8 +1168,8 @@ export const SS310HData=[
 
   {
     image:require("../../Constants/Images/SheetImg/SheetImg7.jpg"),
-    text1:'Stainless Steel 310H Sheets & Plates Manufacturers In Mumbai, Stainless Steel 310H Sheets & Plates Exporters In Mumbai, Stainless Steel 310H Sheets & Plates Suppliers In Mumbai, Stainless Steel 310H Sheets & Plates Importers In Mumbai, Stainless Steel 310H Sheets & Plates Stockists In Mumbai, UNS S31009 Stainless Steel 310H Sheets & Plates In Mumbai, ASTM A240 SS TP310H Sheets And Plates In Mumbai.',
-    text2:'Stainless Steel 310H Sheets & Plates Manufacturers,Stainless Steel 310H Sheets & Plates Exporters,Stainless Steel 310H Sheets & Plates Suppliers,Stainless Steel 310H Sheets & Plates Importers,Stainless Steel 310H Sheets & Plates Stockists,UNS S31009 Stainless Steel 310H Sheets & Plates, ASTM A240 SS TP310H Sheets And Plates.',
+    text1:'Stainless Steel 310H Sheets & Plates  Exporters,Suppliers,Importers,Stockists In Mumbai and India.',
+    text2:'Stainless Steel 310H Sheets & Plates Supplierss,Stainless Steel 310H Sheets & Plates Exporters,Stainless Steel 310H Sheets & Plates Suppliers,Stainless Steel 310H Sheets & Plates Importers,Stainless Steel 310H Sheets & Plates Stockists,UNS S31009 Stainless Steel 310H Sheets & Plates, ASTM A240 SS TP310H Sheets And Plates.',
     text3:"The best thing about these Stainless Steel 310 H Sheets and Plates is that it is coordinated by following the general and national extents of grungy material that structure the thing and makes it best to be used in any of the endeavors. If you need it in different thickness and style, by then it is dynamically quick to put in a deals for the social event connection first. They set up your thing as appeared by your referenced nuances so you can display it successfully where you need.",
   
     Specifications:
@@ -1123,7 +1210,7 @@ export const SS316Data=[
 
   {
     image:require("../../Constants/Images/SheetImg/SheetImg8.jpg"),
-    text1:'Stainless Steel 316 Sheets & Plates Manufacturers In Mumbai, Stainless Steel 316 Sheets & Plates Exporters In Mumbai, Stainless Steel 316 Sheets & Plates Suppliers In Mumbai, Stainless Steel 316 Sheets & Plates Importers In Mumbai, Stainless Steel 316 Sheets & Plates Stockists In Mumbai, UNS S31600 Stainless Steel 316 Sheets & Plates In Mumbai, ASTM A240 SS TP316 Sheets And Plates In Mumbai, WERKSTOFF NR.1.4436 Sheet & Plate In Mumbai.',
+    text1:'Stainless Steel 316 Sheets & Plates  Exporters,Suppliers,Importers,Stockists In Mumbai and India.',
     text2:'The Stainless Steel 316 Sheets and Plates are made by ASTM A240/ASME A480. The width of this SS thing is exhibited to different surface medicines, for example, verified, painted, hot rolled and cold rolled and others. These SS sheets come in different estimations and accessible in remarkably made sizes and thickness. On the off chance that we talk about its Ss sheet thickness it lies in least 0.6 mm and most silly 4.00mm. This appraisal 316 of Ss sheet and plate is verified with very separating shading.',
     text3:"The Stainless Steel 316 Sheets and Plates are exhibited to different tests, for example, radiography test, ultrasonic test, and others to guarantee its quality and to clarify it is free from any twisting and perfection. Our affiliation passes on SS plates and sheets supply with a total arrangement of creation line test reports and are cut by your focal points.",
   
@@ -1165,7 +1252,7 @@ export const SS316Data=[
 export const SS316LData=[
   {
     image:require("../../Constants/Images/SheetImg/SheetImg9.jpg"),
-    text1:'Stainless Steel 316L Sheets & Plates Manufacturers In Mumbai, Stainless Steel 316L Sheets & Plates Exporters In Mumbai, Stainless Steel 316L Sheets & Plates Suppliers In Mumbai, Stainless Steel 316L Sheets & Plates Importers In Mumbai, Stainless Steel 316L Sheets & Plates Stockists In Mumbai, UNS S31603 Stainless Steel 316L Sheets & Plates In Mumbai, ASTM A240 SS TP316L Sheets And Plates In Mumbai, WERKSTOFF NR. 1.4435 Sheet & Plate In Mumbai.',
+    text1:'Stainless Steel 316L Sheets & Plates  Exporters,Suppliers,Importers,Stockists In Mumbai and India.',
     text2:"They make the thing as per the referenced guidelines that ensure the standard of the thing. These evaluation materials can certainly be dealt with no uneasiness. This thing can without a lot of a stretch be upheld in the crazy cools since it has the best deterrent breaking point that makes it strong to be used in a mechanical applications. It can work in low and high both kind of temperature all such intricacy in the air condition don't influence the thing quality in light of how the compound which is used in it making is of respect types and makes its readied to be used it wherever in endeavors.",
     text3:"The Stainless Steel 316L Sheets and Plates come in different estimations and shapes by virtue of which customer get the one which they need for their endeavors. They are even exceptional in nature, strong and mindful treated steel. You will in like manner find its usage in the marine relationship in setting on its high bore and ruinous properties.",
   
@@ -1208,7 +1295,7 @@ export const SS316HData=[
 
   {
     image:require("../../Constants/Images/SheetImg/SheetImg10.jpg"),
-    text1:'Stainless Steel 316H Sheets & Plates Manufacturers In Mumbai, Stainless Steel 316H Sheets & Plates Exporters In Mumbai, Stainless Steel 316H Sheets & Plates Suppliers In Mumbai, Stainless Steel 316H Sheets & Plates Importers In Mumbai, Stainless Steel 316H Sheets & Plates Stockists In Mumbai, UNS S31609 Stainless Steel 316H Sheets & Plates In Mumbai, ASTM A240 SS TP316H Sheets And Plates In Mumbai, WERKSTOFF NR. 1.4401 Sheet & Plate In Mumbai.',
+    text1:'Stainless Steel 316H Sheets & Plates  Exporters,Suppliers,Importers,Stockists In Mumbai and India.',
     text2:"It comes in ASTM A240 and ASME SA240 and has estimations, for instance, DIN, BS, JIS, GB, EN, AISI, etc. The Stainless Steel 316H Sheets and Plates are open in various structures, for instance, plain sheet, Designer sheet, seem sheet, checkered plate, and others. It is open in tantamount examinations, for instance, 316H UNS (S31609) and DIN (1.4401). It is open in following length 2000mm, 2440mm, 3000mm, 5800mm, 6000 mm, etc.",
     text3:"Stainless Steel 316H Sheets and Plates is available in thickness go 0.3mm to 6mm and hardness is offered by ASME An and NACE MR 175. It is connected by surface coatings, for instance, confirmed, painted, hot moved plate and cold moved sheets, SATIN (met with plastic checked) and others. The extent of this plate and sheet is ¼ to 4. The Stainless Steel 316H Sheets and Plates is tried well to check the thing quality and are pulverized well in order to keep up a key segment from any kind of outside mischief.",
   
@@ -1248,7 +1335,7 @@ export const SS316HData=[
 export const SS316TiData=[
 
   {
-    text1:'Stainless Steel 316Ti Sheets & Plates Manufacturers In Mumbai, Stainless Steel 316Ti Sheets & Plates Exporters In Mumbai, Stainless Steel 316Ti Sheets & Plates Suppliers In Mumbai, Stainless Steel 316Ti Sheets & Plates Importers In Mumbai, Stainless Steel 316Ti Sheets & Plates Stockists In Mumbai, UNS S31635 Stainless Steel 316Ti Sheets & Plates In Mumbai, ASTM A240 SS TP316Ti Sheets And Plates In Mumbai, WERKSTOFF NR. 1.4571 Sheet & Plate In Mumbai',
+    text1:'Stainless Steel 316Ti Sheets & Plates  Exporters,Suppliers,Importers,Stockists In Mumbai and India.',
     text2:"Modi Metals is known to be the most trustful distributor that strategies the best idea of Stainless Steel 316Ti Sheets and Plates. They are quickly drawn and framed. Its properties are by somehow essentially indistinguishable to the 316-grade blend yet the usage of titanium manufactures makes it sensible to be used in the raised temperatures. The glimmer treatment increase the change of the thing in this framework the titanium reacts with the carbon that shapes the titanium carbides.",
     text3:"Its width comes in 1000, 1219, 1500, 1800, 2000, 2500, 3000, 3500mm, etc. Other than this, the length comes in 2000, 2440, 3000, 5800, 6000, etc. Here the thickness in like manner changes from 0.3 to 10.0 mm. its structure is moreover wide you can pick one of your choices. Its substance creation is too strong that changes into the clarifications for its incredible game-plan and structure. Tempered Steel 316Ti Sheets and Plates are in the end changing into the essential choice of the entire industrialist they need that they applications stay in working condition for long.",
   
@@ -1289,7 +1376,7 @@ export const SS316TiData=[
 
 export const SS321Data=[
   {
-    text1:'Stainless Steel 321/321H Sheets & Plates Manufacturers In Mumbai, Stainless Steel 321/321H Sheets & Plates Exporters In Mumbai, Stainless Steel 321/321H Sheets & Plates Suppliers In Mumbai, Stainless Steel 321/321H Sheets & Plates Importers In Mumbai, Stainless Steel 321/321H Sheets & Plates Stockists In Mumbai, UNS S32109 Stainless Steel 321/321H Sheets & Plates In Mumbai, UNS S32100 Stainless Steel 321/321H Sheets & Plates In Mumbai, ASTM A240 SS321 Sheets And Plates In Mumbai, WERKSTOFF NR. 1.4878 Sheet & Plate In Mumbai.',
+    text1:'Stainless Steel 321/321H Sheets & Plates  Exporters,Suppliers,Importers,Stockists In Mumbai and India.',
     text2:"Stainless Steel 321/321H Sheets and Plates, these are known as consistent set steel grade that offers huge positive conditions to the customers. Verifiably the central immaculate position is its noticeable resistance property in the intergranular utilize that following the prelude to the temperature which is in the chromium carbide precipitation runs that from 800 to 1500 degree F. It changes into the settled before the chromium in light of the use of titanium that quality the thing staggering.",
     text3:"Stainless Steel 321/321H Sheets and Plates even don't get set up when it goes under the sparkle treatment this is done just by illness working. It can no two ways about it get welded and managed when it goes under the perfect creation process. Consequently, after a short time you know why you should buy this thing for use circumscribing this in case you need the best quality plate, by then visit once on the Modi Metals",
   
@@ -1331,8 +1418,8 @@ export const SS321Data=[
 export const SS904LData=[
 
   {
-    text1:'Stainless Steel 904L Sheets & Plates Manufacturers In Mumbai, Stainless Steel 904L Sheets & Plates Exporters In Mumbai , Stainless Steel 904L Sheets & Plates Suppliers In Mumbai, Stainless Steel 904L Sheets & Plates Importers In Mumbai , Stainless Steel 904L Sheets & Plates Stockists In Mumbai, UNS NO8904 Stainless Steel 904L Sheets & Plates In Mumbai, ASTM A240 SS TP904L Sheets And Plates In Mumbai, WERKSTOFF NR. 1.4539 Sheet & Plate In Mumbai',
-    text2:"TP904L Stainless Steel Hot Rolled (HR) Sheets Manufacturer, ASTM B625 Stainless Steel 904L Bright Annealed Finish (BA) Sheets Wholesaler, SS 904L Plates, TP904L Stainless Steel Slit Coils, Stainless Steel 904L Sheets, Stainless Steel TP904L Chequer (Floor) Sheets Distributor, 904L Stainless Steel Coils Stockholder, SS TP904L Cold Rolled (CR) Plates Exporter, ASME SB625 SS TP904L Shim Sheets In Mumbai, Indi, TP904L Stainless Steel B625M Flats, Strips, Foils, Circles, Rings, Blanks Dealer, Stainless Steel 904L Polished Finishes Sheets & Plates, DIN 1.4539 SS Embossed Sheets Stock, SS TP904L 2B Finish Plates Stockist, TP904L Stainless Steel Mill Finished Sheets Distributor, UNS N08904 Steel 2D Finish Sheets Distribution, Stainless Steel TP904L 8 Finish Sheets Traders, SS 904L 4 Finish Sheets Supplier.",
+    text1:'Stainless Steel 904L Sheets & Plates  Exporters,Suppliers,Importers,Stockists In Mumbai and India.',
+    text2:"TP904L Stainless Steel Hot Rolled (HR) Sheets Suppliers, ASTM B625 Stainless Steel 904L Bright Annealed Finish (BA) Sheets Wholesaler, SS 904L Plates, TP904L Stainless Steel Slit Coils, Stainless Steel 904L Sheets, Stainless Steel TP904L Chequer (Floor) Sheets Distributor, 904L Stainless Steel Coils Stockholder, SS TP904L Cold Rolled (CR) Plates Exporter, ASME SB625 SS TP904L Shim Sheets In Mumbai, Indi, TP904L Stainless Steel B625M Flats, Strips, Foils, Circles, Rings, Blanks Dealer, Stainless Steel 904L Polished Finishes Sheets & Plates, DIN 1.4539 SS Embossed Sheets Stock, SS TP904L 2B Finish Plates Stockist, TP904L Stainless Steel Mill Finished Sheets Distributor, UNS N08904 Steel 2D Finish Sheets Distribution, Stainless Steel TP904L 8 Finish Sheets Traders, SS 904L 4 Finish Sheets Supplier.",
     text3:"In this assessment steel, you will find the usage of the chromium and nickel that makes it extraordinary to be used in a critical number of the pushed things. Treated Steel 904L Sheets and Plates even stay protected from the chloride strike and warm seawater in light of the improvement appearances that shield it from insidiousness. It comes in enormous estimations customer can pick it as per their need. It even comes everything standard sizes that most customers demand.",
   
     Specifications:
@@ -1371,8 +1458,8 @@ export const SS904LData=[
 
 export const SS409Data=[
   {
-    text1:'Stainless Steel 409 Sheets & Plates Manufacturers In Mumbai, Stainless Steel 409 Sheets & Plates Exporters In Mumbai , Stainless Steel 409 Sheets & Plates Suppliers In Mumbai, Stainless Steel 409 Sheets & Plates Importers In Mumbai , Stainless Steel 409 Sheets & Plates Stockists In Mumbai, UNS S40900 Stainless Steel 409 Sheets & Plates In Mumbai, ASTM A240 SS TP409 Sheets And Plates In Mumbai, WERKSTOFF NR. 1.4512 Sheet & Plate In Mumbai',
-    text2:"Stainless Steel 409 SHEETS/PLATES are the plates which are conveyed using the best thought of unpleasant material. The use of such foul material makes the exact opposite thing best in all terms. Fundamentally, in this evaluation of steel, you will the utilization of the titanium, chromium that sensible out the property well in it. Padmavati Steel & Engg.Co. one of the remarkable makers shows to all of you the bits of learning concerning their thing to the clients since they need to get their client trust for long. They make this evaluation plate and sheets which are in cooperated with the best thought of the material.",
+    text1:'Stainless Steel 409 Sheets & Plates  Exporters,Suppliers,Importers,Stockists In Mumbai and India.',
+    text2:"Stainless Steel 409 SHEETS/PLATES are the plates which are conveyed using the best thought of unpleasant material. The use of such foul material makes the exact opposite thing best in all terms. Fundamentally, in this evaluation of steel, you will the utilization of the titanium, chromium that sensible out the property well in it. Modi Metals one of the remarkable makers shows to all of you the bits of learning concerning their thing to the clients since they need to get their client trust for long. They make this evaluation plate and sheets which are in cooperated with the best thought of the material.",
     text3:"Cemented Steel 409 Sheets/Plates standard focal points come in various range as shown by the client's decisions. Along these lines they can without a great deal of a stretch satisfy their essential applications needs. So in the event that you are filtering for best associations, by then interface with us",
   
     Specifications:
@@ -1411,7 +1498,7 @@ export const SS409Data=[
 
 export const SS410Data=[
   {
-    text1:'Stainless Steel 410 Sheets & Plates Manufacturers In Mumbai, Stainless Steel 410 Sheets & Plates Exporters In Mumbai , Stainless Steel 410 Sheets & Plates Suppliers In Mumbai, Stainless Steel 410 Sheets & Plates Importers In Mumbai , Stainless Steel 410 Sheets & Plates Stockists In Mumbai, UNS S41000 Stainless Steel 410 Sheets & Plates In Mumbai, ASTM A240 SS TP410 Sheets And Plates In Mumbai, WORKSTOFF NR.1.4006 Sheets & Plates In Mumbai',
+    text1:'Stainless Steel 410 Sheets & Plates  Exporters,Suppliers,Importers,Stockists In Mumbai and India.',
     text2:"We offer SS sheets thing at a reasonable market cost and we pass on this thing with various test demands, for instance, ISO confirms and others. The SS sheets keep running with ASTM A240/ASME SA240. This immaculate sheet 410 assessment are acquainted with various surface finishi8ng, for instance, FINISH-2B/HR, hot moved, cold rolled and others. In case we look at about its size, 1000x2000, 1220x2440, etc, its thickness ranges from 0.3mm to 120mm. These 410 SS sheets are confirmed with PVC covering, Laser covering, Film: 100 micrometer, Color: dull/white. The width of the SS sheet is 1000mm, 1250mm, 1500mm, and 2000mm and benefitted on customer's arrangements.",
     text3:"The Stainless Steel 410 Sheets are stacked down with fixed material in order to give protection from outside mischief. We will give you Ss sheet material with no deformation and imperfection. To ensure the likelihood of the last outcome, we are applying indisputable testing systems on solidified steel and starting there the thing is passed on to you inside a short time span.",
   
@@ -1452,9 +1539,9 @@ export const SS410Data=[
 
 export const SS420Data=[
   {
-    text1:'Stainless Steel 420 Sheets & Plates Manufacturers In Mumbai, Stainless Steel 420 Sheets & Plates Exporters In Mumbai , Stainless Steel 420 Sheets & Plates Suppliers In Mumbai, Stainless Steel 420 Sheets & Plates Importers In Mumbai , Stainless Steel 420 Sheets & Plates Stockists In Mumbai, UNS S42000 Stainless Steel 420 Sheets & Plates In Mumbai, ASTM A240 Sheets And Plates In Mumbai, WORKSTOFF NR.1.4021 Sheets & Plates In Mumbai',
+    text1:'Stainless Steel 420 Sheets & Plates  Exporters,Suppliers,Importers,Stockists In Mumbai and India.',
     text2:"Stainless Steel 420 Sheets/Plates, it's a changed variety of the 410 evaluation of treated steel in it the carbon content is high that improvement the hardness of the thing outstandingly and make it orchestrated to be utilized in a critical number of the propelled thing. This all-encompassing extent of the carbon in like way improves the idea of the plates and sheets and offers its better square wearing quality. It's an appraisal which offers the best usage limitation property that even works in the sparkle treated conditions.",
-    text3:"Stainless Steel 420 Sheets/Plates thickness shifts from 0.4 to 6.0mm, anyway analyzing its fulfillments by then FINISH-2B/HR is a hero among its best-completed works. Before long discussing its width by then is begin from 1000 and end up to the referenced sizes. The client can get the thing as demonstrated by their need. They can put in the requesting Padmavati Steel & Engg.Co. and get their thing on logbook. They even take affirmation of best working associations and best grade material. In the gathering strategy, they even use to look for after the standard which is set by the business that makes it best from all sides.",
+    text3:"Stainless Steel 420 Sheets/Plates thickness shifts from 0.4 to 6.0mm, anyway analyzing its fulfillments by then FINISH-2B/HR is a hero among its best-completed works. Before long discussing its width by then is begin from 1000 and end up to the referenced sizes. The client can get the thing as demonstrated by their need. They can put in the requesting Modi Metals and get their thing on logbook. They even take affirmation of best working associations and best grade material. In the gathering strategy, they even use to look for after the standard which is set by the business that makes it best from all sides.",
   
     Specifications:
       {

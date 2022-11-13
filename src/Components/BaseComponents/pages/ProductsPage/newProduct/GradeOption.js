@@ -4,7 +4,7 @@ import {  Link, useLocation } from "react-router-dom";
 import { SSsheetGradeData } from '../../../../../Constants/Data/ProductData';
 const GradeOption = (props) => {
 
-console.log(props.Grade.data[0],'Grade options')
+
 const Grade=props.Grade.data
 var class_="col-md-4 option_class"
 if(Grade.length<=2){
@@ -17,7 +17,7 @@ if(Grade.length<=2){
 
     //Javascript split method to get the name of the path in array
     const splitLocation = pathname.split("/");
-    // console.log(splitLocation,'splitLocation')
+  
   return (
     <div>
 
@@ -30,7 +30,7 @@ if(Grade.length<=2){
 
   {Grade.map((item, index) => {
 
-// console.log( item.link,' item.link',splitLocation[1] )
+
 
 return (
  <div  className= {class_}>

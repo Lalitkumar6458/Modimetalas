@@ -42,7 +42,7 @@ export const  InconelGradeData=[
 export const InconelSheetData=[
 
     {
-        text1:'Inconel Sheets & Plates Manufacturers In India, Inconel Sheets & Plates Exporters In India, Inconel Sheets & Plates Suppliers In India, Inconel Sheets & Plates Importers In India, Inconel Sheets & Plates Stockists In India.',
+        text1:'Inconel Sheets & Plates Exporters,Suppliers,Importers,Stockists In Mumbai and India.',
         test2:'Modi Metals offers an expansive get-together of these Inconel Alloy Sheets, Plates in various estimations and sizes. We about offer these things in various assessments, for example, Inconel Sheets Plates. We hold bowed in offering our customers a superb show of these Inconel Sheets that are acclaimed for its high check and wide – estimation of occupations.',
         text3:'Modi Metals. is a remarkable connection that is routinely occupied with offering a wide segment of Inconel Sheet, Plates and Coils. We offer a vivacious component of Inconel Sheets in the business. With some hair-raising highlights like having Consistent errand, Easy to keep up, Ruggedly created, and that is only a gander at something dynamically significant, the offered Inconel Alloy Sheets are given in various estimations with smooth completing which suits the clients needs completely.',
         Specifications:
@@ -74,7 +74,7 @@ export const Inconel601Data=[
 
 
     {
-      text1:'Inconel 601 Sheets & Plates Manufacturers In Mumbai, Inconel 601 Sheets & Plates Exporters In Mumbai ,Inconel 601 Sheets & Plates Suppliers In Mumbai, Inconel 601 Sheets & Plates Importers In Mumbai , Inconel 601 Sheets & Plates Stockists In Mumbai.',
+      text1:'Inconel 601 Sheets & Plates Exporters,Suppliers,Importers,Stockists In Mumbai and India.',
       text2:'Inconel UNS N06601 Plates, Inconel Alloy 601 Sheets, ASME SB 168 Inconel 601 Plate, JIS NCF 601 Plate, 601 Inconel Hot Rolled Plates Supplier In Mumbai, India. Inconel 601 Cold Rolled Plates, 601 Alloy Plate Exporter, ASTM B 168 Inconel 601 Shim Sheets, Inconel 601 Slatting Coil, Inconel Werkstoff No 2.4851 Sheets, Inconel 601 Sheets Dealer In India. 601 Inconel Plate Stockholder, 601 Inconel Polished Cold Drawn Plates, Distributors Of ASME SB168 Inconel 601 Coils, Inconel GOST XH60BT Strips Stockist, Manufacturer.',
       text3:"Nickel-Alloy 601 Plates is what's increasingly utilized for combustor parts and drive mastermind bolsters in apparatus for nitric hurting age. These Nickel-Alloy 601 Coils are in addition utilized in cases, plate, and mechanical social events for warmth – treating gear. Enormous demulcents Inconel UNS N06601 Sheets Plates are utilized for tapping, infiltrating, underwriting or debilitating. In the mean time, these Alloy 601 Plates are in like way being offered in various sizes and shapes to our clients.",
   
@@ -115,7 +115,7 @@ export const Inconel601Data=[
 
 
     {
-      text1:'Inconel 600 Sheets & Plates Manufacturers In Mumbai, Inconel 600 Sheets & Plates Exporters In Mumbai ,Inconel 600 Sheets & Plates Suppliers In Mumbai, Inconel 600 Sheets & Plates Importers In Mumbai , Inconel 600 Sheets & Plates Stockists In Mumbai.',
+      text1:'Inconel 600 Sheets & Plates Exporters,Suppliers,Importers,Stockists In Mumbai and India.',
       text2:'ASTM B168 Inconel Sheet, Plates Manufacturer At India, Werkstoff No 2.4816 Inconel Structurals Exporter, Inconel 600 Hot Rolled Plates, Alloy 600 Chequered Plate Supplies, Inconel 600 Plates Manufacturer Stockist In Mumbai, India. Inconel 600 Plates, Alloy 600 Sheets, Inconel UNS N06600 Plates, ASME SB 168 Plate, JIS NCF 600 Plate, 600 Inconel Hot Rolled Plates Supplier In Mumbai, India.ASTM B 168 Inconel 600 Shim Sheets, Inconel Werkstoff No 2.4816 Sheets, Inconel 600 Cold Rolled Plates, 600 Alloy Plate Exporter, Inconel 600 Sheets Dealer In India.',
       text3:"This Inconel 600 sheets and plates is made using incomparable top tier material most recent structures continuing after the set models of industry. Our gave Inconel 600 Plates and Coils, Foils is bankrupt down on quality frameworks in order to make certain its enormity.",
   
@@ -158,7 +158,7 @@ export const Inconel601Data=[
 
 
     {
-      text1:'Inconel 718 Sheets & Plates Manufacturers In Mumbai, Inconel 718 Sheets & Plates Exporters In Mumbai, Inconel 718 Sheets & Plates Suppliers In Mumbai, Inconel 718 Sheets & Plates Importers In Mumbai, Inconel 718 Sheets & Plates Stockists In Mumbai',
+      text1:'Inconel 718 Sheets & Plates Exporters,Suppliers,Importers,Stockists In Mumbai and India.',
       text2:'Inconel 718 Plates, Alloy 718 Sheets, ASME SB 670 Inconel 718 Plate, JIS NCF 718 Plate, Inconel UNS N07718 Plates,718 Inconel Hot Rolled Plates Supplier In Mumbai, India. ASTM B 670 Inconel 718 Shim Sheets, Inconel Werkstoff No 2.4668 Sheets, Inconel 718 Cold Rolled Plates, 718 Alloy Plate Exporter, Inconel 718 Sheets Dealer In India. 718 Inconel Plate Stockholder, 718 Inconel Polished Cold Drawn Plates, Inconel 718 Strips Stockist, Manufacturer.',
       text3:"Inconel Alloy 718 Sheet And Plates is being fused explicit assessments of essential worth standard ranges and meets its terms through national guidelines and by and large measures. We supply and charge wide dimension of UNS N07718 Plates that are passed on from high examination and quality foul material by our confided in experts.",
   
@@ -199,7 +199,7 @@ export const Inconel601Data=[
 
 
     {
-      text1:'Inconel 625 Sheets & Plates Manufacturers In Mumbai, Inconel 625 Sheets & Plates Exporters In Mumbai, Inconel 625 Sheets & Plates Suppliers In Mumbai, Inconel 625 Sheets & Plates Importers In Mumbai, Inconel 625 Sheets & Plates Stockists In Mumbai.',
+      text1:'Inconel 625 Sheets & Plates Exporters,Suppliers,Importers,Stockists In Mumbai and India.',
       text2:'Inconel 625 Plates, Alloy 625 Sheets, ASME SB443 Inconel 625 Plate, Inconel UNS N06625 Plates, JIS NCF 625 Plate, Inconel 625 Circle, 625 Inconel Hot Rolled Plates Supplier In Mumbai, India. 625 Alloy Plate Exporter, ASTM B 443 Inconel 625 Shim Sheets, Inconel Werkstoff No 2.4856 Sheets, Inconel Alloy 625 Coils, Inconel 625 Cold Rolled Plates, Inconel 625 Sheets Dealer In India. 625 Inconel Polished Cold Drawn Plates, Distributors Of ASME SB443 Inconel 625 Coils, 625 Inconel Plate Stockholder.',
       text3:"These, Inconel Alloy 625 Sheets, 625 Inconel Coils, Inconel 600 Plates is routinely used in Building objects dividers, Railways, Network leaves in strip malls, Decorative showroom, ventilation sort out, Highways, Environmental perplexity control squares, Generator room, in grain checking, in flood hour gridlock city working conditions, etc.",
   
@@ -241,7 +241,7 @@ export const Inconel601Data=[
 
 
     {
-      text1:'Inconel 706 Sheets & Plates Manufacturers In Mumbai, Inconel 706 Sheets & Plates Exporters In Mumbai, Inconel 706 Sheets & Plates Suppliers In Mumbai, Inconel 706 Sheets & Plates Importers In Mumbai, Inconel 706 Sheets & Plates Stockists In Mumbai.',
+      text1:'Inconel 706 Sheets & Plates Exporters,Suppliers,Importers,Stockists In Mumbai and India.',
       text2:'Inconel 706 UNS N09706 is precipitation-solidifying compound of nickel-chromium-iron, rapidly made and machinable, that outfits high mechanical quality in blend with astonishing fabricability. The properties of the amalgam take after those of Inconel blend 718 adjacent to that compound 706 is by and large more rapidly made, especially by machining.',
       text3:"Inconel amalgam 706 is utilized for a social event of occupations that require high bore joined suitably of creation. In the flight field, the mix is utilized for turbine plates, shafts, and cases; diffuser cases; blower circles and shafts; motor mounts; and catch. Notwithstanding flying applications, the compound is utilized for turbine plates in liberal mechanical gas turbines.",
   
@@ -285,7 +285,7 @@ export const Inconel601Data=[
 
 
     {
-      text1:'Inconel 750 Sheets & Plates Manufacturers In Mumbai, Inconel 750 Sheets & Plates Exporters In Mumbai, Inconel 750 Sheets & Plates Suppliers In Mumbai, Inconel 750 Sheets & Plates Importers In Mumbai, Inconel 750 Sheets & Plates Stockists In Mumbai',
+      text1:'Inconel 750 Sheets & Plates Exporters,Suppliers,Importers,Stockists In Mumbai and India.',
       text2:'Inconel UNS N07750 Sheets, Inconel UNS N07750 Plates, Inconel Werkstoff Nr. 2.4669 Plates, Inconel DIN 2.4669 Sheets, Inconel 750 Plates Supplier In Mumbai, India. AMS 5542 Inconel Alloy Plain Plates Stockholder, Alloy X-750 Hot Rolled Plates, Inconel Sheets Stockist, Inconel X-750 Werkstoff No 2.4669 Sheets, Stockist Of Inconel 750 Plates, Alloy X-750 Shim Sheets, Specialist Of Inconel Alloy X-750 Slatting Coils, X-750 Inconel Alloy Plate Exporter, X-750 Inconel Polished Cold Drawn Plates, Leading Supplier Of Inconel X-750 Plate Dealer In India.',
       text3:"Inconel 750 Plates is utilized for Aircraft structures, Nuclear reactors, Rocket motors, Heat treat foundations, etc. In gas turbines,Alloy 750 Plate is utilized for rotor sharp edges and wheels, incapacitates, and other central individuals. Nickel 750 Sheets is a Nickel-Chromium mix made precipitation hardenable by amplifications of Al and Ti, having creep-break quality at high temperatures to around 700 Degree C (1290 Degree F).",
   
@@ -329,7 +329,7 @@ export const Inconel601Data=[
 
   export const InconelRA330Data=[
     {
-      text1:'Inconel RA330 Sheets & Plates Manufacturers In Mumbai, Inconel RA330 Sheets & Plates Exporters In Mumbai ,Inconel RA330 Sheets & Plates Suppliers In Mumbai, Inconel RA330 Sheets & Plates Importers In Mumbai , Inconel RA330 Sheets & Plates Stockists In Mumbai.',
+      text1:'Inconel RA330 Sheets & Plates Exporters,Suppliers,Importers,Stockists In Mumbai and India.',
       text2:'ASME SB 168 Incoloy 330 Plate, Incoloy Alloy SS 330 Coils, Incoloy SS 330 Circle, Incoloy 330 Plates, JIS NCF Incoloy SS 330 Plate, Incoloy UNS N08330 Plates, Alloy Ra 330 Sheets, Ra 330 Incoloy Hot Rolled Plates Supplier In Mumbai, India. ASTM B 168 Incoloy® 330 Shim Sheets, Incoloy Ra 330 Sheets, Inconel SS 330 Circle, Incoloy 330 Cold Rolled Plates, Inconel 330 Slatting Coil, SS 330 Alloy Plate Exporter, Incoloy Werkstoff Nr. 1.4886 Sheets Dealer In India.',
       text3:"Ra 330 Sheets moreover has unprecedented enemy of – breaking down and oxidation properties. With a nickel substance of 34 percent to 37 percent, Ra 330 Plates remains amazingly impervious to both chloride stress isolating splitting and embrittlement from the precipitation of sigma plan. Slow speeds, positive feeds, sulphureted prescriptions and inflexible mounts are by and large supported for Ra 330 Coils.",
   

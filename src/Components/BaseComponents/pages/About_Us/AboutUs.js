@@ -36,7 +36,7 @@ const AboutUs = () => {
           modi metals growth and success there is years of experience working in
           steel industry & closely monitoring our customer's demands. Exclusive
           technology, certified products, high quality standards and perfect
-          customer's services: this is Modi metals Metal Corporation a true
+          customer's services: this is Modi metals a true
           performer in the global market and a reliable partner for its
           customers.
           We have been playing a significant role in the world of metal products by making, designing and supplying top-quality products at unmatched pricing. Each of our products is made to undergo a stringent quality check to ensure 100% customer satisfaction. Furthermore, we also count on state-of-the-art technology for the manufacturing of our products.
@@ -77,10 +77,10 @@ Importer</td>
 </td>
               <td>RS  50Lakh -1Crore</td>
             </tr>
-            <tr>
+            {/* <tr>
               <td>CIN NO.</td>
               <td></td>
-            </tr>
+            </tr> */}
             <tr>
               <td>GST No.</td>
               <td>27HUOPK4232F1ZF</td>

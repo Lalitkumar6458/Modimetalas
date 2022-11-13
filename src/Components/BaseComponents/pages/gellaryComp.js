@@ -5,7 +5,7 @@ import './Gallery.css'
 
 const GellaryComp = (props) => {
   var data=props.data.CopperImgData
-  console.log(data,"data")
+  
   return (
     <div>
       

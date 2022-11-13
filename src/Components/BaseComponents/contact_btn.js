@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const Contact_btn = (props) => {
        const  content=  props.content
-  console.log(props.content,'helo')
+
   return (
     <>
 

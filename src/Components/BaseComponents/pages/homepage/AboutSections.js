@@ -21,7 +21,7 @@ const AboutSections = () => {
 
         <h2>About The Company</h2>
     <p >
-<span>Modi Metals</span>It was in 2021 that we at Modi Metals forayed into the market as the leading manufacturer, supplier and exporter of metal products. Some of the bestselling products that we offer for our clients are metal pipes and bars, metal sheets, welding consumables, etc. We are based in Mumbai and were founded by Shri Dashrath Modi, under whose guidance we have been able to thrive as a company in this competitive world.
+<span>Modi Metals</span>It was in 2021 that we at Modi Metals forayed into the market as the leading manufacturer, supplier and exporter of metal products. Some of the bestselling products that we offer for our clients are metal pipes and bars, metal sheets, welding consumables, etc. We are based in Mumbai.
 Our range of products is known for their superior strength, longer life span and versatile applications across various sectors including Aerospace, Defence, Fertilizer, Chemicals, Petrochemical Dairy, Refinery, Oil and Gas, Nuclear Power, Solar Power, etc.</p>
 <button className="button-64" role="button"><span className="text"><Link to='/about'>Read More..</Link></span></button>
         </div>

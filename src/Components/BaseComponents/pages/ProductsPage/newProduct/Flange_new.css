@@ -91,3 +91,13 @@ font-size: 1.5rem;
     font-size: 1.5rem;
     color: #E3B71B;
 }
+
+@media (max-width:576px) {
+    .Flange_container {
+        margin-top: 30px;
+        padding: 0 21px;}
+        .Pipe_Fittings {
+            padding: 0 21px;
+        }
+     
+}

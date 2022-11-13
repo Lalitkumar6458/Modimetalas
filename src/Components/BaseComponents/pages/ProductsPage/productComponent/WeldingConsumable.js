@@ -57,7 +57,7 @@ const WeldingConsumable = () => {
             {WeldingImgData.map((item) => {
               return (
                 <>
-                  <div className="col-12 col-md-4 images_class">
+                  <div className="col-12 col-sm-6 col-md-4 images_class">
                     <img className="" src={item.img} alt=""></img>
                    
                   </div>

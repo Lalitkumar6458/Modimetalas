@@ -57,7 +57,9 @@ to { transform: rotate(360deg) }
 .button-64:hover span {
   background: none;
 }
-
+.img_fillter{
+  filter:  brightness(50%);
+}
 @media (min-width: 768px) {
   .button-64 {
     font-size: 24px;

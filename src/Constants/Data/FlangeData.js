@@ -88,7 +88,7 @@ export const FlangeOptionsData = [
 export const ENNormFlangesData = [
   {
     text1:
-      "EN Norm Flanges, EN Norm Flanges Manufacturers, EN Norm Flanges Exporters, EN Norm Flanges Suppliers, EN Norm Flanges Importers.PR EN 1092 Flanges, EN 1092 Flanges Dimensions , BS Flanges, JIS Flanges, DIN Flanges, Slip On Flanges, SORF, Socket Weld Flange, SWRF, Blind Flange, BLRF, Weld Neck Flange, WNRF, EN Norm, Screwed Flange, Lap Joint Flanges, Long Weld Neck Flanges, Spectacle Blind Flanges, Spade, Paddle Blanks/Blinds, Ring Spacers Paddle Spacers Flange Manufacturer in India, Flange Suppliers in India.",
+      "EN Norm Flanges Manufacturers,Exporters,Suppliers,Importers,Stockists In Mumbai and India.",
     text2:
       "Modi metals inside business is the making of Type 01 Flange for the water and gas exporter oversee, sewage treatment and fire certification. Additionally, Dipti Metal Industries has made strong brands producer valves and controls for water treatment, dams and records, HVAC, headway organizing, marine and other mechanical parts. Dipti Metal Industries things are depended on to the certifiable intensive measures and are sold in more than countries around the globe. While dealing with the Dipti Metal Industries expect quality, steadfast quality, handiness and long lifetime in advantage.",
     text3: "",
@@ -99,7 +99,7 @@ export const ENNormFlangesData = [
       "NPT Threads conform to ASME B1.20.1",
       'Up to 12" Listed',
     ],
-    img: require('../Images/FlangeImg/EN_Flange_Img.png'),
+    img: require('../Images/FlangeImg/img8.jpg'),
     Specifications: {
       "STAINLESS STEEL FLANGE":
         "ASTM / ASME SA 182 F 304, 304L, 304H, 309H, 310H, 316, 316H, 316L, 316 LN, 317, 317L, 321, 321H, 347, 347 H",
@@ -158,11 +158,11 @@ export const ENNormFlangesData = [
 export const BSNormFlangesData = [
   {
     text1:
-      "BS Norm Flanges, BS Norm Flanges Manufacturers, BS Norm Flanges Exporters, BS Norm Flanges Suppliers, BS Norm Flanges Importers, BS BS 4504 Flanges, BS 10 Flanges Dimensions , BS 4504 / BS 10 Flanges, BS 10 Flanges, Slip On Flanges, SORF, Socket Weld Flange, SWRF, Blind Flange, BLRF, BS Norm Flange, WNRF, Threaded, Screwed Flange, Lap Joint Flanges, Long BS Norm Flanges, Spectacle Blind Flanges, Spade, Paddle Blanks/Blinds, Ring Spacers Paddle Spacers Flange Manufacturer in India, Flange Suppliers in India.",
+      "BS Norm Flanges Manufacturers,Exporters,Suppliers,Importers,Stockists In Mumbai and India.",
     text2:
       "Modi metals is a dynamic group, which was set up completed 10 years back to oblige creating solicitations of BS 4504/BS 10 Flanges gages in BS Norm Flanges, Blind Flanges, Threaded Flanges, Loose or Lap Joint Flanges in all materials like Stainless Steel , Carbon Steel and High Nickel Alloys. We Manufacture, Export and Supply Flanges which meets with national and all-inclusive quality models and making base which has supplies changing in accordance with overall specific level and is particularly equipped with a whole game plan of forefront plasma refining sorts of rigging.",
     text3: "",
-    img:require('../Images/FlangeImg/Bs_Norm_Flange.png'),
+    img:require('../Images/FlangeImg/img9.png'),
     Specifications: {
       "STAINLESS STEEL FLANGE":
         "ASTM / ASME SA 182 F 304, 304L, 304H, 309H, 310H, 316, 316H, 316L, 316 LN, 317, 317L, 321, 321H, 347, 347 H",
@@ -198,11 +198,11 @@ export const BSNormFlangesData = [
 export const JISNormFlangesData = [
   {
     text1:
-      "JIS Norm Flanges, JIS Norm Flanges Manufacturers, JIS Norm Flanges Exporters, JIS Norm Flanges Suppliers, JIS Norm Flanges Importers. JIS Flanges, JIS B22220 Flanges Dimensions , JIS B2220 / B2291 Flanges, Slip On Flanges, SORF, Socket Weld Flange, SWRF, Blind Flange, BLRF, Weld Neck Flange, WNRF, Threaded, Screwed Flange, Lap Joint Flanges, Long Weld Neck Flanges, Spectacle Blind Flanges, Spade, Paddle Blanks/Blinds, Ring Spacers Paddle Spacers Flange Manufacturer in India, Flange Suppliers in India.",
+      "JIS Norm Flanges Manufacturers,Exporters,Suppliers,Importers,Stockists In Mumbai and India.",
     text2:
       "Modi Metals is a dynamic group, which was delivered completed 10 years back to consider making offers of JIS Flanges measures in Weld Neck Flanges, Blind Flanges, Threaded Flanges, Loose or Lap Joint Flanges in all materials like Stainless Steel , Carbon Steel and High Nickel Alloys. We Manufacture, Export and Supply Flanges which meets with national and general quality gages and making base which has sorts of apparatus fitting in with general particular level and is especially equipped with a whole system of bleeding edge plasma refining sorts of mechanical gathering.",
     text3: "",
-    img:require('../Images/FlangeImg/JIS_Norm_Flange.png'),
+    img:require('../Images/FlangeImg/img10.png'),
     Specifications: {
       "STAINLESS STEEL FLANGE":
         "ASTM / ASME SA 182 F 304, 304L, 304H, 309H, 310H, 316, 316H, 316L, 316 LN, 317, 317L, 321, 321H, 347, 347 H",
@@ -238,11 +238,11 @@ export const JISNormFlangesData = [
 export const UNINormFlangesData = [
   {
     text1:
-      "UNI Plate Flanges, UNI Plate Flanges Manufacturers,UNI Plate Flanges Exporters, UNI Plate Flanges Suppliers, UNI Plate Flanges Importers.UNI Flanges Supplier, UNI Series A and B UNI Flanges, Alloy Steel UNI Plate Flanges, Carbon Steel UNI Flange, Manufacturer of UNI Flanges, Nickel Alloy 200 UNI Flange, UNI Flange Dimensions, MSS SP-44 UNI Flanges in Mumbai, India.UNI Plate Flanges Manufacturers in India,UNI Plate Flanges Exporters in India, UNI 2276 Flanges Suppliers in India, UNI 2276 Flanges Importers in India.Hastelloy C22 UNI Flange, Best Price of Duplex Steel UNI Flanges, Inconel UNI PN40 Flanges, Stockholder Of Plate Flanges, Copper Nickel UNI Flanges Exporter, Alloy 20 UNI Flanges Traders in India.",
+      "UNI Plate Flanges Manufacturers,Exporters,Suppliers,Importers,Stockists In Mumbai and India.",
     text2:
       "UNI Flange Manufacturer Supplies Of UNI Flanges , UNI Flanges, UNI Forged Flange, UNI Flanges in Forged Steel, Stainless Steel, Carbon Steel C22.8, RST37.2, S235JR, P235GH, P245GH, P250GH, ASTM A105, ASTM A182 F304 (1.4306), F304L(1.4307), F316(1.4404), F316L(1.4404), F321(1.4541) and so forth.Stockist of Stainless Steel UNI PN6 Flanges, UNI Class 150 UNI Flange, UNI Pipe Flanges, Global Supplier of UNI Flanges, ASTM A182 SS UNI Flange, UNI Plate Flanges Dealer in India, UNI Blind Flanges, UNI Lapped joint Flanges, UNI Threaded Flange, UNI Plate Flange Stockist.",
     text3: "",
-    img:require('../Images/FlangeImg/UNI_Norm_Flange.png'),
+    img:require('../Images/FlangeImg/img11.png'),
     Specifications: {
       "STAINLESS STEEL FLANGE":
         "ASTM / ASME SA 182 F 304, 304L, 304H, 309H, 310H, 316, 316H, 316L, 316 LN, 317, 317L, 321, 321H, 347, 347 H",
@@ -276,11 +276,11 @@ export const UNINormFlangesData = [
 export const DINNormFlangesData = [
   {
     text1:
-      "Din Norm Flanges, Din Norm Flanges Manufacturers, Din Norm Flanges Exporters, Din Norm Flanges Suppliers, Din Norm Flanges Importers. DIN Flanges, DIN Flanges Dimensions , DIN PN6 PN40 Flanges, Slip On Flanges, SORF, Socket Weld Flange, SWRF, Blind Flange, BLRF, Weld Neck Flange, WNRF, Threaded, Screwed Flange, Lap Joint Flanges, Long Weld Neck Flanges, Spectacle Blind Flanges, Spade, Paddle Blanks/Blinds, Ring Spacers Paddle Spacers Flange Manufacturer in India, Flange Suppliers in India Din Norm Flanges Manufacturers in India, Din Norm Flanges Exporters in India, Din Norm Flanges Suppliers in India, Din Norm Flanges Importers in India. Manufacturer, Exporter & Supplier of DIN Flanges, DIN Flanges Dimensions, DIN Flanges, JIS Flanges, BS Flanges.",
+      "Din Norm Flanges Manufacturers,Exporters,Suppliers,Importers,Stockists In Mumbai and India.",
     text2:
       "Modi Metals is a dynamic group, which was set up finished 10 years back to consider making requesting of DIN Flanges gages in Weld Neck Flanges, Blind Flanges, Threaded Flanges, Loose or Lap Joint Flanges in all materials like Stainless Steel, Carbon Steel and High Nickel Alloys. We Manufacture, Export and Supply Flanges which meets with national and general quality benchmarks and making base which claims supplies changing as per general specific level and is all around equipped with an entire approach of front line plasma refining sorts of mechanical social gathering.",
     text3: "",
-    img:require('../Images/FlangeImg/DIN_Norm_Flange.png'),
+    img:require('../Images/FlangeImg/img12.png'),
     Specifications: {
       "STAINLESS STEEL FLANGE":
         "ASTM / ASME SA 182 F 304, 304L, 304H, 309H, 310H, 316, 316H, 316L, 316 LN, 317, 317L, 321, 321H, 347, 347 H",
@@ -332,11 +332,11 @@ export const DINNormFlangesData = [
 export const ANSINormFlangesData = [
   {
     text1:
-      "ANSI Norm Flanges Manufacturers in Mumbai, ANSI Norm Flanges Exporters in Mumbai, ANSI Norm Flanges Suppliers in Mumbai, ANSI Norm Flanges Importers in Mumbai.ANSI Flange/ANSI Flange Suppliers In India/ASME/ANSI B16.5 ANSIFlange Manufacturer In India.One of the largest manufacturers and suppliers of ANSI flange, carbon steel ANSI flange, stainless steel ANSI flange, alloy steel ANSI flange in India.",
+      "ANSI Norm Flanges Manufacturers,Exporters,Suppliers,Importers,Stockists In Mumbai and India.",
     text2:
       "The present and right standard is ASME B16.5. ANSI B16.5 is regular industry language is still alluded to widely by modelers, designers, makers and providers. What's more, in spite of the fact that the ANSI B16.5 standard does not in fact exist, it its comprehended as another approach to state ASME B16.5.ANSI B16.5 Class 150 FlangesANSI flanges are accessible at Dipti Metal Industries in class 150.The ANSI flanges in the class 150 determination cover slip-ons, weld necks, lap joints, blinds, strung and attachment weld flanges. ANSI flanges for class 150 are given by Dipti Metal Industries as forgings unless generally indicated.The B16.5 Standard characterizes the accompanying:",
     text3: "",
-    img:require('../Images/FlangeImg/img2.jpg'),
+    img:require('../Images/FlangeImg/img7.jpg'),
     Specifications: {
       "STAINLESS STEEL FLANGE":
         "ASTM / ASME SA 182 F 304, 304L, 304H, 309H, 310H, 316, 316H, 316L, 316 LN, 317, 317L, 321, 321H, 347, 347 H",

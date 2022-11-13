@@ -21,6 +21,7 @@ import SS202Grade from './pages/ProductsPage/newProduct/SheetandPlate/SSsheet/SS
 import SSallCom from './pages/ProductsPage/newProduct/SheetandPlate/SSsheet/SSallCom';
 import Gallery from './pages/Gallery';
 import { Routes, Route, Link } from "react-router-dom";
+
 import Footer from './footer';
 import SSsheet from './pages/ProductsPage/newProduct/SheetandPlate/SSsheet/SSsheet';
 import { SS301Data } from '../../Constants/Data/ProductData';
@@ -235,7 +236,7 @@ import { RoundBarOptionData } from '../../Constants/Data/BarData';
 import SheetImg from "../../Constants/Images/SheetImg/headingImg.jpg"
 import SubSheetImg from "../../Constants/Images/SheetImg/SubSheet.jpg"
 
-import CoilsImg from "../../Constants/Images/BaseImage/CoilsImg.jpg"
+import CoilsImg from "../../Constants/Images/CoilsImg/Bgimg1.png"
 import CoilsImg1 from "../../Constants/Images/BaseImage/CoilsImg1.jpg"
 import BarHImg from "../../Constants/Images/BarImg/BarHImg.jpg"
 import WireImg from "../../Constants/Images/WireImg/Wire6.jpeg"
@@ -261,9 +262,12 @@ import { SocketWeldPipeFittingsData } from '../../Constants/Data/PipeFitings';
 import { CategoriesButtdata } from '../../Constants/Data/PipeFitings';
 import { SocketCatgoryData } from '../../Constants/Data/PipeFitings';
 import { ThreadedCatgoryData } from '../../Constants/Data/PipeFitings';
-import bgFitings from "../../Constants/Images/Pipefitings/BgFitings.jpg"
-import Bgfitongsimg from "../../Constants/Images/Pipefitings/BgFitingImg.jpg"
-import BgFitingsImg1 from "../../Constants/Images/Pipefitings/Img3.jpg"
+import { OletsCatgoryData } from '../../Constants/Data/PipeFitings';
+import bgFitings from "../../Constants/Images/Pipefitings/ButImg8.png"
+import Bgfitongsimg from "../../Constants/Images/Pipefitings/TrBgImg2.png"
+import BgFitingsImg1 from "../../Constants/Images/Pipefitings/TrBgImg1.png"
+import Oimg from "../../Constants/Images/Pipefitings/OImg1.png"
+import Fimg from '../../Constants/Images/ferul_img/img1.jpg'
 import ScrollButton from './ScrollTop';
 
 import { ANSINormFlangesData } from '../../Constants/Data/FlangeData';
@@ -273,20 +277,39 @@ import { BSNormFlangesData } from '../../Constants/Data/FlangeData';
 import { JISNormFlangesData } from '../../Constants/Data/FlangeData';
 import { DINNormFlangesData } from '../../Constants/Data/FlangeData';
 import Flange_new from './pages/ProductsPage/newProduct/Flange_new';
-
-
+import { oletFittingsData } from '../../Constants/Data/PipeFitings';
+import { FerrulePipeFittingsData } from '../../Constants/Data/PipeFitings';
+import { FerruleCatgoryData } from '../../Constants/Data/PipeFitings';
+import SpecialAlloysP from './pages/ProductsPage/SpecialAlloysP';
+import { SpecialAlloysgrade } from '../../Constants/Data/SpecialAlloys';
 const BaseIndex = () => {
   const [loading, setLoading] = useState(true);
       
 
- // requirement.
-// const [data,setData]=useState([])
-  // setData(SS301Data)
-  console.log(SS301Data,'SS301Data')
+
+
   return (
     <>
     <Header/>
     <Routes>
+    {SpecialAlloysgrade.map((item,index)=>{
+      return(
+
+        <Route path={item.link} element={<SpecialAlloysP name={{data:SpecialAlloysgrade[index]}}  />} />
+      )
+
+    })}
+    {/* <Route path="/SpecialAlloys/InconelAlloys" element={<SpecialAlloysP name={{data:SpecialAlloysgrade[0]}}  />} />
+    <Route path="/SpecialAlloys/Hastelloy" element={<SpecialAlloysP name={{data:SpecialAlloysgrade[2]}}  />} />
+    <Route path="/SpecialAlloys/SuperMonelAlloys" element={<SpecialAlloysP name={{data:SpecialAlloysgrade[1]}}  />} />
+    <Route path="/SpecialAlloys/DuplexAlloys" element={<SpecialAlloysP name={{data:SpecialAlloysgrade[3]}}  />} />
+    <Route path="/SpecialAlloys/SuperDuplexAlloys" element={<SpecialAlloysP name={{data:SpecialAlloysgrade[4]}}  />} />
+    <Route path="/SpecialAlloys/CuproNickelAlloys" element={<SpecialAlloysP name={{data:SpecialAlloysgrade[5]}}  />} />
+    <Route path="/SpecialAlloys/SMO254" element={<SpecialAlloysP name={{data:SpecialAlloysgrade[6]}}  />} />
+    <Route path="/SpecialAlloys/Alloy20" element={<SpecialAlloysP name={{data:SpecialAlloysgrade[7]}}  />} />
+    <Route path="/SpecialAlloys/Alloy20" element={<SpecialAlloysP name={{data:SpecialAlloysgrade[7]}}  />} /> */}
+
+   
     <Route path="/ANSI_Norm_Flanges" element={<Flange_new name={{data:ANSINormFlangesData,Grade:TitaniumCoilsGradeData,heading:"ANSI Norm Flanges"}} />}/>
     <Route path="/UNI_Norm_Flanges" element={<Flange_new name={{data:UNINormFlangesData,Grade:TitaniumCoilsGradeData,heading:"UNI Norm Flanges"}} />}/>
     <Route path="/EN_Norm_Flanges" element={<Flange_new name={{data:ENNormFlangesData,Grade:TitaniumCoilsGradeData,heading:"EN Norm Flanges"}} />}/>
@@ -298,77 +321,78 @@ const BaseIndex = () => {
     <Route path="/Threaded_Pipe_Fittings" element={<PipeFitings name={{data:ThreadedPipeFittingsData,Grade:TitaniumCoilsGradeData,heading:"Threaded Pipe Fittings",img:Bgfitongsimg,Category:ThreadedCatgoryData}} />}/>
     <Route path="/MGalvanized_Pipe_Fittings" element={<PipeFitings name={{data:SocketWeldPipeFittingsData,Grade:TitaniumCoilsGradeData,heading:"Socket Weld Pipe Fittings",img:BgFitingsImg1,Category:SocketCatgoryData}} />}/>
 
+    <Route path="/Olets_Pipe_Fittings" element={<PipeFitings name={{data:oletFittingsData,Grade:TitaniumCoilsGradeData,heading:"Olets Pipe Fittings",img:Oimg,Category:OletsCatgoryData}} />}/>
+    <Route path="/Ferrule_Pipe_Fittings" element={<PipeFitings name={{data:FerrulePipeFittingsData,Grade:TitaniumCoilsGradeData,heading:"Ferrule Pipe Fittings",img:Fimg,Category:FerruleCatgoryData}} />}/>
+    <Route path="/TitaniumGr1CoilsGrade" element={<SSallCom name={{data:TitaniumGrade1CoilsData,Grade:TitaniumCoilsGradeData,heading:"Titanium Gr1 COILS & STIRPS",img:CoilsImg1}} />}/>
+    <Route path="/TitaniumGr2CoilsGrade" element={<SSallCom name={{data:TitaniumGrade2CoilsData,Grade:TitaniumCoilsGradeData,heading:"Titanium Gr2 COILS & STIRPS",img:CoilsImg1}} />}/>
+    <Route path="/TitaniumGr3CoilsGrade" element={<SSallCom name={{data:TitaniumGrade3CoilsData,Grade:TitaniumCoilsGradeData,heading:"Titanium Gr3 COILS & STIRPS",img:CoilsImg1}} />}/>
+    <Route path="/TitaniumGr4CoilsGrade" element={<SSallCom name={{data:TitaniumGrade4CoilsData,Grade:TitaniumCoilsGradeData,heading:"Titanium Gr4 COILS & STIRPS",img:CoilsImg1}} />}/>
+    <Route path="/TitaniumGr5CoilsGrade" element={<SSallCom name={{data:TitaniumGrade5CoilsData,Grade:TitaniumCoilsGradeData,heading:"Titanium Gr5 COILS & STIRPS",img:CoilsImg1}} />}/>
 
-    <Route path="/TitaniumGr1CoilsGrade" element={<SSallCom name={{data:TitaniumGrade1CoilsData,Grade:TitaniumCoilsGradeData,heading:"Titanium Gr1 Coils",img:CoilsImg1}} />}/>
-    <Route path="/TitaniumGr2CoilsGrade" element={<SSallCom name={{data:TitaniumGrade2CoilsData,Grade:TitaniumCoilsGradeData,heading:"Titanium Gr2 Coils",img:CoilsImg1}} />}/>
-    <Route path="/TitaniumGr3CoilsGrade" element={<SSallCom name={{data:TitaniumGrade3CoilsData,Grade:TitaniumCoilsGradeData,heading:"Titanium Gr3 Coils",img:CoilsImg1}} />}/>
-    <Route path="/TitaniumGr4CoilsGrade" element={<SSallCom name={{data:TitaniumGrade4CoilsData,Grade:TitaniumCoilsGradeData,heading:"Titanium Gr4 Coils",img:CoilsImg1}} />}/>
-    <Route path="/TitaniumGr5CoilsGrade" element={<SSallCom name={{data:TitaniumGrade5CoilsData,Grade:TitaniumCoilsGradeData,heading:"Titanium Gr5 Coils",img:CoilsImg1}} />}/>
 
-
-    <Route path="/DuplexS31803Coils" element={<SSallCom name={{data:DuplexS31803CoilsData,Grade:DuplexCoilsGradeData,heading:"DuplexS31803 Coils",img:CoilsImg1}} />}/>
+    <Route path="/DuplexS31803Coils" element={<SSallCom name={{data:DuplexS31803CoilsData,Grade:DuplexCoilsGradeData,heading:"DuplexS31803 COILS & STIRPS",img:CoilsImg1}} />}/>
     
     
     
-    <Route path="/Duplex2101Coils" element={<SSallCom name={{data:Duplex2101CoilsData,Grade:DuplexCoilsGradeData,heading:"Duplex 2101 Coils",img:CoilsImg1}} />}/>
-    <Route path="/Duplex2205Coils" element={<SSallCom name={{data:Duplex2205CoilsData,Grade:DuplexCoilsGradeData,heading:"Duplex 2205 Coils",img:CoilsImg1}} />}/>
-    <Route path="/Duplex2304_S32304Coils" element={<SSallCom name={{data:Duplex2304CoilsData,Grade:DuplexCoilsGradeData,heading:"Duplex 2304/S32304 Coils",img:CoilsImg1}} />}/>
-    <Route path="/SuperDuplex2507Coils" element={<SSallCom name={{data:Duplex2507CoilsData,Grade:DuplexCoilsGradeData,heading:"SuperDuplex2507 Coils",img:CoilsImg1}} />}/>
+    <Route path="/Duplex2101Coils" element={<SSallCom name={{data:Duplex2101CoilsData,Grade:DuplexCoilsGradeData,heading:"Duplex 2101 COILS & STIRPS",img:CoilsImg1}} />}/>
+    <Route path="/Duplex2205Coils" element={<SSallCom name={{data:Duplex2205CoilsData,Grade:DuplexCoilsGradeData,heading:"Duplex 2205 COILS & STIRPS",img:CoilsImg1}} />}/>
+    <Route path="/Duplex2304_S32304Coils" element={<SSallCom name={{data:Duplex2304CoilsData,Grade:DuplexCoilsGradeData,heading:"Duplex 2304/S32304 COILS & STIRPS",img:CoilsImg1}} />}/>
+    <Route path="/SuperDuplex2507Coils" element={<SSallCom name={{data:Duplex2507CoilsData,Grade:DuplexCoilsGradeData,heading:"SuperDuplex2507 COILS & STIRPS",img:CoilsImg1}} />}/>
     <Route path="/SuperDuplexS32750_S32760Coils" element={<SSallCom name={{data:DuplexS32750CoilsData,Grade:DuplexCoilsGradeData,heading:"SuperDuplexS32750/S32760 Coils",img:CoilsImg1}} />}/>
 
 
 
 
-    <Route path="/HastelloyB2Coils" element={<SSallCom name={{data:HastelloyB2CoilsData,Grade:HastelloyCoilsGradeData,heading:"HastelloyB2 Coils",img:CoilsImg1}} />}/>
+    <Route path="/HastelloyB2Coils" element={<SSallCom name={{data:HastelloyB2CoilsData,Grade:HastelloyCoilsGradeData,heading:"HastelloyB2 COILS & STIRPS",img:CoilsImg1}} />}/>
 
-    <Route path="/HastelloyB3Coils" element={<SSallCom name={{data:HastelloyB3CoilsData,Grade:HastelloyCoilsGradeData,heading:"HastelloyB3 Coils",img:CoilsImg1}} />}/>
+    <Route path="/HastelloyB3Coils" element={<SSallCom name={{data:HastelloyB3CoilsData,Grade:HastelloyCoilsGradeData,heading:"HastelloyB3 COILS & STIRPS",img:CoilsImg1}} />}/>
 
-    <Route path="/HastelloyC22Coils" element={<SSallCom name={{data:HastelloyC22CoilsData,Grade:HastelloyCoilsGradeData,heading:"HastelloyC22 Coils",img:CoilsImg1}} />}/>
+    <Route path="/HastelloyC22Coils" element={<SSallCom name={{data:HastelloyC22CoilsData,Grade:HastelloyCoilsGradeData,heading:"HastelloyC22 COILS & STIRPS",img:CoilsImg1}} />}/>
 
-    <Route path="/HastelloyC2000Coils" element={<SSallCom name={{data:HastelloyC2000CoilsData,Grade:HastelloyCoilsGradeData,heading:"HastelloyC2000 Coils",img:CoilsImg1}} />}/>
+    <Route path="/HastelloyC2000Coils" element={<SSallCom name={{data:HastelloyC2000CoilsData,Grade:HastelloyCoilsGradeData,heading:"HastelloyC2000 COILS & STIRPS",img:CoilsImg1}} />}/>
 
-    <Route path="/HastelloyC276Coils" element={<SSallCom name={{data:HastelloyC276CoilsData,Grade:HastelloyCoilsGradeData,heading:"HastelloyC276 Coils",img:CoilsImg1}} />}/>
+    <Route path="/HastelloyC276Coils" element={<SSallCom name={{data:HastelloyC276CoilsData,Grade:HastelloyCoilsGradeData,heading:"HastelloyC276 COILS & STIRPS",img:CoilsImg1}} />}/>
     <Route path="/HastelloyXCoils" element={<SSallCom name={{data:HastelloyXCoilsData,Grade:HastelloyCoilsGradeData,heading:"HastelloyX Coils",img:CoilsImg1}} />}/>
 
 
 
 
     <Route path="/Monel400Coils" element={<SSallCom name={{data:Monel400CoilsData,Grade:MonelCoilsGradeData,heading:"Monel400 Coils",img:CoilsImg1}} />}/>
-    <Route path="/MonelK500Coils" element={<SSallCom name={{data:MonelK500CoilsData,Grade:MonelCoilsGradeData,heading:"MonelK500 Coils",img:CoilsImg1}} />}/>
-    <Route path="/Nickel200CoilsGrade" element={<SSallCom name={{data:Nickel200CoilsData,Grade:NickelCoilsGradeData,heading:"Nickel200 Coils",img:CoilsImg1}} />}/>
-    <Route path="/Nickel201CoilsGrade" element={<SSallCom name={{data:Nickel201CoilsData,Grade:NickelCoilsGradeData,heading:"Nickel201 Coils",img:CoilsImg1}} />}/>
+    <Route path="/MonelK500Coils" element={<SSallCom name={{data:MonelK500CoilsData,Grade:MonelCoilsGradeData,heading:"MonelK500 COILS & STIRPS",img:CoilsImg1}} />}/>
+    <Route path="/Nickel200CoilsGrade" element={<SSallCom name={{data:Nickel200CoilsData,Grade:NickelCoilsGradeData,heading:"Nickel200 COILS & STIRPS",img:CoilsImg1}} />}/>
+    <Route path="/Nickel201CoilsGrade" element={<SSallCom name={{data:Nickel201CoilsData,Grade:NickelCoilsGradeData,heading:"Nickel201 COILS & STIRPS",img:CoilsImg1}} />}/>
 
 
 
 
 
 
-    <Route path="/Inconel600CoilsGrade" element={<SSallCom name={{data:Inconel600CoilsData,Grade:InconelCoilsGradeData,heading:"Inconel600 Coils",img:CoilsImg1}} />}/>
+    <Route path="/Inconel600CoilsGrade" element={<SSallCom name={{data:Inconel600CoilsData,Grade:InconelCoilsGradeData,heading:"Inconel600 COILS & STIRPS",img:CoilsImg1}} />}/>
 
-    <Route path="/Inconel601CoilsGrade" element={<SSallCom name={{data:Inconel601CoilsData,Grade:InconelCoilsGradeData,heading:"Inconel601 Coils",img:CoilsImg1}} />}/>
-    <Route path="/Inconel625CoilsGrade" element={<SSallCom name={{data:Inconel625CoilsData,Grade:InconelCoilsGradeData,heading:"Inconel625 Coils",img:CoilsImg1}} />}/>
-    <Route path="/Inconel718CoilsGrade" element={<SSallCom name={{data:Inconel718CoilsData,Grade:InconelCoilsGradeData,heading:"Inconel718 Coils",img:CoilsImg1}} />}/>
-    <Route path="/Inconel800CoilsGrade" element={<SSallCom name={{data:Inconel800CoilsData,Grade:InconelCoilsGradeData,heading:"Inconel800 Coils",img:CoilsImg1}} />}/>
-    <Route path="/Inconel825CoilsGrade" element={<SSallCom name={{data:Inconel825CoilsData,Grade:InconelCoilsGradeData,heading:"Inconel825 Coils",img:CoilsImg1}} />}/>
-    <Route path="/Inconel925CoilsGrade" element={<SSallCom name={{data:Inconel925CoilsData,Grade:InconelCoilsGradeData,heading:"Inconel925 Coils",img:CoilsImg1}} />}/>
+    <Route path="/Inconel601CoilsGrade" element={<SSallCom name={{data:Inconel601CoilsData,Grade:InconelCoilsGradeData,heading:"Inconel601 COILS & STIRPS",img:CoilsImg1}} />}/>
+    <Route path="/Inconel625CoilsGrade" element={<SSallCom name={{data:Inconel625CoilsData,Grade:InconelCoilsGradeData,heading:"Inconel625 COILS & STIRPS",img:CoilsImg1}} />}/>
+    <Route path="/Inconel718CoilsGrade" element={<SSallCom name={{data:Inconel718CoilsData,Grade:InconelCoilsGradeData,heading:"Inconel718 COILS & STIRPS",img:CoilsImg1}} />}/>
+    <Route path="/Inconel800CoilsGrade" element={<SSallCom name={{data:Inconel800CoilsData,Grade:InconelCoilsGradeData,heading:"Inconel800 COILS & STIRPS",img:CoilsImg1}} />}/>
+    <Route path="/Inconel825CoilsGrade" element={<SSallCom name={{data:Inconel825CoilsData,Grade:InconelCoilsGradeData,heading:"Inconel825 COILS & STIRPS",img:CoilsImg1}} />}/>
+    <Route path="/Inconel925CoilsGrade" element={<SSallCom name={{data:Inconel925CoilsData,Grade:InconelCoilsGradeData,heading:"Inconel925 COILS & STIRPS",img:CoilsImg1}} />}/>
 
 
     
 
-    <Route path="/SS201CoilsGrade" element={<SSallCom name={{data: StainlessSteel201CoilsData,Grade:SSCoilsGradeData,heading:"SS 201 Coils",img:CoilsImg1}} />}/>
-    <Route path="/SS202CoilsGrade" element={<SSallCom name={{data: StainlessSteel202CoilsData,Grade:SSCoilsGradeData,heading:"SS 202 Coils",img:CoilsImg1}} />}/>  
-     <Route path="/SS304CoilsGrade" element={<SSallCom name={{data: StainlessSteel304CoilsData,Grade:SSCoilsGradeData,heading:"SS 304 Coils",img:CoilsImg1}} />}/>   
-    <Route path="/SS304LCoilsGrade" element={<SSallCom name={{data: StainlessSteel304LCoilsData,Grade:SSCoilsGradeData,heading:"SS 304L Coils",img:CoilsImg1}} />}/>  
-     <Route path="/SS304HCoilsGrade" element={<SSallCom name={{data: StainlessSteel304HCoilsData,Grade:SSCoilsGradeData,heading:"SS 304H Coils",img:CoilsImg1}} />}/>  
-     <Route path="/SS310SCoilsGrade" element={<SSallCom name={{data: StainlessSteel310SCoilsData,Grade:SSCoilsGradeData,heading:"SS 310S Coils",img:CoilsImg1}} />}/>   
-    <Route path="/SS310HCoilsGrade" element={<SSallCom name={{data: StainlessSteel310HCoilsData,Grade:SSCoilsGradeData,heading:"SS 310H Coils",img:CoilsImg1}} />}/>   
-    <Route path="/SS316HCoilsGrade" element={<SSallCom name={{data: StainlessSteel316HCoilsData,Grade:SSCoilsGradeData,heading:"SS 316H Coils",img:CoilsImg1}} />}/>   
-    <Route path="/SS316TiCoilsGrade" element={<SSallCom name={{data: StainlessSteel316TiCoilsData,Grade:SSCoilsGradeData,heading:"SS 316Ti Coils",img:CoilsImg1}} />}/>  
+    <Route path="/SS201CoilsGrade" element={<SSallCom name={{data: StainlessSteel201CoilsData,Grade:SSCoilsGradeData,heading:"SS 201 COILS & STIRPS",img:CoilsImg1}} />}/>
+    <Route path="/SS202CoilsGrade" element={<SSallCom name={{data: StainlessSteel202CoilsData,Grade:SSCoilsGradeData,heading:"SS 202 COILS & STIRPS",img:CoilsImg1}} />}/>  
+     <Route path="/SS304CoilsGrade" element={<SSallCom name={{data: StainlessSteel304CoilsData,Grade:SSCoilsGradeData,heading:"SS 304 COILS & STIRPS",img:CoilsImg1}} />}/>   
+    <Route path="/SS304LCoilsGrade" element={<SSallCom name={{data: StainlessSteel304LCoilsData,Grade:SSCoilsGradeData,heading:"SS 304L COILS & STIRPS",img:CoilsImg1}} />}/>  
+     <Route path="/SS304HCoilsGrade" element={<SSallCom name={{data: StainlessSteel304HCoilsData,Grade:SSCoilsGradeData,heading:"SS 304H COILS & STIRPS",img:CoilsImg1}} />}/>  
+     <Route path="/SS310SCoilsGrade" element={<SSallCom name={{data: StainlessSteel310SCoilsData,Grade:SSCoilsGradeData,heading:"SS 310S COILS & STIRPS",img:CoilsImg1}} />}/>   
+    <Route path="/SS310HCoilsGrade" element={<SSallCom name={{data: StainlessSteel310HCoilsData,Grade:SSCoilsGradeData,heading:"SS 310H COILS & STIRPS",img:CoilsImg1}} />}/>   
+    <Route path="/SS316HCoilsGrade" element={<SSallCom name={{data: StainlessSteel316HCoilsData,Grade:SSCoilsGradeData,heading:"SS 316H COILS & STIRPS",img:CoilsImg1}} />}/>   
+    <Route path="/SS316TiCoilsGrade" element={<SSallCom name={{data: StainlessSteel316TiCoilsData,Grade:SSCoilsGradeData,heading:"SS 316Ti COILS & STIRPS",img:CoilsImg1}} />}/>  
     
-    <Route path="/SS316LCoilsGrade" element={<SSallCom name={{data: StainlessSteel316LCoilsData,Grade:SSCoilsGradeData,heading:"SS 316L Coils",img:CoilsImg1}} />}/>
-     <Route path="/SS904LCoilsGrade" element={<SSallCom name={{data: StainlessSteel904LCoilsData,Grade:SSCoilsGradeData,heading:"SS 904L Coils",img:CoilsImg1}} />}/>  
-     <Route path="/SS410SCoilsGrade" element={<SSallCom name={{data: StainlessSteel410SCoilsData,Grade:SSCoilsGradeData,heading:"SS 410 Coils",img:CoilsImg1}} />}/> 
-       <Route path="/SS420CoilsGrade" element={<SSallCom name={{data: StainlessSteel420CoilsData,Grade:SSCoilsGradeData,heading:"SS 420 Coils",img:CoilsImg1}} />}/>
+    <Route path="/SS316LCoilsGrade" element={<SSallCom name={{data: StainlessSteel316LCoilsData,Grade:SSCoilsGradeData,heading:"SS 316L COILS & STIRPS",img:CoilsImg1}} />}/>
+     <Route path="/SS904LCoilsGrade" element={<SSallCom name={{data: StainlessSteel904LCoilsData,Grade:SSCoilsGradeData,heading:"SS 904L COILS & STIRPS",img:CoilsImg1}} />}/>  
+     <Route path="/SS410SCoilsGrade" element={<SSallCom name={{data: StainlessSteel410SCoilsData,Grade:SSCoilsGradeData,heading:"SS 410 COILS & STIRPS",img:CoilsImg1}} />}/> 
+       <Route path="/SS420CoilsGrade" element={<SSallCom name={{data: StainlessSteel420CoilsData,Grade:SSCoilsGradeData,heading:"SS 420 COILS & STIRPS",img:CoilsImg1}} />}/>
 
 
 
@@ -388,7 +412,7 @@ const BaseIndex = () => {
     <Route path="/MonelWire" element={<SSsheet name={{data:MonelWireData,Grade:WireGradeData,img:WireHImg,heading:"Monel Wire"}}  />}/>
     <Route path="/NickelWire" element={<SSsheet name={{data:NickelWireData,Grade:WireGradeData,img:WireHImg,heading:"Nickel Wire"}}  />}/>
     <Route path="/titaniumCWire" element={<SSsheet name={{data:TitaniumWireData,Grade:WireGradeData,img:WireHImg,heading:"titanium Wire"}}  />}/>
-    <Route path="/DuplexSuperduplexWire" element={<SSsheet name={{data:DuplexWireData,Grade:WireGradeData,img:WireHImg,heading:"Duplex/Superduplex Wire"}}  />}/>
+    <Route path="/DuplexSuperduplexWire" element={<SSsheet name={{data:DuplexWireData,Grade:WireGradeData,img:WireHImg,heading:"Duplex & Superduplex Wire"}}  />}/>
     <Route path="/SMO254Wire" element={<SSsheet name={{data:SMO254WireData,Grade:WireGradeData,img:WireHImg,heading:"SMO254 Wire"}}  />}/>
     <Route path="/HastelloyWire" element={<SSsheet name={{data:HastelloyWireData,Grade:WireGradeData,img:WireHImg,heading:"Hastelloy Wire"}}  />}/>
     <Route path="/Alloy20Wire" element={<SSsheet name={{data:Alloy20WireData,Grade:WireGradeData,img:WireHImg,heading:"Alloy20 Wire"}}  />}/>
@@ -452,13 +476,15 @@ const BaseIndex = () => {
     <Route path="/SS904LBarGrade" element={<SSallCom name={{data:StainlessSteel904BarData,Grade:SSBarGradeData,heading:"STAINLESS STEEL 904L ROUND BAR",img:BarHeadingimg}} />}/>
 
         <Route  exact path="/" element={<Home />} />
+        <Route path="*" element={<Home />} />
+
         <Route path="about" element={<AboutUs />} />
         <Route path="productModi" element={<ProductModi  />}/>
-        <Route path="/SheetMain" element={<SheetMain name={{data:SheetData,img:SheetImg,heading:"Sheet/Plate"}}  />}/>
-        <Route path="/Coils" element={<SheetMain name={{data:CoilsData,heading:"COILS",img:CoilsImg}}  />}/>
+        <Route path="/SheetMain" element={<SheetMain name={{data:SheetData,img:SheetImg,heading:"Sheet & Plate"}}  />}/>
+        <Route path="/Coils" element={<SheetMain name={{data:CoilsData,heading:"COILS & Stirps",img:CoilsImg}}  />}/>
         <Route path="/ROUND_BAR" element={<SheetMain name={{data:RoundBarData,heading:"ROUND BAR",img:BarHImg}}  />}/>
         <Route path="/WIRE" element={<SheetMain name={{data:WireData,heading:"Wire",img:WireImg}}  />}/>
-        <Route path="/Pipes_tubes" element={<SheetMain name={{data:PipesData,heading:"Pipes/Tubes",img:PipeImg}}  />}/>
+        <Route path="/Pipes_tubes" element={<SheetMain name={{data:PipesData,heading:"Pipes & Tubes",img:PipeImg}}  />}/>
         <Route path="/SSsheet" element={<SSsheet name={{data:SSSheetData,Grade:SSsheetGradeData,img:SubSheetImg,heading:"STAINLESS STEEL SHEET AND PLATE"}} />}/>
         <Route path="/Pipe_Fittings" element={<SheetMain name={{data:PipeFitingsData,img:BgFitingsimg,heading:"Pipe Fittings"}}  />}/>
         <Route path="/Flanges" element={<SheetMain name={{data:FlangeData,img:bgFlangeimg,heading:"Flanges"}}  />}/>
@@ -526,25 +552,25 @@ const BaseIndex = () => {
         <Route path="/HastelloySheet" element={<SSallCom name={{data:HastelloySheetsData,Grade:HastelloyGradeData,img:SubSheetImg,heading:"HASTELLOY SHEET AND PLATE"}} />}/>
         <Route path="/HastelloyC22Sheet" element={<SSallCom name={{data:HastelloyC22Data,Grade:HastelloyGradeData,img:SubSheetImg,heading:"HASTELLOY C22 SHEET AND PLATE"}} />}/>
         <Route path="/HastelloyC276Sheet" element={<SSallCom name={{data:HastelloyC276Data,Grade:HastelloyGradeData,img:SubSheetImg,heading:"HASTELLOY C276 SHEET AND PLATE"}} />}/>
-        <Route path="/DuplexSuperduplexSheet" element={<SSsheet name={{data:DuplexSuperduplexSheetsData,Grade:SheetoptionData,img:SubSheetImg,heading:"DUPLEX/SUPERDUPLEX SHEET AND PLATE"}} />}/>
+        <Route path="/DuplexSuperduplexSheet" element={<SSsheet name={{data:DuplexSuperduplexSheetsData,Grade:SheetoptionData,img:SubSheetImg,heading:"DUPLEX & SUPERDUPLEX SHEET AND PLATE"}} />}/>
 
 
- <Route path="/SSCoils" element={<SSsheet name={{data:StainlessSteelCoilsData ,Grade:SSCoilsGradeData,heading:"STAINLESS STEEL COILS",img:CoilsImg1}}  />}/>
- <Route path="/InconelCoils" element={<SSsheet name={{data:InconelCoilsData,Grade:InconelCoilsGradeData,heading:"INCONEL COILS",img:CoilsImg1}}  />}/>
- <Route path="/MonelCoils" element={<SSsheet name={{data:MonelCoilsData,Grade:MonelCoilsGradeData,heading:"MONEL COILS",img:CoilsImg1}}  />}/>
- <Route path="/NickelCoils" element={<SSsheet name={{data:NickelCoilsData,Grade:NickelCoilsGradeData,heading:"NICKEL COILS",img:CoilsImg1}}  />}/>
- <Route path="/titaniumCoils" element={<SSsheet name={{data:TitaniumCoilsData,Grade:TitaniumCoilsGradeData,heading:"TITANIUM COILS",img:CoilsImg1}}  />}/>
+ <Route path="/SSCoils" element={<SSsheet name={{data:StainlessSteelCoilsData ,Grade:SSCoilsGradeData,heading:"STAINLESS STEEL COILS & STIRPS",img:CoilsImg1}}  />}/>
+ <Route path="/InconelCoils" element={<SSsheet name={{data:InconelCoilsData,Grade:InconelCoilsGradeData,heading:"INCONEL COILS & STIRPS",img:CoilsImg1}}  />}/>
+ <Route path="/MonelCoils" element={<SSsheet name={{data:MonelCoilsData,Grade:MonelCoilsGradeData,heading:"MONEL COILS & STIRPS",img:CoilsImg1}}  />}/>
+ <Route path="/NickelCoils" element={<SSsheet name={{data:NickelCoilsData,Grade:NickelCoilsGradeData,heading:"NICKEL COILS & STIRPS",img:CoilsImg1}}  />}/>
+ <Route path="/titaniumCoils" element={<SSsheet name={{data:TitaniumCoilsData,Grade:TitaniumCoilsGradeData,heading:"TITANIUM COILS & STIRPS",img:CoilsImg1}}  />}/>
  <Route path="/A286Coils" element={<SSsheet name={{data:A286CoilsData,Grade:CoilsoptionData,heading:"A286 COILS",img:CoilsImg1}}  />}/>
- <Route path="/SMO254Coils" element={<SSsheet name={{data:SMO254CoilsData,Grade:CoilsoptionData,heading:"SMO254 COILS",img:CoilsImg1}}  />}/>
+ <Route path="/SMO254Coils" element={<SSsheet name={{data:SMO254CoilsData,Grade:CoilsoptionData,heading:"SMO254 COILS & STIRPS",img:CoilsImg1}}  />}/>
 
- <Route path="/HastelloyCoils" element={<SSsheet name={{data:HastelloyCoilsData,Grade:HastelloyCoilsGradeData,heading:"HASTELLOY COILS",img:CoilsImg1}}  />}/>
+ <Route path="/HastelloyCoils" element={<SSsheet name={{data:HastelloyCoilsData,Grade:HastelloyCoilsGradeData,heading:"HASTELLOY COILS & STIRPS",img:CoilsImg1}}  />}/>
  <Route path="/Alloy20Coils" element={<SSsheet name={{data:Alloy20CoilsData,Grade:CoilsoptionData,heading:"ALLOY20 COILS",img:CoilsImg1}}  />}/>
 
 
- <Route path="/DuplexSuperduplexCoils" element={<SSsheet name={{data:DuplexCoilsData,Grade:DuplexCoilsGradeData,heading:"DUPLEX/SUPERDUPLEX COILS",img:CoilsImg1}}  />}/>
+ <Route path="/DuplexSuperduplexCoils" element={<SSsheet name={{data:DuplexCoilsData,Grade:DuplexCoilsGradeData,heading:"DUPLEX/SUPERDUPLEX COILS & STIRPS",img:CoilsImg1}}  />}/>
     
  <Route path="/Welding_Consumables" element={<WeldingWire   />}/>
-        <Route path="products" element={<Products  message={{text_heading:"Alloys",img:Alloysimg}} />}>
+        <Route path="products" element={<Products  message={{text_heading:"Special Alloys",img:Alloysimg}} />}>
           
       
         </Route> 

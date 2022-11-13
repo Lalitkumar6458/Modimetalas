@@ -1,12 +1,8 @@
 import React, { useState } from "react";
-import { Routes, Route, Link } from "react-router-dom";
+import {  Link } from "react-router-dom";
 
-// import { Carousel  } from 'react-bootstrap';
-import slide from "../../../../Constants/Images/homePageImg/img18.png";
-import slide1 from "../../../../Constants/Images/homePageImg/brg1.jpg";
-import slide2 from "../../../../Constants/Images/homePageImg/img15.png";
-import slide3 from "../../../../Constants/Images/homePageImg/img2.png";
-import slide4 from "../../../../Constants/Images/homePageImg/miximg1.png";
+
+import slide4 from "../../../../Constants/Images/homePageImg/miximg2.png";
 import "./SlideHome.css";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
@@ -14,7 +10,7 @@ import {HomeSlider}  from "../../../../Constants/Data/sliderData";
 
 const SliderHome = () => {
   const onChange = (event) => {
-    console.log(event);
+    
   };
   const [index, setIndex] = useState(0);
   const handleSelect = (selectedIndex, e) => {
@@ -30,7 +26,7 @@ const SliderHome = () => {
 
         {HomeSlider.map((item,index)=>{
 return( <div>
-  <img className="card-img-top" src={item.img} alt="Card image cap" />
+  <img className="card-img-top img_fillter" src={item.img} alt="Card image cap" />
   <div className="row Home_page_heading">
     <div className="col-md-6 col-6 content">
       <h3>
@@ -41,7 +37,7 @@ return( <div>
       </p>
       <Link  to="/contact">  <button className="button_home" role="button"> Get Started</button></Link>
     </div>
-    <div className="col-md-6 col-6" >
+    <div className="col-md-6 col-6 " >
              <img src={slide4} style={{ transform: "rotate(180deg)"}} className="img-fluid" alt=""></img>
     </div>
   </div>

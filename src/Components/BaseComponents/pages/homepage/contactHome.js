@@ -1,7 +1,7 @@
-import { useRef,useState,useEffect} from "react";
+import {useState,useEffect} from "react";
 import emailjs from '@emailjs/browser';
 import "./contactHome.css";
-import { Routes, Route, Link } from "react-router-dom";
+
 
 const ContactHome = () => {
 
@@ -31,13 +31,13 @@ values.email=email
 values.phone=phone
 values.message=message
 
-if(name==''){
+if(name===''){
   setNameBorder(true)
-}else if(email==''){
+}else if(email===''){
   setEmailBorder(true)
-}else if(phone==''){
+}else if(phone===''){
   setPhoneBorder(true)
-}else if(message==''){
+}else if(message===''){
   setMessageBorder(true)
 }else{
   setBtntext('Sending....')
@@ -46,7 +46,7 @@ if(name==''){
 
 
       alert('Sent Message Successfully to Modi Metals!', response)
-      console.log('SUCCESS!', response);
+    
       setValues({
         fullName: '',
         email: '',
@@ -60,7 +60,7 @@ if(name==''){
       setStatus('SUCCESS');
       setBtntext('Submit')
     }, error => {
-      console.log('FAILED...', error);
+     
       alert('FAILED...',error)
     });
 
@@ -84,12 +84,12 @@ if(name==''){
     }
   }, [status]);
 
-  const handleChange = (e) => {
-    setValues(values => ({
-      ...values,
-      [e.target.name]: e.target.value
-    }))
-  }
+  // const handleChange = (e) => {
+  //   setValues(values => ({
+  //     ...values,
+  //     [e.target.name]: e.target.value
+  //   }))
+  // }
 
 
 
@@ -128,7 +128,11 @@ if(name==''){
             <div className="w-100 email">
               <span class="fa-solid fa-envelope mx-2 mb-1"></span>
               <h4>EMAIL :</h4>
+              <div className="">
+              <a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=sales@modimetals.in"  style={{textDecoration:'none'}}><h5>sales@modimetals.in</h5></a>
               <a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=modimetals1@gmail.com"  style={{textDecoration:'none'}}><h5>modimetals1@gmail.com</h5></a>
+              </div>
+           
             </div>
             <div className="w-100 phone my-3">
               <span class="fa-solid fa-phone mx-3 mb-1"></span>
@@ -136,7 +140,7 @@ if(name==''){
               <span>PHONE:</span>
                 <div className="number">
                 <a href="tel:+91 9137130839" style={{textDecoration:'none'}}>  <h4>+91 9137130839 </h4></a>
-                <a href="tel:+91 9875782537" style={{textDecoration:'none'}}>  <h4>+91 9875782537</h4></a>
+                <a href="tel:+91 9321271527" style={{textDecoration:'none'}}>  <h4>+91 9321271527</h4></a>
                 </div>
               </h4>
             </div>
@@ -156,11 +160,10 @@ if(name==''){
             <span class="fa-solid fa-square-share-nodes mx-2"></span>
               <h4>Social Media:</h4>
               <div className="share">
-            <Link to="#" className="fab fa-facebook-f"></Link>
-            <Link to="#" className="fab fa-twitter"></Link>
-            <Link to="#" className="fab fa-instagram"></Link>
-            <a href='https://wa.me/9875782537' className="fa-brands fa-whatsapp"></a>
-           
+              <a href="https://www.linkedin.com/in/modi-metals-5a1ba9200" className="fa-brands fa-linkedin-in" target="_blank" rel="noreferrer"></a>
+            <a href="https://twitter.com/MODI_METALS?t=_5ujRniaI6uWXLPosEmdJw&s=09" className="fab fa-twitter" target="_blank" rel="noreferrer"></a>
+            <a href="https://www.instagram.com/invites/contact/?i=1x8zwnbbom1f1&utm_content=mh9pec9" className="fab fa-instagram" target="_blank"></a>
+            <a  href='https://wa.me/+919321271527' className="fa-brands fa-whatsapp" target="_blank"></a>
           </div>
            
             </div>
@@ -185,15 +188,6 @@ if(name==''){
               </ul>
             </div>
 
-            {/* <form ref={form} onSubmit={sendEmail}>
-      <label>Name</label>
-      <input type="text" name="user_name" />
-      <label>Email</label>
-      <input type="email" name="user_email" />
-      <label>Message</label>
-      <textarea name="message" />
-      <input type="submit" value="Send" />
-    </form> */}
             <form onSubmit={handleSubmit}>
             <div className=" w-100 inputbox" style={{borderColor:nameBorder?'red':null}}>
                <input type='text' value={name} onChange={event => setName(event.target.value)}   placeholder="Enter Your Name"/>

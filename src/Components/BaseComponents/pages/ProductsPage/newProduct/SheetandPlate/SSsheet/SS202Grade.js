@@ -5,7 +5,7 @@ import GradeOption from '../../GradeOption';
 
 const SS202Grade = (props) => {
 
-    console.log(props.name.data[0].specification[0].Steel_Grades,'name')
+   
   return (
     <div>
         

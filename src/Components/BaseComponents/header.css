@@ -80,26 +80,34 @@ ul li {
   text-decoration: none;
   width: 100%;
 }
-
+.header .navbar ul li ul li > a {
+  font-size: 1.6rem;
+  white-space: nowrap;
+}
 .header .navbar a:hover {
   color: var(--main_primary_color);
 }
+.header .navbar ul li{
+  position: relative;
+}
 .header .navbar ul li ul {
+  border: 1px solid #224da1;
   position: absolute;
   display: flex;
   flex-direction: column;
-  width: 293px;
+  width: 230px;
   background: var(--light-bg);
   color: var(--main_primary_color);
   cursor: pointer;
   text-align: center;
-  border-radius: 10px;
-
-  border-top: 4px solid var(--main_primary_color);
+  /* border-radius: 10px; */
+  z-index: 1000;
+/* right: 100%; */
+  /* border-top: 4px solid var(--main_primary_color); */
   opacity: 0;
   visibility: hidden;
   transition: top 0.3s;
-  border-bottom: 4px solid var(--main_primary_color);
+  /* border-bottom: 4px solid var(--main_primary_color); */
 }
 .header .navbar ul li ul li {
   width: 100%;
@@ -107,9 +115,21 @@ ul li {
   margin: 0;
   /* transform: translateX(-20px); */
   border-bottom: 1px solid var(--main_primary_color);
+  position: relative;
 }
 .header .navbar ul li ul li:last-child {
   border-bottom: none;
+}
+.header .navbar ul li ul li ul {
+  position: absolute;
+  left: 100%;
+  top:-1px;
+}
+.header .navbar ul li ul li i{
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
 }
 .header .navbar ul li ul li:hover {
   border-left: 5px solid var(--main_primary_color);
@@ -384,26 +404,33 @@ color: var(--main_primary_color);
     top: 99%;
     left: 0;
     right: 0;
-    background: var(--white);
+    background:#0A2A6A;
     border-top: var(--border);
     border-bottom: var(--border);
     transition: 0.2s linear;
     display: flex;
     flex-direction: column;
     width: 100%;
+    overflow: auto;
+    height: 100vh;
   }
 
-  .header .navbar_mobile > a {
+  .header .navbar_mobile ul li> a {
     margin: 0 0rem;
-    border-bottom: 1px solid var(--main_primary_color);
+    /* border-bottom: 1px solid var(--main_primary_color); */
     width: 100%;
     padding: 1rem 0;
     text-decoration: none;
     font-size: 2rem;
-    color: var(--light-color);
+    color: #fff;
+  }
+  .header .navbar_mobile ul li {
+    /* display: none; */
+    text-align: left;
+    padding-left: 10px;
   }
   .header .navbar_mobile a:hover {
-    border-left: 4px solid var(--main_primary_color);
+   color: #f5bf23;
   }
   .header .navbar_mobile > a:nth-child(5) {
     border-top: 1px solid var(--main_primary_color);
@@ -485,3 +512,4 @@ color: var(--main_primary_color);
     height: 40px;
   }
 }
+
