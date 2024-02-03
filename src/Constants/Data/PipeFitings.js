@@ -509,17 +509,7 @@ export const ThreadedPipeFittingsData = [
       Pressure: "3000LBS, 6000LBS, 9000LBS",
       Size: '1/8"~4" (DN6~DN100)',
     },
-    chemical: {
-      "ASTM A182 – ASME SA182 –":
-        "Standard Specification for Wrought Austenitic Stainless Steel Piping Fittings",
-      "ASME B16.9 –": " Factory-Made Wrought Buttwelding Fittings",
-      "ASME B16.11 –": "Socket Welding and Threaded Forged Fittings",
-      "MSS SP-43 –":
-        "Wrought and Fabricated Butt-Welding Fittings for Low Pressure, Corrosion Resistant Applications",
-      "MSS SP-95 –": " Swage(d) Nipples and Bull Plugs",
-      "BS3799 – ":
-        "Specification for Steel pipe fittings, screwed and Socket-welding for the petroleum industry",
-    },
+
   },
 ];
 

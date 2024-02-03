@@ -462,10 +462,7 @@ const Header = () => {
             <a href="tel:+91 9321271527" style={{ textDecoration: "none" }}>
               <p>+91 9321271527</p>
             </a>
-            <a href="tel:+91 9137130839" style={{ textDecoration: "none" }}>
-              {" "}
-              <p>+91 9137130839 </p>
-            </a>
+        
             <a href="tel:+91 9930271527" style={{ textDecoration: "none" }}>
               {" "}
               <p>+91 9930271527 </p>
@@ -494,8 +491,7 @@ const Header = () => {
             <i className="fas fa-map-marker-alt"></i>
             <h3>office address</h3>
             <p>
-              3rd Floor, Shop no.28 3rd, Prabhakar Building Lane Kamathipura
-              Mumbai, Maharashtra 400008 India
+            OFFICE NO. 14, 1ST FLOOR, 103/105 J.P. BUILDING, 3RD KUMBHARWADA LANE, MUMBAI - 400004, MAHARASHTRA, INDIA
             </p>
           </div>
 

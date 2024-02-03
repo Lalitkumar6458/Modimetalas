@@ -3,7 +3,7 @@ export const SSSheetData = [
     text1:
       "Stainless Steel  Sheets & Plates Exporters,Suppliers,Importers,Stockists In Mumbai and India",
     text2:
-      "Modi Metals is Manufacturing and Exporting of extraordinary treated steel sheets, tempered steel plates, in thickness of 0.3mm to 120mm. That have discovered extensive applications in different Industries. We in like way plan in Nickel and copper compound, Stainless and Duplex Steel, Carbon and Alloy Steel, are the materials which are utilized for masterminding of sheets and plates.",
+      "Modi Metals is Suppliers and Exporting of extraordinary treated steel sheets, tempered steel plates, in thickness of 0.3mm to 120mm. That have discovered extensive applications in different Industries. We in like way plan in Nickel and copper compound, Stainless and Duplex Steel, Carbon and Alloy Steel, are the materials which are utilized for masterminding of sheets and plates.",
     text3:
       "We have been advancing to our clients a boundless extent of Sheets and Coils that are offered in various points of interest to our clients. Obliging the essentials of various organizations, our range is known for its disintegration opposition, toughness and high unbending nature. Our clients can profit by us Plates that are made using high audit hardened steel. These consider the essentials of various organizations and are known for their characteristics, for instance, high versatility, disintegration obstruction and long life use. Advance, we moreover have the inclination to Customize our range as per the necessities of the customers.",
     Specifications: {

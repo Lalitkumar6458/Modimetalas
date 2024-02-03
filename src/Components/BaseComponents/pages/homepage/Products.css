@@ -213,6 +213,7 @@ text-decoration: underline;
     display:grid;
     place-items:center;
 }
+
 @media (max-width: 1024px) {
     .products_cart1,.products_cart2,.products_cart3,.products_cart4{
 width: 300px;

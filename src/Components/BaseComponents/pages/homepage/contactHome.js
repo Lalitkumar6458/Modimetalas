@@ -139,7 +139,7 @@ if(name===''){
               <h4>
               <span>PHONE:</span>
                 <div className="number">
-                <a href="tel:+91 9137130839" style={{textDecoration:'none'}}>  <h4>+91 9137130839 </h4></a>
+                <a href="tel:+91 9137130839" style={{textDecoration:'none',display:'none'}}>  <h4>+91 9137130839 </h4></a>
                 <a href="tel:+91 9321271527" style={{textDecoration:'none'}}>  <h4>+91 9321271527</h4></a>
                 </div>
               </h4>
@@ -151,8 +151,7 @@ if(name===''){
                 <span>ADDRESS:</span>{" "}
                 <p>
                   {" "}
-                  3rd Floor, Shop no.28 3rd, Prabhakar Building Lane Kamathipura
-                  Mumbai, Maharashtra 400008 India
+                  OFFICE NO. 14, 1ST FLOOR, 103/105 J.P. BUILDING, 3RD KUMBHARWADA LANE, MUMBAI - 400004, MAHARASHTRA, INDIA
                 </p>
               </h4>
             </div>
